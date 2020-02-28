@@ -10,14 +10,14 @@
 	#rightnav li { float: right; }
 	#nav li a { margin: 0 3px 0 0; font-size: 15px; display: block; padding: 8px 15px; text-decoration: none; color: #000; background-color: #f2f2f2; border: 1px solid #c1c1c1;}
 	#nav li a:hover {background-color: #f2e4d5;}
-	#nav a:link, a:visited {border-radius: 12px 12px 12px 12px; }		
+	#nav a:link, a:visited {border-radius: 12px 12px 12px 12px; }
 	</style>
 </head>
 <body>
 	<div>
 		<ul id="nav">
 		<li><a href='<?php echo site_url('')?>'>Home</a></li>
-		<li><a href='<?php echo site_url('main/orders')?>'>Orders</a></li>
+		<li><a href='<?php echo site_url('main/Performance')?>'>Performance</a></li>
 		<li><a href='<?php echo site_url('main/items')?>'>Items</a></li>
 		<li><a href='<?php echo site_url('main/customers')?>'>Customers</a></li>
 		<li><a href='<?php echo site_url('main/orderline')?>'>Order Line</a></li>

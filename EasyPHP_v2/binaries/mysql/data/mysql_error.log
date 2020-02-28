@@ -1731,3 +1731,17 @@ InnoDB: Last MySQL binlog file position 0 8551, file name mysql-bin.000035
 2017-10-01 19:12:51 17460 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2017-10-01 19:12:51 17460 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2017-10-01 19:12:51 17460 [Note] Server socket created on IP: '127.0.0.1'.
+2020-02-28 18:11:06 5988 [Note] Plugin 'FEDERATED' is disabled.
+2020-02-28 18:11:06 5988 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-02-28 18:11:06 5988 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-02-28 18:11:06 5988 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-02-28 18:11:06 5988 [Note] InnoDB: Not using CPU crc32 instructions
+2020-02-28 18:11:06 5988 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-02-28 18:11:06 5988 [Note] InnoDB: Completed initialization of buffer pool
+2020-02-28 18:11:06 5988 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-02-28 18:11:06 5988 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-02-28 18:11:06 5988 [Note] InnoDB: Waiting for purge to start
+2020-02-28 18:11:06 5988 [Note] InnoDB: 5.6.15 started; log sequence number 2977223
+2020-02-28 18:11:07 5988 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-02-28 18:11:07 5988 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-02-28 18:11:07 5988 [Note] Server socket created on IP: '127.0.0.1'.

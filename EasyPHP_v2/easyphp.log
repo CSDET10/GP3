@@ -413,3 +413,8 @@
 01/10 19:13:23 EasyPHP Apache stop event: ap6388_shutdown
 01/10 19:13:24 EasyPHP MySqlSutdown event = MySQLShutdown17460
 01/10 19:13:24 EasyPHP End EasyPHP...
+28/02 18:11:04 EasyPHP EasyPHP Removable drive: Regenerate conf files...
+28/02 18:11:04 EasyPHP EasyPHP Servers starting
+28/02 18:11:05 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
+28/02 18:11:05 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
+28/02 18:11:10 EasyPHP EasyPHP Check version
