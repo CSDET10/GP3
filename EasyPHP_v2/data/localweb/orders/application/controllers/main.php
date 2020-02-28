@@ -30,7 +30,7 @@ class Main extends CI_Controller {
 		$crud->set_subject('Performance');
 
 		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('BandName', 'Date', 'PerformanceID', 'StageName', 'Time');
+		$crud->columns('BandName', 'Date', 'StageName', 'Time');
 
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
