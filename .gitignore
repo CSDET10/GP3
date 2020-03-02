@@ -7,11 +7,3 @@ Backup of *.doc*
 *.xlk
 ~$*.ppt*
 *.~vsd*
-EasyPHP_v2/binaries/apache/conf/httpd.conf
-EasyPHP_v2/binaries/apache/logs/error.log
-EasyPHP_v2/binaries/apache/logs/httpd.pid
-EasyPHP_v2/binaries/mysql/data/ib_logfile0
-EasyPHP_v2/binaries/mysql/data/ibdata1
-EasyPHP_v2/binaries/mysql/data/mysql_error.log
-EasyPHP_v2/binaries/php/php_runningversion/php.ini
-EasyPHP_v2/easyphp.log
