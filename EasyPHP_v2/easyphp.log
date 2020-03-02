@@ -426,3 +426,8 @@
 02/03 20:12:02 EasyPHP MySql   Unexpected end of MySql !
 02/03 20:14:38 EasyPHP MySql   Configuration file changed
 02/03 20:14:38 EasyPHP CreateProcess "C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\my.ini" --language=english"
+02/03 20:30:50 EasyPHP EasyPHP Removable drive: Regenerate conf files...
+02/03 20:30:50 EasyPHP EasyPHP Servers starting
+02/03 20:30:52 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
+02/03 20:30:52 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
+02/03 20:30:57 EasyPHP EasyPHP Check version
