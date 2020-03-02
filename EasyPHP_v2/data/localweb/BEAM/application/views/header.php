@@ -18,6 +18,7 @@
 		<ul id="nav">
 		<li><a href='<?php echo site_url('')?>'>Home</a></li>
 		<li><a href='<?php echo site_url('main/Performance')?>'>Performance</a></li>
+		<li><a href='<?php echo site_url('main/Band')?>'>Band</a></li>
 		<li><a href='<?php echo site_url('main/items')?>'>Items</a></li>
 		<li><a href='<?php echo site_url('main/customers')?>'>Customers</a></li>
 		<li><a href='<?php echo site_url('main/orderline')?>'>Order Line</a></li>
