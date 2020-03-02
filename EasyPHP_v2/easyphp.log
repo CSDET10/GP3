@@ -418,3 +418,11 @@
 28/02 18:11:05 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
 28/02 18:11:05 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
 28/02 18:11:10 EasyPHP EasyPHP Check version
+02/03 20:11:56 EasyPHP EasyPHP Servers starting
+02/03 20:11:57 EasyPHP Apache CreateProcess "C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\apache\bin\eds-httpd.exe"
+02/03 20:11:57 EasyPHP CreateProcess "C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\my.ini" --language=english"
+02/03 20:12:02 EasyPHP EasyPHP Check version
+02/03 20:12:02 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 7620) error 5
+02/03 20:12:02 EasyPHP MySql   Unexpected end of MySql !
+02/03 20:14:38 EasyPHP MySql   Configuration file changed
+02/03 20:14:38 EasyPHP CreateProcess "C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\my.ini" --language=english"
