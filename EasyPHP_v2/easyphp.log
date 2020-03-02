@@ -426,3 +426,22 @@
 02/03 20:12:02 EasyPHP MySql   Unexpected end of MySql !
 02/03 20:14:38 EasyPHP MySql   Configuration file changed
 02/03 20:14:38 EasyPHP CreateProcess "C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\my.ini" --language=english"
+02/03 20:56:12 EasyPHP MySql   Configuration file changed
+02/03 20:56:12 EasyPHP MySqlSutdown event = MySQLShutdown788
+02/03 20:56:12 EasyPHP Apache  Configuration file changed
+02/03 20:56:12 EasyPHP Apache restart event: ap1132_restart
+02/03 20:56:13 EasyPHP ServerBase::TimerProc : GetProcessVersion Apache (pid: 1132) error 5
+02/03 20:56:14 EasyPHP EasyPHP Error in Apache configuration file.
+02/03 20:56:15 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 788) error 5
+02/03 20:56:15 EasyPHP CreateProcess "C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\Users\portuga\DOCUME~1\GP3\EASYPH~1\binaries\mysql\my.ini" --language=english"
+02/03 20:56:16 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 8104) error 5
+02/03 20:56:17 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 8104) error 5
+02/03 20:56:18 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 8104) error 5
+02/03 20:56:18 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 8104) error 5
+02/03 20:56:19 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 8104) error 5
+02/03 20:56:20 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 8104) error 5
+02/03 20:56:24 EasyPHP Apache VerifyConfFile fail...
+02/03 20:56:36 EasyPHP EasyPHP Error in Apache configuration file.
+02/03 20:56:42 EasyPHP Apache VerifyConfFile fail...
+02/03 20:56:47 EasyPHP EasyPHP Stop the servers
+02/03 20:56:47 EasyPHP End EasyPHP...

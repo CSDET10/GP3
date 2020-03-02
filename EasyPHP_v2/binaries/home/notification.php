@@ -1,1 +1,1 @@
-<?php $notification = array('check_date'=>'20140116','date'=>'20140116','status'=>'0','link'=>'http://www.easyphp.org/components.php','message'=>'MAJOR UPDATE - EasyPHP DevServer 14.1 - PHP 5.5.x, 5.4.x, 5.3.x, 5.2.x and Apache 2.4.7, MySQL 5.6.15, PhpMyAdmin 4.1.4, Xdebug 2.2.3'); ?>
+<?php $notification = array('check_date'=>'20200302','date'=>'20200129','status'=>'1','link'=>'https://warehouse.easyphp.org/inventory-devserver?s=not20200129','message'=>'Updates : PHP 7.4.2-7.3.14-7.2.27 - Laravel 6.12.0 - WordPress 5.3.2 - PhpMyAdmin 5.0.1'); ?>

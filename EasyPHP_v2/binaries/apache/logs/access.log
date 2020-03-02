@@ -10690,3 +10690,11 @@
 127.0.0.1 - - [28/Feb/2020:22:03:38 +0000] "GET /orders/assets/grocery_crud/css/custom.css HTTP/1.1" 404 1333
 127.0.0.1 - - [28/Feb/2020:22:03:38 +0000] "GET /orders/assets/grocery_crud/css/jquery_plugins/fancybox/blank.gif HTTP/1.1" 200 43
 127.0.0.1 - - [28/Feb/2020:22:03:38 +0000] "GET /orders/assets/grocery_crud/css/ui/simple/images/ui-icons_333333_256x240.png HTTP/1.1" 200 6813
+127.0.0.1 - - [02/Mar/2020:20:30:56 +0000] "GET /orders/index.php/main/Performance HTTP/1.1" 200 11268
+127.0.0.1 - - [02/Mar/2020:20:30:59 +0000] "GET /orders/assets/grocery_crud/css/custom.css HTTP/1.1" 404 1333
+127.0.0.1 - - [02/Mar/2020:20:31:04 +0000] "GET /orders/index.php HTTP/1.1" 200 2102
+127.0.0.1 - - [02/Mar/2020:20:31:07 +0000] "GET /orders/index.php/main/Performance HTTP/1.1" 200 11268
+127.0.0.1 - - [02/Mar/2020:20:31:07 +0000] "GET /orders/assets/grocery_crud/css/custom.css HTTP/1.1" 404 1333
+127.0.0.1 - - [02/Mar/2020:20:31:11 +0000] "GET /orders/index.php/main/items HTTP/1.1" 200 1139
+127.0.0.1 - - [02/Mar/2020:20:31:15 +0000] "GET /orders/index.php/main/Performance HTTP/1.1" 200 11268
+127.0.0.1 - - [02/Mar/2020:20:31:16 +0000] "GET /orders/assets/grocery_crud/css/custom.css HTTP/1.1" 404 1333
