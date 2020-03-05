@@ -151,6 +151,29 @@ class Main extends CI_Controller {
 		$this->load->view('cust_view.php', $output);
 	}
 
+		public function agent()
+	{
+		$this->load->view('header');
+		$crud = new grocery_CRUD();
+		$crud->set_theme('datatables');
+		$crud->set_table('agent');
+		$crud->set_subject('Agent');
+		$crud->fields('agentNumber', 'givenName', 'familyName', 'contact');
+		$crud->required_fields('agentNumber', 'givenName', 'familyName', 'contact');
+		$crud->display_as('agentNumber', 'agent number');
+		$crud->display_as('givenName', 'given name');
+		$crud->display_as('familyName', 'family name');
+		$crud->display_as('contact', 'contact');
+
+		$output = $crud->render();
+		$this->agent_output($output);
+	}
+
+	function agent_output($output = null)
+	{
+		$this->load->view('agent_view.php', $output);
+	}
+
 	public function orderline()
 	{
 		$this->load->view('header');

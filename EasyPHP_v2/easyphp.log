@@ -450,3 +450,11 @@
 05/03 14:28:18 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
 05/03 14:28:18 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
 05/03 14:28:23 EasyPHP EasyPHP Check version
+05/03 15:14:32 EasyPHP EasyPHP Removable drive: Regenerate conf files...
+05/03 15:14:32 EasyPHP EasyPHP Servers starting
+05/03 15:14:38 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
+05/03 15:14:38 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
+05/03 15:14:41 EasyPHP ServerBase::TimerProc : GetProcessVersion Apache (pid: 3088) error 5
+05/03 15:14:41 EasyPHP Apache  Unexpected end of Apache !
+05/03 15:14:43 EasyPHP EasyPHP Check version
+05/03 15:16:53 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
