@@ -355,3 +355,41 @@
 [Mon Mar 02 23:12:51.653564 2020] [mpm_winnt:warn] [pid 10156:tid 2044] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
 [Mon Mar 02 23:12:51.653564 2020] [mpm_winnt:warn] [pid 10156:tid 2044] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
 [Mon Mar 02 23:12:51.653564 2020] [mpm_winnt:warn] [pid 10156:tid 2044] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Thu Mar 05 14:25:21.642186 2020] [core:warn] [pid 9488:tid 664] AH00098: pid file //Mac/Home/Documents/GP3/EasyPHP_v2/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+Failed loading //Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\binaries\php\php_runningversion\php_xdebug-2.2.3-5.5-vc11.dll
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_bz2.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_gd2.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_mbstring.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_mysql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_mysqli.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_pdo_mysql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_pdo_sqlite.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_sockets.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_sqlite3.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_xsl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Thu Mar 05 14:25:56.141222 2020] [mpm_winnt:notice] [pid 9488:tid 664] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Thu Mar 05 14:25:56.141222 2020] [mpm_winnt:notice] [pid 9488:tid 664] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Mar 05 14:25:56.141222 2020] [core:notice] [pid 9488:tid 664] AH00094: Command line: '\\\\Mac\\Home\\DOCU~CQ0\\GP3\\EASY~5TW\\binaries\\apache\\bin\\eds-httpd.exe -d //Mac/Home/Documents/GP3/EasyPHP_v2/binaries/apache'
+[Thu Mar 05 14:25:56.156847 2020] [mpm_winnt:notice] [pid 9488:tid 664] AH00418: Parent: Created child process 11036
+Failed loading //Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\binaries\php\php_runningversion\php_xdebug-2.2.3-5.5-vc11.dll
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_bz2.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_curl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_gd2.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_mbstring.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_mysql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_mysqli.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_pdo_mysql.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_pdo_sqlite.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_sockets.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_sqlite3.dll' - The specified module could not be found.\r\n in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/GitHub/GP3/EasyPHP_v2\\binaries\\php\\php_runningversion\\ext\\php_xsl.dll' - The specified module could not be found.\r\n in Unknown on line 0
+[Thu Mar 05 14:26:01.445651 2020] [mpm_winnt:notice] [pid 11036:tid 704] AH00354: Child: Starting 64 worker threads.
+[Thu Mar 05 14:28:05.025112 2020] [mpm_winnt:notice] [pid 9488:tid 664] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 05 14:28:07.073702 2020] [mpm_winnt:notice] [pid 11036:tid 704] AH00364: Child: All worker threads have exited.
+[Thu Mar 05 14:28:07.089420 2020] [mpm_winnt:notice] [pid 9488:tid 664] AH00430: Parent: Child process 11036 exited successfully.
+[Thu Mar 05 14:28:19.948397 2020] [mpm_winnt:notice] [pid 7964:tid 692] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Thu Mar 05 14:28:19.948397 2020] [mpm_winnt:notice] [pid 7964:tid 692] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Thu Mar 05 14:28:19.948397 2020] [core:notice] [pid 7964:tid 692] AH00094: Command line: '\\\\Mac\\Home\\DOCU~CQ0\\GP3\\EASY~5TW\\binaries\\apache\\bin\\eds-httpd.exe -d //Mac/Home/Documents/GP3/EasyPHP_v2/binaries/apache'
+[Thu Mar 05 14:28:19.963996 2020] [mpm_winnt:notice] [pid 7964:tid 692] AH00418: Parent: Created child process 4924
+[Thu Mar 05 14:28:21.026513 2020] [mpm_winnt:notice] [pid 4924:tid 708] AH00354: Child: Starting 64 worker threads.

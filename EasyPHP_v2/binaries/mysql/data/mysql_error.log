@@ -1858,3 +1858,20 @@ InnoDB: Last MySQL binlog file position 0 8551, file name mysql-bin.000035
 2020-03-02 20:30:53 6084 [Note] Event Scheduler: Loaded 0 events
 2020-03-02 20:30:53 6084 [Note] \\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe: ready for connections.
 Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-03-05 14:28:18 2252 [Note] Plugin 'FEDERATED' is disabled.
+2020-03-05 14:28:18 2252 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-03-05 14:28:18 2252 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-03-05 14:28:18 2252 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-03-05 14:28:18 2252 [Note] InnoDB: Not using CPU crc32 instructions
+2020-03-05 14:28:18 2252 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-03-05 14:28:18 2252 [Note] InnoDB: Completed initialization of buffer pool
+2020-03-05 14:28:18 2252 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-03-05 14:28:18 2252 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-03-05 14:28:18 2252 [Note] InnoDB: Waiting for purge to start
+2020-03-05 14:28:18 2252 [Note] InnoDB: 5.6.15 started; log sequence number 2977253
+2020-03-05 14:28:18 2252 [Note] Recovering after a crash using mysql-bin
+2020-03-05 14:28:18 2252 [Note] Starting crash recovery...
+2020-03-05 14:28:18 2252 [Note] Crash recovery finished.
+2020-03-05 14:28:19 2252 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-03-05 14:28:19 2252 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-03-05 14:28:19 2252 [Note] Server socket created on IP: '127.0.0.1'.
