@@ -11109,3 +11109,11 @@
 127.0.0.1 - - [05/Mar/2020:14:46:10 +0000] "POST /BEAM/index.php/main/Stage/insert HTTP/1.1" 200 434
 127.0.0.1 - - [05/Mar/2020:14:46:11 +0000] "GET /BEAM/index.php/main/Stage/success/2 HTTP/1.1" 200 9928
 127.0.0.1 - - [05/Mar/2020:14:46:11 +0000] "GET /BEAM/assets/grocery_crud/css/custom.css HTTP/1.1" 404 1337
+127.0.0.1 - - [05/Mar/2020:15:12:28 +0000] "GET /phpmyadmin/tbl_structure.php?db=beam&table=stage&token=f6d357074e530bd2fbda0e6e3d8aebaf&goto=tbl_structure.php&back=tbl_structure.php&field=number&change_column=1&ajax_request=true&_nocache=1583421148860745355 HTTP/1.1" 200 48868
+127.0.0.1 - - [05/Mar/2020:15:19:14 +0000] "POST /phpmyadmin/tbl_structure.php HTTP/1.1" 200 28410
+127.0.0.1 - - [05/Mar/2020:15:19:15 +0000] "POST /phpmyadmin/tbl_structure.php HTTP/1.1" 200 26891
+127.0.0.1 - - [05/Mar/2020:15:19:15 +0000] "POST /phpmyadmin/navigation.php?ajax_request=1&token=f6d357074e530bd2fbda0e6e3d8aebaf HTTP/1.1" 200 5105
+127.0.0.1 - - [05/Mar/2020:15:19:17 +0000] "GET /phpmyadmin/tbl_structure.php?db=beam&table=stage&token=f6d357074e530bd2fbda0e6e3d8aebaf&goto=tbl_structure.php&back=tbl_structure.php&field=name&change_column=1&ajax_request=true&_nocache=1583421557928115811 HTTP/1.1" 200 48874
+127.0.0.1 - - [05/Mar/2020:15:19:23 +0000] "POST /phpmyadmin/tbl_structure.php HTTP/1.1" 200 28665
+127.0.0.1 - - [05/Mar/2020:15:19:24 +0000] "POST /phpmyadmin/tbl_structure.php HTTP/1.1" 200 26986
+127.0.0.1 - - [05/Mar/2020:15:19:24 +0000] "POST /phpmyadmin/navigation.php?ajax_request=1&token=f6d357074e530bd2fbda0e6e3d8aebaf HTTP/1.1" 200 5105

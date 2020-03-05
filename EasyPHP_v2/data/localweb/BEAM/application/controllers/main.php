@@ -111,9 +111,9 @@ class Main extends CI_Controller {
 
 		$crud->set_table('stage');
 		$crud->set_subject('stage');
-		$crud->columns('number', 'name', 'backstageCapacity');
-		$crud->fields('name', 'backstageCapacity');
-		$crud->required_fields('name', 'backstageCapacity');
+		$crud->columns('stageNumber', 'stageName', 'backstageCapacity');
+		$crud->fields('stageName', 'backstageCapacity');
+		$crud->required_fields('stageName', 'backstageCapacity');
 		//$crud->set_relation_n_n('orders', 'order_items', 'orders', 'item_id', 'invoice_no', 'invoiceNo');
 		//$crud->display_as('itemDesc', 'Description');
 
