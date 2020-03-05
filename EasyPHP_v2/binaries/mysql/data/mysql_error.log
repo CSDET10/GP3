@@ -1875,27 +1875,3 @@ Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2020-03-05 14:28:19 2252 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2020-03-05 14:28:19 2252 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2020-03-05 14:28:19 2252 [Note] Server socket created on IP: '127.0.0.1'.
-2020-03-05 14:36:13 9024 [Note] Plugin 'FEDERATED' is disabled.
-2020-03-05 14:36:13 9024 [Note] InnoDB: The InnoDB memory heap is disabled
-2020-03-05 14:36:13 9024 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2020-03-05 14:36:13 9024 [Note] InnoDB: Compressed tables use zlib 1.2.3
-2020-03-05 14:36:13 9024 [Note] InnoDB: Not using CPU crc32 instructions
-2020-03-05 14:36:13 9024 [Note] InnoDB: Initializing buffer pool, size = 20.0M
-2020-03-05 14:36:13 9024 [Note] InnoDB: Completed initialization of buffer pool
-2020-03-05 14:36:13 9024 [Note] InnoDB: Highest supported file format is Barracuda.
-2020-03-05 14:36:13 9024 [Note] InnoDB: The log sequence numbers 2977253 and 2977253 in ibdata files do not match the log sequence number 2977263 in the ib_logfiles!
-2020-03-05 14:36:13 9024 [Note] InnoDB: Database was not shutdown normally!
-2020-03-05 14:36:13 9024 [Note] InnoDB: Starting crash recovery.
-2020-03-05 14:36:13 9024 [Note] InnoDB: Reading tablespace information from the .ibd files...
-2020-03-05 14:36:13 9024 [Note] InnoDB: Restoring possible half-written data pages 
-2020-03-05 14:36:13 9024 [Note] InnoDB: from the doublewrite buffer...
-InnoDB: Last MySQL binlog file position 0 8551, file name mysql-bin.000035
-2020-03-05 14:36:14 9024 [Note] InnoDB: 128 rollback segment(s) are active.
-2020-03-05 14:36:14 9024 [Note] InnoDB: Waiting for purge to start
-2020-03-05 14:36:14 9024 [Note] InnoDB: 5.6.15 started; log sequence number 2977263
-2020-03-05 14:36:14 9024 [Note] Recovering after a crash using mysql-bin
-2020-03-05 14:36:14 9024 [Note] Starting crash recovery...
-2020-03-05 14:36:14 9024 [Note] Crash recovery finished.
-2020-03-05 14:36:14 9024 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
-2020-03-05 14:36:14 9024 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
-2020-03-05 14:36:14 9024 [Note] Server socket created on IP: '127.0.0.1'.

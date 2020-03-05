@@ -450,8 +450,3 @@
 05/03 14:28:18 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
 05/03 14:28:18 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
 05/03 14:28:23 EasyPHP EasyPHP Check version
-05/03 14:36:11 EasyPHP EasyPHP Removable drive: Regenerate conf files...
-05/03 14:36:11 EasyPHP EasyPHP Servers starting
-05/03 14:36:12 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
-05/03 14:36:12 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
-05/03 14:36:17 EasyPHP EasyPHP Check version
