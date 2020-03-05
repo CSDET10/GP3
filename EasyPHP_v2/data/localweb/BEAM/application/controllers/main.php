@@ -16,7 +16,7 @@ class Main extends CI_Controller {
 		$this->load->view('header');
 		$this->load->view('home');
 	}
-	
+
 	public function band()
 	{
 		$this->load->view('header');
@@ -30,22 +30,22 @@ class Main extends CI_Controller {
 		$crud->set_subject('Band');
 
 		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('BandName', 'Description', 'Agent');
+		$crud->columns('bandName', 'description', 'agent');
 
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('BandName', 'Description', 'Agent');
+		$crud->fields('bandName', 'description', 'agent');
 
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
-		//$crud->set_relation('custID','customers','custID');
+		$crud->set_relation('agent','agent','givenName');
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
 		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
 
 		//form validation (could match database columns set to "not null")
-		$crud->required_fields('BandName', 'Description', 'Agent');
+		$crud->required_fields('bandName', 'description', 'agent');
 
 		//change column heading name for readability ('columm name', 'name to display in frontend column header')
 		//$crud->display_as('custID', 'CustomerID');
@@ -53,7 +53,7 @@ class Main extends CI_Controller {
 		$output = $crud->render();
 		$this->band_output($output);
 	}
-	
+
 		function band_output($output = null)
 	{
 		//this function links up to corresponding page in the views folder to display content for this table
@@ -73,22 +73,23 @@ class Main extends CI_Controller {
 		$crud->set_subject('Performance');
 
 		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('BandName', 'Date', 'StageName', 'Time');
+		$crud->columns('performanceID','bandName', 'date', 'stageName', 'time');
 
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('BandName', 'StageName', 'Date', 'Time');
+		$crud->fields('bandName', 'stageName', 'date', 'time');
 
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
-		$crud->set_relation('BandName','band','BandName');
+		$crud->set_relation('bandName','band','bandName');
+		$crud->set_relation('stageName','stage','stageName');
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
 		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
 
 		//form validation (could match database columns set to "not null")
-		$crud->required_fields('BandName', 'Date', 'PerformanceID', 'StageName', 'Time');
+		$crud->required_fields('bandName', 'date', 'performanceID', 'stageName', 'time');
 
 		//change column heading name for readability ('columm name', 'name to display in frontend column header')
 		//$crud->display_as('custID', 'CustomerID');
