@@ -11,3 +11,11 @@ EasyPHP_v2/binaries/apache/logs/error.log
 EasyPHP_v2/binaries/apache/logs/access.log
 EasyPHP_v2/easyphp.ini
 EasyPHP_v2/easyphp.log
+EasyPHP_v2/binaries/apache/conf/httpd 2.conf
+EasyPHP_v2/binaries/apache/logs/error.log
+EasyPHP_v2/binaries/apache/logs/error 2.log
+EasyPHP_v2/binaries/apache/logs/access.log
+EasyPHP_v2/binaries/apache/logs/access 2.log
+EasyPHP_v2/easyphp.log
+EasyPHP_v2/easyphp 2.log
+EasyPHP_v2/binaries/mysql/data/mysql_error.log
