@@ -158,8 +158,9 @@ class Main extends CI_Controller {
 		$crud->set_theme('datatables');
 		$crud->set_table('agent');
 		$crud->set_subject('Agent');
-		$crud->fields('givenName', 'familyName', 'contact');
-		$crud->required_fields('givenName', 'familyName', 'contact');
+		$crud->fields('agentNumber', 'givenName', 'familyName', 'contact');
+		$crud->required_fields('agentNumber', 'givenName', 'familyName', 'contact');
+		$crud->display_as('agentNumber', 'agent number');
 		$crud->display_as('givenName', 'given name');
 		$crud->display_as('familyName', 'family name');
 		$crud->display_as('contact', 'contact');
