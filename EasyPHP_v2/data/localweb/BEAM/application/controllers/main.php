@@ -103,27 +103,27 @@ class Main extends CI_Controller {
 		$this->load->view('performance_view.php', $output);
 	}
 
-	public function items()
+	public function stage()
 	{
 		$this->load->view('header');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 
-		$crud->set_table('items');
-		$crud->set_subject('item');
-		$crud->columns('itemID', 'itemDesc', 'orders');
-		$crud->fields('itemDesc', 'orders');
-		$crud->required_fields('itemID', 'itemDesc');
-		$crud->set_relation_n_n('orders', 'order_items', 'orders', 'item_id', 'invoice_no', 'invoiceNo');
-		$crud->display_as('itemDesc', 'Description');
+		$crud->set_table('stage');
+		$crud->set_subject('stage');
+		$crud->columns('number', 'name', 'backstageCapacity');
+		$crud->fields('name', 'backstageCapacity');
+		$crud->required_fields('name', 'backstageCapacity');
+		//$crud->set_relation_n_n('orders', 'order_items', 'orders', 'item_id', 'invoice_no', 'invoiceNo');
+		//$crud->display_as('itemDesc', 'Description');
 
 		$output = $crud->render();
-		$this->items_output($output);
+		$this->stage_output($output);
 	}
 
-	function items_output($output = null)
+	function stage_output($output = null)
 	{
-		$this->load->view('items_view.php', $output);
+		$this->load->view('stage_view.php', $output);
 	}
 	public function customers()
 	{
