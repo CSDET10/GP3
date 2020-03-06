@@ -60,49 +60,6 @@ class Main extends CI_Controller {
 		$this->load->view('band_view.php', $output);
 	}
 
-	public function performance()
-	{
-		$this->load->view('header');
-		$crud = new grocery_CRUD();
-		$crud->set_theme('datatables');
-
-		//table name exact from database
-		$crud->set_table('performance');
-
-		//give focus on name used for operations e.g. Add Order, Delete Order
-		$crud->set_subject('Performance');
-
-		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('performanceID','bandName', 'date', 'stageName', 'time');
-
-		//the fields function lists attributes to see on add/edit forms.
-		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('bandName', 'stageName', 'date', 'time');
-
-		//set the foreign keys to appear as drop-down menus
-		// ('this fk column','referencing table', 'column in referencing table')
-		$crud->set_relation('bandName','band','bandName');
-		$crud->set_relation('stageName','stage','stageName');
-
-		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
-		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
-		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
-
-		//form validation (could match database columns set to "not null")
-		$crud->required_fields('bandName', 'date', 'performanceID', 'stageName', 'time');
-
-		//change column heading name for readability ('columm name', 'name to display in frontend column header')
-		//$crud->display_as('custID', 'CustomerID');
-
-		$output = $crud->render();
-		$this->performance_output($output);
-	}
-
-	function performance_output($output = null)
-	{
-		//this function links up to corresponding page in the views folder to display content for this table
-		$this->load->view('performance_view.php', $output);
-	}
 
 	public function stage()
 	{
@@ -160,6 +117,7 @@ class Main extends CI_Controller {
 		$crud->set_table('agent');
 		$crud->set_subject('Agent');
 		$crud->fields('agentNumber', 'givenName', 'familyName', 'contact');
+		$crud->columns('agentNumber', 'givenName', 'familyName', 'contact');
 		$crud->required_fields('agentNumber', 'givenName', 'familyName', 'contact');
 		$crud->display_as('agentNumber', 'agent number');
 		$crud->display_as('givenName', 'given name');
@@ -200,6 +158,48 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('orderline_view.php', $output);
 	}
+
+
+	public function performance()
+	{
+		$this->load->view('header');
+		$crud = new grocery_CRUD();
+		$crud->set_theme('datatables');
+		//table name exact from database
+		$crud->set_table('performance');
+		//give focus on name used for operations e.g. Add Order, Delete Order
+		$crud->set_subject('Performance');
+		//the columns function lists attributes you see on frontend view of the table
+		$crud->columns('performanceID','bandName', 'date', 'stageName', 'time');
+		//the fields function lists attributes to see on add/edit forms.
+		//Note no inclusion of invoiceNo as this is auto-incrementing
+		$crud->fields('bandName', 'stageName', 'date', 'time');
+		$crud->required_fields('performanceID','bandName', 'date', 'stageName', 'time');
+
+		//set the foreign keys to appear as drop-down menus
+		// ('this fk column','referencing table', 'column in referencing table')
+		$crud->set_relation('bandName','band','bandName');
+		$crud->set_relation('stageName','stage','stageName');
+
+		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
+		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
+		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
+
+		//form validation (could match database columns set to "not null")
+
+		//change column heading name for readability ('columm name', 'name to display in frontend column header')
+		//$crud->display_as('custID', 'CustomerID');
+
+		$output = $crud->render();
+		$this->performance_output($output);
+	}
+
+	function performance_output($output = null)
+	{
+		//this function links up to corresponding page in the views folder to display content for this table
+		$this->load->view('performance_view.php', $output);
+	}
+
 
 	public function querynav()
 	{

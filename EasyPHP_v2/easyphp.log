@@ -458,3 +458,28 @@
 05/03 15:14:41 EasyPHP Apache  Unexpected end of Apache !
 05/03 15:14:43 EasyPHP EasyPHP Check version
 05/03 15:16:53 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       06/03 17:39:23 EasyPHP MySqlSutdown event = MySQLShutdown10140
+06/03 17:39:27 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 10140) error 5
+06/03 17:39:27 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
+06/03 17:39:27 EasyPHP Apache restart event: ap2012_restart
+06/03 17:39:28 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 7476) error 5
+06/03 17:39:28 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 7476) error 5
+06/03 17:39:29 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 7476) error 5
+06/03 17:39:30 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 7476) error 5
+06/03 17:39:31 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 7476) error 5
+06/03 17:39:31 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 7476) error 5
+06/03 17:39:34 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
+06/03 17:39:35 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 5160) error 5
+06/03 17:39:36 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 5160) error 5
+06/03 17:39:36 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 5160) error 5
+06/03 17:39:37 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 5160) error 5
+06/03 17:39:38 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 5160) error 5
+06/03 17:39:38 EasyPHP ServerBase::TimerProc : GetProcessVersion MySQL (pid: 5160) error 5
+06/03 17:39:41 EasyPHP EasyPHP Stop the servers
+06/03 17:39:41 EasyPHP Apache stop event: ap2012_shutdown
+06/03 17:39:41 EasyPHP End EasyPHP...
+06/03 17:39:43 EasyPHP EasyPHP Removable drive: Regenerate conf files...
+06/03 17:39:43 EasyPHP EasyPHP Servers starting
+06/03 17:39:46 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
+06/03 17:39:46 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
+06/03 17:39:51 EasyPHP EasyPHP Check version
