@@ -4,7 +4,7 @@
 -- | Agent                   |
 -- | Band                    |
 -- | Stage                   |
--- | Members                 |
+-- | Member                  |
 -- | Performance             |
 --  =========================
 
@@ -32,33 +32,33 @@ INSERT INTO Stage VALUES ( 5, 'Jam Session', 3);
 INSERT INTO Stage VALUES ( 6, 'Premium', 50);
 
 
-INSERT INTO Members VALUES ( 1111, 'Ms', 'Helen', 'Miranda', 'Lead Guitar', 'Green Dragons', 'Active');
-INSERT INTO Members VALUES ( 1234, 'Mr', 'Jose', 'Jose Alves', 'Bass Guitar', 'Green Dragons', 'Active');
-INSERT INTO Members VALUES ( 1333, 'Dr', 'Vito', 'Gelato', 'Voice Coach', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 1344, 'Dr', 'Guy', 'Redmond', 'Make-up', 'Killers', 'Active');
-INSERT INTO Members VALUES ( 1444, 'Ms', 'Maria', 'Partou', 'Vocals', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 2111, 'Ms', 'Lindsay', 'White', 'Dancer', 'Future Explosion', 'Cancelled');
-INSERT INTO Members VALUES ( 4545, 'Ms', 'Lee', 'Ping', 'Lead Guitar', 'Lazy Dancers', 'Active');
-INSERT INTO Members VALUES ( 5665, 'Ms', 'Sing', 'Song', 'Vocals', 'The Vultures', 'Active');
-INSERT INTO Members VALUES ( 2121, 'Mr', 'David', 'Wikinson', 'Backing', 'The Vultures', 'Cancelled');
-INSERT INTO Members VALUES ( 3333, 'Ms', 'Olenka', 'Sama', 'Sound Tech', 'Killers', 'Active');
-INSERT INTO Members VALUES ( 7271, 'Mr', 'Dan', 'Dreary', 'Make up', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 5555, 'Mr', 'Tom', 'Tumbling', 'Drums', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 6666, 'Mr', 'Fingers', 'Malone', 'Guitar', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 1234, 'Mr', 'Lai', 'Zee', 'Roadie', 'Wellies', 'Active');
+INSERT INTO Member VALUES ( 1111, 'Ms', 'Helen', 'Miranda', 'Lead Guitar', 'Green Dragons', 'Active');
+INSERT INTO Member VALUES ( 1234, 'Mr', 'Jose', 'Jose Alves', 'Bass Guitar', 'Green Dragons', 'Active');
+INSERT INTO Member VALUES ( 1333, 'Dr', 'Vito', 'Gelato', 'Voice Coach', 'Wellies', 'Active');
+INSERT INTO Member VALUES ( 1344, 'Dr', 'Guy', 'Redmond', 'Make-up', 'Killers', 'Active');
+INSERT INTO Member VALUES ( 1444, 'Ms', 'Maria', 'Partou', 'Vocals', 'Wellies', 'Active');
+INSERT INTO Member VALUES ( 2111, 'Ms', 'Lindsay', 'White', 'Dancer', 'Future Explosion', 'Cancelled');
+INSERT INTO Member VALUES ( 4545, 'Ms', 'Lee', 'Ping', 'Lead Guitar', 'Lazy Dancers', 'Active');
+INSERT INTO Member VALUES ( 5665, 'Ms', 'Sing', 'Song', 'Vocals', 'The Vultures', 'Active');
+INSERT INTO Member VALUES ( 2121, 'Mr', 'David', 'Wikinson', 'Backing', 'The Vultures', 'Cancelled');
+INSERT INTO Member VALUES ( 3333, 'Ms', 'Olenka', 'Sama', 'Sound Tech', 'Killers', 'Active');
+INSERT INTO Member VALUES ( 7271, 'Mr', 'Dan', 'Dreary', 'Make up', 'Wellies', 'Active');
+INSERT INTO Member VALUES ( 5555, 'Mr', 'Tom', 'Tumbling', 'Drums', 'Wellies', 'Active');
+INSERT INTO Member VALUES ( 6666, 'Mr', 'Fingers', 'Malone', 'Guitar', 'Wellies', 'Active');
+INSERT INTO Member VALUES ( 2345, 'Mr', 'Lai', 'Zee', 'Roadie', 'Wellies', 'Active');
 
 
-INSERT INTO Performance VALUES ( 1, 1, '25/06/2020 10:00:00', 'Wellies');
-INSERT INTO Performance VALUES ( 2, 2, '25/06/2020 18:00:00', 'Wellies');
-INSERT INTO Performance VALUES ( 3, 1, '27/06/2020 12:00:00', 'Vultures');
-INSERT INTO Performance VALUES ( 4, 3, '26/06/2020 18:00:00', 'Wellies');
-INSERT INTO Performance VALUES ( 5, 3, '26/06/2020 15:00:00', 'Vultures');
-INSERT INTO Performance VALUES ( 6, 1, '25/06/2020 13:00:00', 'Killers');
-INSERT INTO Performance VALUES ( 7, 5, '26/06/2020 13:00:00', 'Wellies');
-INSERT INTO Performance VALUES ( 8, 6, '27/06/2020 13:00:00', 'Vultures');
-INSERT INTO Performance VALUES ( 9, 2, '26/06/2020 13:00:00', 'Killers');
-INSERT INTO Performance VALUES ( 10, 4, '25/06/2020 16:00:00', 'Dragons');
-INSERT INTO Performance VALUES ( 11, 1, '27/06/2020 14:00:00', 'Wellies');
-INSERT INTO Performance VALUES ( 12, 4, '25/06/2020 17:00:00', 'Dancers');
-INSERT INTO Performance VALUES ( 13, 6, '26/06/2020 18:00:00', 'Dragons');
-INSERT INTO Performance VALUES ( 14, 4, '26/06/2020 19:00:00', '');
+INSERT INTO Performance VALUES ( 1, 1, '2020/06/25', '10:00', 'Wellies');
+INSERT INTO Performance VALUES ( 2, 2, '2020/06/25', '18:00', 'Wellies');
+INSERT INTO Performance VALUES ( 3, 1, '2020/06/27', '12:00', 'Vultures');
+INSERT INTO Performance VALUES ( 4, 3, '2020/06/26', '18:00', 'Wellies');
+INSERT INTO Performance VALUES ( 5, 3, '2020/06/26', '15:00', 'Vultures');
+INSERT INTO Performance VALUES ( 6, 1, '2020/06/25', '13:00', 'Killers');
+INSERT INTO Performance VALUES ( 7, 5, '2020/06/26', '13:00', 'Wellies');
+INSERT INTO Performance VALUES ( 8, 6, '2020/06/27', '13:00', 'Vultures');
+INSERT INTO Performance VALUES ( 9, 2, '2020/06/26', '13:00', 'Killers');
+INSERT INTO Performance VALUES ( 10, 4, '2020/06/25', '16:00', 'Dragons');
+INSERT INTO Performance VALUES ( 11, 1, '2020/06/27', '14:00', 'Wellies');
+INSERT INTO Performance VALUES ( 12, 4, '2020/06/25', '17:00', 'Dancers');
+INSERT INTO Performance VALUES ( 13, 6, '2020/06/26', '18:00', 'Dragons');
+INSERT INTO Performance VALUES ( 14, 4, '2020/06/26', '19:00', '');
