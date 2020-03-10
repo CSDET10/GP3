@@ -32,20 +32,20 @@ INSERT INTO Stage VALUES ( 5, 'Jam Session', 3);
 INSERT INTO Stage VALUES ( 6, 'Premium', 50);
 
 
-INSERT INTO Members VALUES ( 1111, 'Ms', 'Helen', 'Miranda', TO_DATE('21/12/1987', 'DD/MM/YYYY'), 'Lead Guitar', 'Green Dragons', 'Active');
-INSERT INTO Members VALUES ( 1234, 'Mr', 'Jose', 'Jose Alves', TO_DATE('27/12/1977', 'DD/MM/YYYY'), 'Bass Guitar', 'Green Dragons', 'Active');
-INSERT INTO Members VALUES ( 1333, 'Dr', 'Vito', 'Gelato', TO_DATE('06/01/1998', 'DD/MM/YYYY'), 'Voice Coach', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 1344, 'Dr', 'Guy', 'Redmond', TO_DATE('09/02/1988', 'DD/MM/YYYY'), 'Make-up', 'Killers', 'Active');
-INSERT INTO Members VALUES ( 1444, 'Ms', 'Maria', 'Partou', TO_DATE('11/03/1994', 'DD/MM/YYYY'), 'Vocals', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 2111, 'Ms', 'Lindsay', 'White', TO_DATE('16/03/1999', 'DD/MM/YYYY'), 'Dancer', 'Future Explosion', 'Cancelled');
-INSERT INTO Members VALUES ( 4545, 'Ms', 'Lee', 'Ping', TO_DATE('16/03/1999', 'DD/MM/YYYY'), 'Lead Guitar', 'Lazy Dancers', 'Active');
-INSERT INTO Members VALUES ( 5665, 'Ms', 'Sing', 'Song', TO_DATE('15/07/1983', 'DD/MM/YYYY'), 'Vocals', 'The Vultures', 'Active');
-INSERT INTO Members VALUES ( 2121, 'Mr', 'David', 'Wikinson', TO_DATE('18/03/2001', 'DD/MM/YYYY'), 'Backing', 'The Vultures', 'Cancelled');
-INSERT INTO Members VALUES ( 3333, 'Ms', 'Olenka', 'Sama', TO_DATE('12/12/1977', 'DD/MM/YYYY'), 'Sound Tech', 'Killers', 'Active');
-INSERT INTO Members VALUES ( 7271, 'Mr', 'Dan', 'Dreary', TO_DATE('12/12/1978', 'DD/MM/YYYY'), 'Make up', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 5555, 'Mr', 'Tom', 'Tumbling', TO_DATE('13/07/2002', 'DD/MM/YYYY'), 'Drums', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 6666, 'Mr', 'Fingers', 'Malone', TO_DATE('14/09/1987', 'DD/MM/YYYY'), 'Guitar', 'Wellies', 'Active');
-INSERT INTO Members VALUES ( 1234, 'Mr', 'Lai', 'Zee', TO_DATE('14/09/1979', 'DD/MM/YYYY'), 'Roadie', 'Wellies', 'Active');
+INSERT INTO Members VALUES ( 1111, 'Ms', 'Helen', 'Miranda', 'Lead Guitar', 'Green Dragons', 'Active');
+INSERT INTO Members VALUES ( 1234, 'Mr', 'Jose', 'Jose Alves', 'Bass Guitar', 'Green Dragons', 'Active');
+INSERT INTO Members VALUES ( 1333, 'Dr', 'Vito', 'Gelato', 'Voice Coach', 'Wellies', 'Active');
+INSERT INTO Members VALUES ( 1344, 'Dr', 'Guy', 'Redmond', 'Make-up', 'Killers', 'Active');
+INSERT INTO Members VALUES ( 1444, 'Ms', 'Maria', 'Partou', 'Vocals', 'Wellies', 'Active');
+INSERT INTO Members VALUES ( 2111, 'Ms', 'Lindsay', 'White', 'Dancer', 'Future Explosion', 'Cancelled');
+INSERT INTO Members VALUES ( 4545, 'Ms', 'Lee', 'Ping', 'Lead Guitar', 'Lazy Dancers', 'Active');
+INSERT INTO Members VALUES ( 5665, 'Ms', 'Sing', 'Song', 'Vocals', 'The Vultures', 'Active');
+INSERT INTO Members VALUES ( 2121, 'Mr', 'David', 'Wikinson', 'Backing', 'The Vultures', 'Cancelled');
+INSERT INTO Members VALUES ( 3333, 'Ms', 'Olenka', 'Sama', 'Sound Tech', 'Killers', 'Active');
+INSERT INTO Members VALUES ( 7271, 'Mr', 'Dan', 'Dreary', 'Make up', 'Wellies', 'Active');
+INSERT INTO Members VALUES ( 5555, 'Mr', 'Tom', 'Tumbling', 'Drums', 'Wellies', 'Active');
+INSERT INTO Members VALUES ( 6666, 'Mr', 'Fingers', 'Malone', 'Guitar', 'Wellies', 'Active');
+INSERT INTO Members VALUES ( 1234, 'Mr', 'Lai', 'Zee', 'Roadie', 'Wellies', 'Active');
 
 
 INSERT INTO Performance VALUES ( 1, 1, '25/06/2020 10:00:00', 'Wellies');
