@@ -444,3 +444,17 @@ PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/
 [Fri Mar 06 17:39:49.257455 2020] [mpm_winnt:notice] [pid 8896:tid 696] AH00418: Parent: Created child process 6908
 [Fri Mar 06 17:39:51.766866 2020] [mpm_winnt:notice] [pid 6908:tid 728] AH00354: Child: Starting 64 worker threads.
 [Fri Mar 06 17:56:17.010505 2020] [mpm_winnt:warn] [pid 6908:tid 1468] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 19:06:09.353768 2020] [core:warn] [pid 15468:tid 676] AH00098: pid file C:/Users/mattc/Desktop/EasyPHP_v2/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 10 19:06:09.439080 2020] [mpm_winnt:notice] [pid 15468:tid 676] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Tue Mar 10 19:06:09.439080 2020] [mpm_winnt:notice] [pid 15468:tid 676] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Tue Mar 10 19:06:09.439080 2020] [core:notice] [pid 15468:tid 676] AH00094: Command line: 'C:\\Users\\mattc\\Desktop\\EASYPH~1\\binaries\\apache\\bin\\eds-httpd.exe -d C:/Users/mattc/Desktop/EasyPHP_v2/binaries/apache'
+[Tue Mar 10 19:06:09.446520 2020] [mpm_winnt:notice] [pid 15468:tid 676] AH00418: Parent: Created child process 19064
+[Tue Mar 10 19:06:10.167703 2020] [mpm_winnt:notice] [pid 19064:tid 660] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 10 19:20:41.280057 2020] [mpm_winnt:notice] [pid 15468:tid 676] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 10 19:20:43.281414 2020] [mpm_winnt:notice] [pid 19064:tid 660] AH00364: Child: All worker threads have exited.
+[Tue Mar 10 19:20:43.303237 2020] [mpm_winnt:notice] [pid 15468:tid 676] AH00430: Parent: Child process 19064 exited successfully.
+[Tue Mar 10 19:20:48.903567 2020] [mpm_winnt:notice] [pid 19212:tid 772] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Tue Mar 10 19:20:48.903567 2020] [mpm_winnt:notice] [pid 19212:tid 772] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Tue Mar 10 19:20:48.903567 2020] [core:notice] [pid 19212:tid 772] AH00094: Command line: 'C:\\Users\\mattc\\Desktop\\EASYPH~1\\binaries\\apache\\bin\\eds-httpd.exe -d C:/Users/mattc/Desktop/EasyPHP_v2/binaries/apache'
+[Tue Mar 10 19:20:48.910015 2020] [mpm_winnt:notice] [pid 19212:tid 772] AH00418: Parent: Created child process 12356
+[Tue Mar 10 19:20:49.577134 2020] [mpm_winnt:notice] [pid 12356:tid 724] AH00354: Child: Starting 64 worker threads.

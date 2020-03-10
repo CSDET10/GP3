@@ -21,6 +21,7 @@
 		<li><a href='<?php echo site_url('main/Band')?>'>Band</a></li>
 		<li><a href='<?php echo site_url('main/Stage')?>'>Stage</a></li>
 		<li><a href='<?php echo site_url('main/Agent')?>'>Agent</a></li>
+		<li><a href='<?php echo site_url('main/Member')?>'>Member</a></li>
 		<li><a href='<?php echo site_url('main/customers')?>'>Customers</a></li>
 		<li><a href='<?php echo site_url('main/orderline')?>'>Order Line</a></li>
 			<ul id="rightnav">
