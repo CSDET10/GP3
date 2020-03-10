@@ -495,3 +495,12 @@
 10/03 19:20:47 EasyPHP Apache CreateProcess "C:\Users\mattc\Desktop\EASYPH~1\binaries\apache\bin\eds-httpd.exe"
 10/03 19:20:47 EasyPHP CreateProcess "C:\Users\mattc\Desktop\EASYPH~1\binaries\mysql\bin\eds-mysqld.exe --defaults-file="C:\Users\mattc\Desktop\EASYPH~1\binaries\mysql\my.ini" --language=english"
 10/03 19:20:52 EasyPHP EasyPHP Check version
+10/03 21:26:59 EasyPHP EasyPHP Removable drive: Regenerate conf files...
+10/03 21:26:59 EasyPHP EasyPHP Servers starting
+10/03 21:27:00 EasyPHP Apache CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\apache\bin\eds-httpd.exe"
+10/03 21:27:00 EasyPHP CreateProcess "\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe --defaults-file="\\Mac\Home\DOCU~CQ0\GitHub\GP3\EASY~5TW\binaries\mysql\my.ini" --language=english"
+10/03 21:27:05 EasyPHP EasyPHP Check version
+10/03 22:46:48 EasyPHP EasyPHP Stop the servers
+10/03 22:46:48 EasyPHP Apache stop event: ap4340_shutdown
+10/03 22:46:49 EasyPHP MySqlSutdown event = MySQLShutdown4920
+10/03 22:46:49 EasyPHP End EasyPHP...

@@ -458,3 +458,21 @@ PHP Warning:  PHP Startup: Unable to load dynamic library '//Mac/Home/Documents/
 [Tue Mar 10 19:20:48.903567 2020] [core:notice] [pid 19212:tid 772] AH00094: Command line: 'C:\\Users\\mattc\\Desktop\\EASYPH~1\\binaries\\apache\\bin\\eds-httpd.exe -d C:/Users/mattc/Desktop/EasyPHP_v2/binaries/apache'
 [Tue Mar 10 19:20:48.910015 2020] [mpm_winnt:notice] [pid 19212:tid 772] AH00418: Parent: Created child process 12356
 [Tue Mar 10 19:20:49.577134 2020] [mpm_winnt:notice] [pid 12356:tid 724] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 10 21:27:01.204263 2020] [core:warn] [pid 4340:tid 604] AH00098: pid file //Mac/Home/Documents/GitHub/GP3/EasyPHP_v2/binaries/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 10 21:27:01.313728 2020] [mpm_winnt:notice] [pid 4340:tid 604] AH00455: Apache/2.4.7 (Win32) PHP/5.5.8 configured -- resuming normal operations
+[Tue Mar 10 21:27:01.313728 2020] [mpm_winnt:notice] [pid 4340:tid 604] AH00456: Apache Lounge VC11 Server built: Nov 21 2013 20:13:01
+[Tue Mar 10 21:27:01.313728 2020] [core:notice] [pid 4340:tid 604] AH00094: Command line: '\\\\Mac\\Home\\DOCU~CQ0\\GitHub\\GP3\\EASY~5TW\\binaries\\apache\\bin\\eds-httpd.exe -d //Mac/Home/Documents/GitHub/GP3/EasyPHP_v2/binaries/apache'
+[Tue Mar 10 21:27:01.329319 2020] [mpm_winnt:notice] [pid 4340:tid 604] AH00418: Parent: Created child process 84
+[Tue Mar 10 21:27:02.282590 2020] [mpm_winnt:notice] [pid 84:tid 736] AH00354: Child: Starting 64 worker threads.
+[Tue Mar 10 21:37:45.137557 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 21:43:34.312849 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 21:45:45.622306 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 21:46:16.661980 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 22:03:06.025640 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 22:04:56.220657 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 22:08:14.831870 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 22:33:19.530410 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 22:40:42.000912 2020] [mpm_winnt:warn] [pid 84:tid 1488] (OS 64)The specified network name is no longer available.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Mar 10 22:46:48.738798 2020] [mpm_winnt:notice] [pid 4340:tid 604] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 10 22:46:50.770803 2020] [mpm_winnt:notice] [pid 84:tid 736] AH00364: Child: All worker threads have exited.
+[Tue Mar 10 22:46:50.847966 2020] [mpm_winnt:notice] [pid 4340:tid 604] AH00430: Parent: Child process 84 exited successfully.
