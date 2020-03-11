@@ -119,16 +119,16 @@ class Main extends CI_Controller {
 		//give focus on name used for operations e.g. Add Order, Delete Order
 		$crud->set_subject('Performance');
 		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('performanceID','bandName', 'date', 'stageName', 'time');
+		$crud->columns('performanceID','bandName', 'date', 'stageNumber', 'time');
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('bandName', 'stageName', 'date', 'time');
-		$crud->required_fields('performanceID','bandName', 'date', 'stageName', 'time');
+		$crud->fields('bandName', 'stageNumber', 'date', 'time');
+		$crud->required_fields('performanceID','bandName', 'date', 'stageNumber', 'time');
 
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('bandName','band','bandName');
-		$crud->set_relation('stageName','stage','stageName');
+		$crud->set_relation('stageNumber','stage','stageNumber');
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
