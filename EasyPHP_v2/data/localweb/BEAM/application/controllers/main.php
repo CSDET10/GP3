@@ -83,31 +83,6 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('stage_view.php', $output);
 	}
-	public function customers()
-	{
-		$this->load->view('header');
-		$crud = new grocery_CRUD();
-		$crud->set_theme('datatables');
-		$crud->set_table('customers');
-		$crud->set_subject('customer');
-		$crud->fields('custID', 'custName', 'custAddress', 'custTown', 'custPostcode', 'custTel', 'custEmail');
-		$crud->required_fields('custID', 'custName', 'custAddress', 'custTown', 'custPostcode', 'custTel', 'custEmail');
-		$crud->display_as('custID', 'CustomerID');
-		$crud->display_as('custName', 'Name');
-		$crud->display_as('custAddress', 'Address');
-		$crud->display_as('custTown', 'Town');
-		$crud->display_as('custPostcode', 'Postcode');
-		$crud->display_as('custTel', 'Phone');
-		$crud->display_as('custEmail', 'Email');
-
-		$output = $crud->render();
-		$this->cust_output($output);
-	}
-
-	function cust_output($output = null)
-	{
-		$this->load->view('cust_view.php', $output);
-	}
 
 		public function agent()
 	{
@@ -131,32 +106,6 @@ class Main extends CI_Controller {
 	function agent_output($output = null)
 	{
 		$this->load->view('agent_view.php', $output);
-	}
-
-	public function orderline()
-	{
-		$this->load->view('header');
-		$crud = new grocery_CRUD();
-		$crud->set_theme('datatables');
-		$crud->set_table('order_items');
-		$crud->set_subject('order line');
-		$crud->fields('invoice_no', 'item_id', 'itemQty', 'itemPrice');
-		$crud->set_relation('invoice_no','orders','invoiceNo');
-		//have multiple columns show in one FK column by concatenation:  www.grocerycrud.com/forums/topic/479-concatenate-two-or-more-fields-into-one-field/
-		$crud->set_relation('item_id','items','{itemID} - {itemDesc}');
-		$crud->required_fields('invoice_no', 'item_id', 'itemQty', 'itemPrice');
-		$crud->display_as('invoice_no', 'InvoiceNo');
-		$crud->display_as('item_id', 'ItemID');
-		$crud->display_as('itemQty', 'Quantity');
-		$crud->display_as('itemPrice', 'Price');
-
-		$output = $crud->render();
-		$this->orderline_output($output);
-	}
-
-	function orderline_output($output = null)
-	{
-		$this->load->view('orderline_view.php', $output);
 	}
 
 
