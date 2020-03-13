@@ -7,3 +7,12 @@ Backup of *.doc*
 *.xlk
 ~$*.ppt*
 *.~vsd*
+EasyPHP_v2/binaries/mysql/data/ib_logfile0
+EasyPHP_v2/binaries/mysql/data/ib_logfile0
+EasyPHP_v2/binaries/mysql/data/ibdata1
+EasyPHP_v2/binaries/mysql/data/mysql-bin.000047
+EasyPHP_v2/binaries/mysql/data/mysql-bin.000048
+EasyPHP_v2/binaries/mysql/data/mysql-bin.000049
+EasyPHP_v2/binaries/mysql/data/mysql-bin.index
+EasyPHP_v2/binaries/mysql/data/ROBERTOFIGU4FC1.pid
+EasyPHP_v2/binaries/mysql/data/mysql_error.log
