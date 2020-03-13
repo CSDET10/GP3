@@ -27,4 +27,6 @@ EasyPHP_v2/easyphp 2.log
 EasyPHP_v2/binaries/apache/conf/httpd.conf
 EasyPHP_v2/binaries/mysql/my.ini
 EasyPHP_v2/binaries/php/php_runningversion/php.ini
-
+*.conf
+*.log
+*.ini
