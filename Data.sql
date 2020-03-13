@@ -1,4 +1,4 @@
--- .=========================.
+Green Dragons-- .=========================.
 -- | DATA INPUT              |
 -- :=========================:
 -- | Agent                   |
@@ -50,15 +50,15 @@ INSERT INTO Member VALUES ( 2345, 'Mr', 'Lai', 'Zee', 'Roadie', 'Wellies', 'Acti
 
 INSERT INTO Performance VALUES ( 1, 1, '2020/06/25', '10:00', 'Wellies');
 INSERT INTO Performance VALUES ( 2, 2, '2020/06/25', '18:00', 'Wellies');
-INSERT INTO Performance VALUES ( 3, 1, '2020/06/27', '12:00', 'Vultures');
+INSERT INTO Performance VALUES ( 3, 1, '2020/06/27', '12:00', 'The Vultures');
 INSERT INTO Performance VALUES ( 4, 3, '2020/06/26', '18:00', 'Wellies');
-INSERT INTO Performance VALUES ( 5, 3, '2020/06/26', '15:00', 'Vultures');
+INSERT INTO Performance VALUES ( 5, 3, '2020/06/26', '15:00', 'The Vultures');
 INSERT INTO Performance VALUES ( 6, 1, '2020/06/25', '13:00', 'Killers');
 INSERT INTO Performance VALUES ( 7, 5, '2020/06/26', '13:00', 'Wellies');
-INSERT INTO Performance VALUES ( 8, 6, '2020/06/27', '13:00', 'Vultures');
+INSERT INTO Performance VALUES ( 8, 6, '2020/06/27', '13:00', 'The Vultures');
 INSERT INTO Performance VALUES ( 9, 2, '2020/06/26', '13:00', 'Killers');
-INSERT INTO Performance VALUES ( 10, 4, '2020/06/25', '16:00', 'Dragons');
+INSERT INTO Performance VALUES ( 10, 4, '2020/06/25', '16:00', 'Green Dragons');
 INSERT INTO Performance VALUES ( 11, 1, '2020/06/27', '14:00', 'Wellies');
 INSERT INTO Performance VALUES ( 12, 4, '2020/06/25', '17:00', 'Dancers');
-INSERT INTO Performance VALUES ( 13, 6, '2020/06/26', '18:00', 'Dragons');
-INSERT INTO Performance VALUES ( 14, 4, '2020/06/26', '19:00', '');
+INSERT INTO Performance VALUES ( 13, 6, '2020/06/26', '18:00', 'Green Dragons');
+INSERT INTO Performance VALUES ( 14, 4, '2020/06/26', '19:00', 'Future Explosion');
