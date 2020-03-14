@@ -19,12 +19,17 @@
 	#Member  a:link, a:visited {height:80px; background-color: #ff4f33; }
 	#Blank  a:link, a:visited {height:60px; background-color: #a1b92d; }
 	#Queries  a:link, a:visited {height:80px; background-color: #2d85b9; }
-	#colorBan {background-color: #60969b; height:60px; z-index:1; }
+	#colorBan {background-color: #93A8BA; height:60px; z-index:1; }
+	#logoBanner{background-color: #649699;}
 	#bar {z-index:2;  }
 	body {margin:0 0 0 0}
 	</style>
 </head>
 <body>
+	<div id="logoBanner" align="center">
+		<img id="logoFestival" src="assets/images/gf-logo.png" alt="Glastonbury Festival" width="200" height="auto" >
+
+	</div>
 	<div id="bar">
 
 		<ul id="nav">
