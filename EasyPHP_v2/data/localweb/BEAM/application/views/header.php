@@ -17,15 +17,14 @@
 	#Stage  a:link, a:visited {height:50px; background-color: #f19500;}
 	#Agent  a:link, a:visited {height:60px; background-color: #c36fcb; }
 	#Member  a:link, a:visited {height:80px; background-color: #ff4f33; }
-	#Blank  a:link, a:visited {height:60px; background-color: #c36fcb; }
-	#Queries  a:link, a:visited {height:80px; background-color: #ff4f33; }
+	#Blank  a:link, a:visited {height:60px; background-color: #a1b92d; }
+	#Queries  a:link, a:visited {height:80px; background-color: #2d85b9; }
 	#colorBan {background-color: #60969b; height:60px; z-index:1; }
 	#bar {z-index:2;  }
 	body {margin:0 0 0 0}
 	</style>
 </head>
 <body>
-
 	<div id="bar">
 
 		<ul id="nav">
