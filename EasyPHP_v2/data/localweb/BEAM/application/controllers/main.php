@@ -19,7 +19,7 @@ class Main extends CI_Controller {
 
 	public function band()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 
@@ -63,7 +63,7 @@ class Main extends CI_Controller {
 
 	public function stage()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 
@@ -85,7 +85,7 @@ class Main extends CI_Controller {
 	}
 	public function customers()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		$crud->set_table('customers');
@@ -111,7 +111,7 @@ class Main extends CI_Controller {
 
 		public function agent()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		$crud->set_table('agent');
@@ -162,7 +162,7 @@ class Main extends CI_Controller {
 
 	public function performance()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		//table name exact from database
@@ -202,7 +202,7 @@ class Main extends CI_Controller {
 
 public function member()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		//table name exact from database
@@ -241,25 +241,25 @@ public function member()
 
 	public function querynav()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$this->load->view('querynav_view');
 	}
 
 	public function query1()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$this->load->view('query1_view');
 	}
 
 	public function query2()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$this->load->view('query2_view');
 	}
 
 	public function blank()
 	{
-		$this->load->view('header');
+		$this->load->view('headerSec');
 		$this->load->view('blank_view');
 	}
 }
