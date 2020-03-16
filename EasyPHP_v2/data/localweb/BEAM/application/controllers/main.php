@@ -133,31 +133,6 @@ class Main extends CI_Controller {
 		$this->load->view('agent_view.php', $output);
 	}
 
-	public function orderline()
-	{
-		$this->load->view('header');
-		$crud = new grocery_CRUD();
-		$crud->set_theme('datatables');
-		$crud->set_table('order_items');
-		$crud->set_subject('order line');
-		$crud->fields('invoice_no', 'item_id', 'itemQty', 'itemPrice');
-		$crud->set_relation('invoice_no','orders','invoiceNo');
-		//have multiple columns show in one FK column by concatenation:  www.grocerycrud.com/forums/topic/479-concatenate-two-or-more-fields-into-one-field/
-		$crud->set_relation('item_id','items','{itemID} - {itemDesc}');
-		$crud->required_fields('invoice_no', 'item_id', 'itemQty', 'itemPrice');
-		$crud->display_as('invoice_no', 'InvoiceNo');
-		$crud->display_as('item_id', 'ItemID');
-		$crud->display_as('itemQty', 'Quantity');
-		$crud->display_as('itemPrice', 'Price');
-
-		$output = $crud->render();
-		$this->orderline_output($output);
-	}
-
-	function orderline_output($output = null)
-	{
-		$this->load->view('orderline_view.php', $output);
-	}
 
 
 	public function performance()
