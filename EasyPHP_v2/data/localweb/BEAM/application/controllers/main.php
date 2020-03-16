@@ -179,7 +179,7 @@ class Main extends CI_Controller {
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('bandName','band','bandName');
-		$crud->set_relation('stageNumber','stage','stageNumber');
+		$crud->set_relation('stageNumber','stage','stageName');
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
