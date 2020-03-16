@@ -1,0 +1,1 @@
+<?php $notification = array('check_date'=>'20200302','date'=>'20200129','status'=>'1','link'=>'https://warehouse.easyphp.org/inventory-devserver?s=not20200129','message'=>'Updates : PHP 7.4.2-7.3.14-7.2.27 - Laravel 6.12.0 - WordPress 5.3.2 - PhpMyAdmin 5.0.1'); ?>
