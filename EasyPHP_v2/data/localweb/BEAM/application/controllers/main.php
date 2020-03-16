@@ -164,13 +164,16 @@ public function member()
 		$crud->columns('member_id','title', 'given_name', 'family_name', 'band', 'job_type', 'status');
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('member_id','title', 'given_name', 'family_name', 'band', 'job_type', 'status');
-		$crud->required_fields('member_id','title', 'given_name', 'family_name', 'band', 'job_type', 'status');
+		$crud->fields('title', 'given_name', 'family_name', 'band', 'job_type', 'status');
+		$crud->required_fields('title', 'given_name', 'family_name', 'band', 'job_type', 'status');
 
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('band','band','bandName');
-
+		$crud->field_type('status','dropdown',
+            array('1' => 'Active', '2' => 'Cancelled'));
+		$crud->field_type('title','dropdown',
+				    array('1' => 'Mr', '2' => 'Ms'));
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
 		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
