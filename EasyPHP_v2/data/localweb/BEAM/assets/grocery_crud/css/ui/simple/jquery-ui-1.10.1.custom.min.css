@@ -214,7 +214,8 @@
 }
 
 .ui-button, .ui-button:link, .ui-button:visited, .ui-button:hover, .ui-button:active {
-  text-decoration: none
+  text-decoration: none;
+  background:#e6e6e6;
 }
 
 .ui-button-icon-only {
@@ -236,6 +237,7 @@ button.ui-button-icons-only {
 .ui-button .ui-button-text {
   display: block;
   line-height: normal
+
 }
 
 .ui-button-text-only .ui-button-text {
