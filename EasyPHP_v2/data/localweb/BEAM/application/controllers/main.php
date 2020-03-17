@@ -54,6 +54,14 @@ class Main extends CI_Controller {
 		$crud->display_as('description', 'Music Style');
 		$crud->display_as('agent', 'Agent');
 
+		$crud->field_type('description','dropdown',
+						array('1' => 'Heavy Rock',
+						'2' => 'Garage',
+						'3' => 'Easy Listening',
+						'4' => 'Rock',
+						'5' => 'Punk Rock',
+						'6' => 'Pop',
+						'7' => 'Jazz' ));
 
 		$output = $crud->render();
 		$this->band_output($output);
@@ -196,6 +204,22 @@ public function member()
 		$crud->display_as('familyName', 'Surname');
 		$crud->display_as('jobType', 'Job');
 		$crud->display_as('status', 'Status');
+
+
+		$crud->field_type('jobType','dropdown',
+						array('1' => 'Vocals',
+						'2' => 'Voice Coach',
+						'3' => 'Make up',
+						'4' => 'Drums',
+						'5' => 'Guitar',
+						'6' => 'Roadie',
+						'7' => 'Backing',
+						'8' => 'Lead Guitar',
+						'9' => 'Sound Tech',
+						'10' => 'Bass Guitar',
+						'11' => 'Dancer', 
+					));
+
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
 		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
