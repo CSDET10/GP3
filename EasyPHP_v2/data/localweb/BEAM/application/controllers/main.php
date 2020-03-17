@@ -83,31 +83,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('stage_view.php', $output);
 	}
-	public function customers()
-	{
-		$this->load->view('headerSec');
-		$crud = new grocery_CRUD();
-		$crud->set_theme('datatables');
-		$crud->set_table('customers');
-		$crud->set_subject('customer');
-		$crud->fields('custID', 'custName', 'custAddress', 'custTown', 'custPostcode', 'custTel', 'custEmail');
-		$crud->required_fields('custID', 'custName', 'custAddress', 'custTown', 'custPostcode', 'custTel', 'custEmail');
-		$crud->display_as('custID', 'CustomerID');
-		$crud->display_as('custName', 'Name');
-		$crud->display_as('custAddress', 'Address');
-		$crud->display_as('custTown', 'Town');
-		$crud->display_as('custPostcode', 'Postcode');
-		$crud->display_as('custTel', 'Phone');
-		$crud->display_as('custEmail', 'Email');
 
-		$output = $crud->render();
-		$this->cust_output($output);
-	}
-
-	function cust_output($output = null)
-	{
-		$this->load->view('cust_view.php', $output);
-	}
 
 		public function agent()
 	{
@@ -133,31 +109,6 @@ class Main extends CI_Controller {
 		$this->load->view('agent_view.php', $output);
 	}
 
-	public function orderline()
-	{
-		$this->load->view('header');
-		$crud = new grocery_CRUD();
-		$crud->set_theme('datatables');
-		$crud->set_table('order_items');
-		$crud->set_subject('order line');
-		$crud->fields('invoice_no', 'item_id', 'itemQty', 'itemPrice');
-		$crud->set_relation('invoice_no','orders','invoiceNo');
-		//have multiple columns show in one FK column by concatenation:  www.grocerycrud.com/forums/topic/479-concatenate-two-or-more-fields-into-one-field/
-		$crud->set_relation('item_id','items','{itemID} - {itemDesc}');
-		$crud->required_fields('invoice_no', 'item_id', 'itemQty', 'itemPrice');
-		$crud->display_as('invoice_no', 'InvoiceNo');
-		$crud->display_as('item_id', 'ItemID');
-		$crud->display_as('itemQty', 'Quantity');
-		$crud->display_as('itemPrice', 'Price');
-
-		$output = $crud->render();
-		$this->orderline_output($output);
-	}
-
-	function orderline_output($output = null)
-	{
-		$this->load->view('orderline_view.php', $output);
-	}
 
 
 	public function performance()
@@ -179,7 +130,7 @@ class Main extends CI_Controller {
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('bandName','band','bandName');
-		$crud->set_relation('stageNumber','stage','stageNumber');
+		$crud->set_relation('stageNumber','stage','stageName');
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
@@ -213,13 +164,16 @@ public function member()
 		$crud->columns('member_id','title', 'given_name', 'family_name', 'band', 'job_type', 'status');
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('member_id','title', 'given_name', 'family_name', 'band', 'job_type', 'status');
-		$crud->required_fields('member_id','title', 'given_name', 'family_name', 'band', 'job_type', 'status');
+		$crud->fields('title', 'given_name', 'family_name', 'band', 'job_type', 'status');
+		$crud->required_fields('title', 'given_name', 'family_name', 'band', 'job_type', 'status');
 
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('band','band','bandName');
-
+		$crud->field_type('status','dropdown',
+            array('1' => 'Active', '2' => 'Cancelled'));
+		$crud->field_type('title','dropdown',
+				    array('1' => 'Mr', '2' => 'Ms'));
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
 		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');

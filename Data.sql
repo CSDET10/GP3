@@ -16,12 +16,12 @@ INSERT INTO Agent VALUES ( 444, 'Lim', 'Popo', '0911 2345432');
 INSERT INTO Agent VALUES ( 555, 'Mary', 'Ripov', '0203 4567890');
 
 
-INSERT INTO Band VALUES ( 'Green Dragons', 'Heavy Rock', 'Mary Dancing');
-INSERT INTO Band VALUES ( 'Wellies', 'Easy Listening', 'Anil Rating');
-INSERT INTO Band VALUES ( 'Lazy Dancers', 'Garage', 'John Ripov');
-INSERT INTO Band VALUES ( 'The Vultures', 'Easy Listening', 'Anil Rating');
-INSERT INTO Band VALUES ( 'Future Explosion', 'Heavy Rock', 'Lim Popo');
-INSERT INTO Band VALUES ( 'Killers', 'Heavy Rock', 'Mary Ripov');
+INSERT INTO Band VALUES ( 'Green Dragons', 'Heavy Rock', 222);
+INSERT INTO Band VALUES ( 'Wellies', 'Easy Listening', 333);
+INSERT INTO Band VALUES ( 'Lazy Dancers', 'Garage', 111);
+INSERT INTO Band VALUES ( 'The Vultures', 'Easy Listening', 333);
+INSERT INTO Band VALUES ( 'Future Explosion', 'Heavy Rock', 444);
+INSERT INTO Band VALUES ( 'Killers', 'Heavy Rock', 555);
 
 
 INSERT INTO Stage VALUES ( 1, 'John Peel', 20);
