@@ -10,3 +10,5 @@ Backup of *.doc*
 
 
 *.log
+EasyPHP_v2/binaries/mysql/data/ib_logfile0
+EasyPHP_v2/binaries/mysql/data/ib_logfile1
