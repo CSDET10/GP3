@@ -38,7 +38,7 @@ class Main extends CI_Controller {
 
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
-		$crud->set_relation('agent','agent','givenName');
+		$crud->set_relation('agent','agent','{givenName} {familyName}');
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
@@ -79,6 +79,7 @@ class Main extends CI_Controller {
 		$crud->required_fields('stageName', 'backstageCapacity');
 		//$crud->set_relation_n_n('orders', 'order_items', 'orders', 'item_id', 'invoice_no', 'invoiceNo');
 		//$crud->display_as('itemDesc', 'Description');
+
 
 		$crud->display_as('stageNumber', 'ID');
 		$crud->display_as('stageName', 'Name');
