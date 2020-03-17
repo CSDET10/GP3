@@ -173,7 +173,7 @@ public function member()
 		$crud->field_type('status','dropdown',
             array('1' => 'Active', '2' => 'Cancelled'));
 		$crud->field_type('title','dropdown',
-				    array('1' => 'Mr', '2' => 'Ms', '3' => 'Dr'));
+				    array('1' => 'Mr', '2' => 'Ms'));
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
 		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
