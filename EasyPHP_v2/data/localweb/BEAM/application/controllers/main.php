@@ -7,16 +7,25 @@ class Main extends CI_Controller {
 		parent::__construct();
 		$this->load->database();
 		$this->load->helper('url');
+		$this->load->model("login_model");
 		$this->load->library('grocery_CRUD');
 		$this->load->library('table');
 	}
 
 	public function index()
 	{
+		if($this->login_model->isLogged()){
+	   redirect("/Home");
+	}else{
+	    redirect("/login");
+	}
+	//	$this->load->view('home');
+}
+	public function home()
+	{
 		$this->load->view('header');
 		$this->load->view('home');
 	}
-
 	public function band()
 	{
 		$this->load->view('headerSec');
@@ -217,7 +226,7 @@ public function member()
 						'8' => 'Lead Guitar',
 						'9' => 'Sound Tech',
 						'10' => 'Bass Guitar',
-						'11' => 'Dancer', 
+						'11' => 'Dancer',
 					));
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n

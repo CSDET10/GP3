@@ -27,13 +27,13 @@
 </head>
 <body>
 	<div id="logoBanner" align="center">
-		<img id="logoFestival" src="assets/images/gf-logo.png" alt="Glastonbury Festival" width="200" height="auto" >
+		<img id="logoFestival" src="../../assets/images/gf-logo.png" alt="Glastonbury Festival" width="200" height="auto" >
 
 	</div>
 	<div id="bar">
 
 		<ul id="nav">
-			<li id="Home"><a href='<?php echo site_url('')?>'>HOME</a></li>
+			<li id="Home"><a href='<?php echo site_url('main/Home')?>'>HOME</a></li>
 			<li id="Performance"><a href='<?php echo site_url('main/Performance')?>'>PERFORMANCE</a></li>
 			<li id="Band"><a href='<?php echo site_url('main/Band')?>'>BAND</a></li>
 			<li id="Stage"><a href='<?php echo site_url('main/Stage')?>'>STAGE</a></li>
