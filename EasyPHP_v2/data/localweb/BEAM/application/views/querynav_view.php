@@ -12,6 +12,7 @@
 <div align='center'>
 	<button type="submit" onclick="location.href='<?php echo site_url('main/query1')?>'">Total customer orders</button>
 	<button type="submit" onclick="location.href='<?php echo site_url('main/query2')?>'">Ranked items by sales</button>
+	<button type="submit" onclick="location.href='<?php echo site_url('main/query3')?>'">Counter</button>
 </div>
     
 </body>

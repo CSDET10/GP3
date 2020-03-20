@@ -256,6 +256,12 @@ public function member()
 		$this->load->view('headerSec');
 		$this->load->view('query2_view');
 	}
+	
+	public function query3()
+	{
+		$this->load->view('headerSec');
+		$this->load->view('query3_view');
+	}
 
 	public function blank()
 	{
