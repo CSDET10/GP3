@@ -35,7 +35,7 @@ INSERT INTO Stage VALUES ( 6, 'Premium', 50);
 INSERT INTO Member VALUES ( 1111, 'Ms', 'Helen', 'Miranda', 'Lead Guitar', 'Green Dragons', 'Active');
 INSERT INTO Member VALUES ( 1234, 'Mr', 'Jose', 'Jose Alves', 'Bass Guitar', 'Green Dragons', 'Active');
 INSERT INTO Member VALUES ( 1333, 'Dr', 'Vito', 'Gelato', 'Voice Coach', 'Wellies', 'Active');
-INSERT INTO Member VALUES ( 1344, 'Dr', 'Guy', 'Redmond', 'Make-up', 'Killers', 'Active');
+INSERT INTO Member VALUES ( 1344, 'Dr', 'Guy', 'Redmond', 'Make up', 'Killers', 'Active');
 INSERT INTO Member VALUES ( 1444, 'Ms', 'Maria', 'Partou', 'Vocals', 'Wellies', 'Active');
 INSERT INTO Member VALUES ( 2111, 'Ms', 'Lindsay', 'White', 'Dancer', 'Future Explosion', 'Cancelled');
 INSERT INTO Member VALUES ( 4545, 'Ms', 'Lee', 'Ping', 'Lead Guitar', 'Lazy Dancers', 'Active');
