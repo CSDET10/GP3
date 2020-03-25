@@ -21,7 +21,7 @@ class Main extends CI_Controller {
 	public function band()
 	{
 		$this->load->view('headerSec');
-		
+
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		$crud->set_table('band');
@@ -33,7 +33,7 @@ class Main extends CI_Controller {
 		$crud->display_as('Name', 'Name');
 		$crud->display_as('Description', 'Music Style');
 		$crud->display_as('AgentID', 'Agent');
-		
+
 		$crud->field_type('Description','dropdown',
 						array('1' => 'Heavy Rock',
 						'2' => 'Garage',
@@ -56,7 +56,7 @@ class Main extends CI_Controller {
 	public function stage()
 	{
 		$this->load->view('headerSec');
-		
+
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		$crud->set_table('stage');
@@ -81,7 +81,7 @@ class Main extends CI_Controller {
 		public function agent()
 	{
 		$this->load->view('headerSec');
-		
+
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		$crud->set_table('agent');
@@ -107,17 +107,22 @@ class Main extends CI_Controller {
 	public function performance()
 	{
 		$this->load->view('headerSec');
-		
+
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		$crud->set_table('performance');
 		$crud->set_subject('performance');
-		$crud->columns('ID','Band',  'Stage','DATETIME');
-		$crud->fields('Band', 'Stage', 'date', 'time');
-		$crud->required_fields('ID','Band', 'Stage', 'date','time');
-		$crud->field_type('DATETIME','date');
+		$crud->columns('ID','Band',  'Stage','DATETIME','time');
+		$crud->fields('Band', 'Stage', 'DATETIME');
+		$crud->required_fields('ID','Band', 'Stage', 'DATETIME');
+		$crud->field_type('DATETIME','datetime');
 		$crud->set_relation('Band','band','Name');
 		$crud->set_relation('Stage','stage','Name');
+		$crud->callback_column(
+						'time', array($this,'dateConvertTime'));
+		$crud->callback_column(
+           'DATETIME', array($this,'dateConvert'));
+
 		$crud->display_as('ID', 'ID');
 		$crud->display_as('Band', 'Band');
 		$crud->display_as('Stage', 'Stage');
@@ -132,12 +137,24 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('performance_view.php', $output);
 	}
+	public function dateConvertTime($date, $row)
+		{
+		$timestamp = strtotime($date);
+		$date = date('H:i:s', $timestamp);
+		return $date;
+		}
+public function dateConvert($date, $row)
+	{
+	$timestamp = strtotime($date);
+	$date = date('d/m/Y', $timestamp);
+	return $date;
+	}
 
 
 public function member()
 	{
 		$this->load->view('headerSec');
-		
+
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
 		$crud->set_table('member');
@@ -146,10 +163,10 @@ public function member()
 		$crud->fields('Title', 'GivenName', 'FamilyName', 'Band', 'JobType', 'Status');
 		$crud->required_fields('Title', 'GivenName', 'FamilyName', 'Band', 'JobType', 'Status');
 		$crud->set_relation('Band','Band','Name');
-		
+
 		$crud->field_type('Status','dropdown',
             array('1' => 'Active', '2' => 'Cancelled'));
-			
+
 		$crud->field_type('Title','dropdown',
 				    array('1' => 'Mr',
 					'2' => 'Mrs',
@@ -179,7 +196,7 @@ public function member()
 						'8' => 'Lead Guitar',
 						'9' => 'Sound Tech',
 						'10' => 'Bass Guitar',
-						'11' => 'Dancer', 
+						'11' => 'Dancer',
 					));
 
 		$output = $crud->render();
