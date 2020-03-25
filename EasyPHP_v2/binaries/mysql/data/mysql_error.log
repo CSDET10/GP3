@@ -2115,24 +2115,3 @@ InnoDB: Last MySQL binlog file position 0 8551, file name mysql-bin.000035
 2020-03-18 14:09:47 9868 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2020-03-18 14:09:47 9868 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2020-03-18 14:09:47 9868 [Note] Server socket created on IP: '127.0.0.1'.
-2020-03-24 22:43:17 1712 [Note] Plugin 'FEDERATED' is disabled.
-2020-03-24 22:43:17 1712 [Note] InnoDB: The InnoDB memory heap is disabled
-2020-03-24 22:43:17 1712 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
-2020-03-24 22:43:17 1712 [Note] InnoDB: Compressed tables use zlib 1.2.3
-2020-03-24 22:43:17 1712 [Note] InnoDB: Not using CPU crc32 instructions
-2020-03-24 22:43:17 1712 [Note] InnoDB: Initializing buffer pool, size = 20.0M
-2020-03-24 22:43:17 1712 [Note] InnoDB: Completed initialization of buffer pool
-2020-03-24 22:43:17 1712 [Note] InnoDB: Setting log file \\Mac\Home\Documents\GitHub\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile101 size to 5 MB
-2020-03-24 22:43:18 1712 [Note] InnoDB: Setting log file \\Mac\Home\Documents\GitHub\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile1 size to 5 MB
-2020-03-24 22:43:18 1712 [Note] InnoDB: Renaming log file \\Mac\Home\Documents\GitHub\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile101 to \\Mac\Home\Documents\GitHub\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile0
-2020-03-24 22:43:18 1712 [Warning] InnoDB: New log files created, LSN=2977814
-2020-03-24 22:43:18 1712 [Note] InnoDB: Highest supported file format is Barracuda.
-2020-03-24 22:43:18 1712 [Note] InnoDB: 128 rollback segment(s) are active.
-2020-03-24 22:43:18 1712 [Note] InnoDB: Waiting for purge to start
-2020-03-24 22:43:18 1712 [Note] InnoDB: 5.6.15 started; log sequence number 2978316
-2020-03-24 22:43:18 1712 [Note] Recovering after a crash using mysql-bin
-2020-03-24 22:43:18 1712 [Note] Starting crash recovery...
-2020-03-24 22:43:18 1712 [Note] Crash recovery finished.
-2020-03-24 22:43:20 1712 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
-2020-03-24 22:43:20 1712 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
-2020-03-24 22:43:20 1712 [Note] Server socket created on IP: '127.0.0.1'.
