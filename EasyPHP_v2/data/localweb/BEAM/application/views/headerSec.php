@@ -37,7 +37,7 @@
 			<li id="Agent"><a href='<?php echo site_url('main/Agent')?>'>AGENT</a></li>
 			<li id="Member"><a href='<?php echo site_url('main/Member')?>'>MEMBER</a></li>
 			<ul id="rightnav">
-				
+
 				<li id="Blank"><a href='<?php echo site_url('main/blank')?>'>Blank Page</a></li>
 				<li id="Queries"><a href='<?php echo site_url('main/querynav')?>'>Queries</a></li>
 

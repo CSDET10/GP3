@@ -7,15 +7,19 @@ class Main extends CI_Controller {
 		parent::__construct();
 		$this->load->database();
 		$this->load->helper('url');
+		$this->load->model("login_model");
 		$this->load->library('grocery_CRUD');
 		$this->load->library('table');
 	}
 
 	public function index()
 	{
-		$this->load->view('header');
-		$this->load->view('home');
-	}
+		if($this->isLoged()){
+				$this->load->view('header');
+				$this->load->view('home');
+		}
+}
+
 
 	public function band()
 	{
@@ -70,7 +74,9 @@ class Main extends CI_Controller {
 		function band_output($output = null)
 	{
 		//this function links up to corresponding page in the views folder to display content for this table
-		$this->load->view('band_view.php', $output);
+		if($this->isLoged()){
+			$this->load->view('band_view.php', $output);
+		}
 	}
 
 
@@ -99,7 +105,9 @@ class Main extends CI_Controller {
 
 	function stage_output($output = null)
 	{
-		$this->load->view('stage_view.php', $output);
+		if($this->isLoged()){
+			$this->load->view('stage_view.php', $output);
+		}
 	}
 
 
@@ -124,7 +132,9 @@ class Main extends CI_Controller {
 
 	function agent_output($output = null)
 	{
-		$this->load->view('agent_view.php', $output);
+		if($this->isLoged()){
+			$this->load->view('agent_view.php', $output);
+		}
 	}
 
 
@@ -171,7 +181,9 @@ class Main extends CI_Controller {
 	function performance_output($output = null)
 	{
 		//this function links up to corresponding page in the views folder to display content for this table
-		$this->load->view('performance_view.php', $output);
+		if($this->isLoged()){
+			$this->load->view('performance_view.php', $output);
+		}
 	}
 
 public function member()
@@ -217,7 +229,7 @@ public function member()
 						'8' => 'Lead Guitar',
 						'9' => 'Sound Tech',
 						'10' => 'Bass Guitar',
-						'11' => 'Dancer', 
+						'11' => 'Dancer',
 					));
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
@@ -236,7 +248,9 @@ public function member()
 	function member_output($output = null)
 	{
 		//this function links up to corresponding page in the views folder to display content for this table
-		$this->load->view('member_view.php', $output);
+		if($this->isLoged()){
+			$this->load->view('member_view.php', $output);
+		}
 	}
 
 	public function querynav()
@@ -261,5 +275,14 @@ public function member()
 	{
 		$this->load->view('headerSec');
 		$this->load->view('blank_view');
+	}
+
+	public function isLoged(){
+		if($this->login_model->isLogged()){
+		return true;
+	}
+		else{
+			redirect("/login");
+		}
 	}
 }
