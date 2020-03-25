@@ -1,6 +1,6 @@
 <?php
 $loginConfig = array(
-	"Page After Login" => "main/Home",
+	"Page After Login" => "",
 	"Error Message" => "Your Username or Password are incorrect!",
 	"Use MD5 Encryption" => false,
 	"Show Permission Management Tips" => true, //suggested
@@ -26,7 +26,7 @@ class Login extends CI_Controller {
 		global $loginConfig;
 		if($this->login_model->isLogged()) redirect($loginConfig['Page After Login']);
 		if ($this->db->table_exists('crud_users')){
-			$this->load->view('login.php');
+			$this->load->view('/login.php');
 		}else{
 			echo "SYSTEM REQUIREMENT: SQL TABLE crud_users DOESN'T EXISTS BUT... Hey, we can do it for you, if the database connection is configured correctly ;)<p><a href=\"".base_url()."login/createDBTable\"><button>Create the required table in your MySQL database</button></a></p>Oh, a user 'admin' (password 'admin') will be create too, so you can log in directly! Just click on the button!";
 			echo "<p><br/><i>...this is a one-time-only step!</i></p>";
