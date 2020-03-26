@@ -10,8 +10,13 @@
 
 <h1>Queries</h1>
 <div align='center'>
-	<button type="submit" onclick="location.href='<?php echo site_url('main/query1')?>'">Total customer orders</button>
-	<button type="submit" onclick="location.href='<?php echo site_url('main/query2')?>'">Ranked items by sales</button>
+	<!--<button type="submit" onclick="location.href='<#?php echo site_url('main/query1')?>'">Total customer orders</button> -->
+	<form action=<?php echo site_url('main/query1')?>>
+		Stage Number: <input type="text" name="stageNo"><br>
+		Date: <input type="text" name="date"><br>
+		Member ID: <input type="text" name="memberID"><br>
+		<input type="submit" onclick="location.href='<?php echo site_url('main/query1')?>'">
+	</form>
 </div>
     
 </body>

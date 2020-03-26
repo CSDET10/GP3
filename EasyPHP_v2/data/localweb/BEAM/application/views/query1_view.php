@@ -13,20 +13,36 @@
 
 <h1>Queries</h1>
 <div align='center'>
-	<button type="submit" onclick="location.href='<?php echo site_url('main/query1')?>'">Total customer orders</button>
-	<button type="submit" onclick="location.href='<?php echo site_url('main/query2')?>'">Ranked items by sales</button>
+	<!--<button type="submit" onclick="location.href='<#?php echo site_url('main/query1')?>'">Total customer orders</button>-->
+	<!--<button type="submit" onclick="location.href='<#?php echo site_url('main/query2')?>'">Ranked items by sales</button>-->
 </div>
 <h2>Total Customer Orders</h2>
 <div align='center'>
 <?php
+	
+	
+	$stageNo = $_GET["stageNo"];
+	$date = $_GET["date"];
+	$memberID = $_GET["memberID"];
+	
+	
 	$tmpl = array ('table_open' => '<table class="mytable">');
 	$this->table->set_template($tmpl); 
 	
 	$this->db->query('drop table if exists temp');
-	$this->db->query('create temporary table temp as (select orders.custID, custName, COUNT(invoiceNo) AS TotalOrders from orders, customers where orders.custID = customers.custID group by orders.custID)');
+	$this->db->query('create temporary table temp as (select s.stageName, p.date, m.band from performance p join stage s on p.stageNumber = s.stageNumber join member m on p.bandName = m.band where m.memberID = "'.$memberID.'" and p.stageNumber = "'.$stageNo.'" and p.date = "'.$date.'" )');
 	$query = $this->db->query('select * from temp;');
-	echo $this->table->generate($query);
+	if($query->num_rows == 0)
+	{
+		echo "DENIED";
+	}
+	else
+	{
+		echo "ALLOWED";
+		echo $this->table->generate($query);
+	}
 ?>
 </div>
+	
 </body>
 </html>
