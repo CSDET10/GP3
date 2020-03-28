@@ -17,7 +17,7 @@
 	#Stage  a:link, a:visited {height:50px; background-color: #f19500;}
 	#Agent  a:link, a:visited {height:60px; background-color: #c36fcb; }
 	#Member  a:link, a:visited {height:80px; background-color: #ff4f33; }
-	#Blank  a:link, a:visited {height:60px; background-color: #a1b92d; }
+	#Logout  a:link, a:visited {height:60px; background-color: #a1b92d; }
 	#Queries  a:link, a:visited {height:80px; background-color: #2d85b9; }
 	#colorBan {background-color: #93A8BA; height:60px; z-index:1; }
 	#bar {z-index:2; }
@@ -37,8 +37,8 @@
 			<li id="Agent"><a href='<?php echo site_url('main/Agent')?>'>AGENT</a></li>
 			<li id="Member"><a href='<?php echo site_url('main/Member')?>'>MEMBER</a></li>
 			<ul id="rightnav">
-				
-				<li id="Blank"><a href='<?php echo site_url('main/blank')?>'>Blank Page</a></li>
+
+				<li id="Logout"><a href='<?php echo site_url('login/logout')?>'>Logout</a></li>
 				<li id="Queries"><a href='<?php echo site_url('main/querynav')?>'>Queries</a></li>
 
 			</ul>
