@@ -10,7 +10,7 @@
 	#Agent  a:link    {height:60px; background-color: #c36fcb; }
 	#Member  a:link    {height:80px; background-color: #ff4f33; }
 	#Logout  a:link    {height:60px; background-color: #a1b92d; }
-	#Queries  a:link   {height:80px; background-color: #2d85b9; }
+	#EntrySystem  a:link   {height:80px; background-color: #2d85b9; }
 
 	#Home  a:hover {height:90px; background-color:#2d93b9; }
 	#Performance a:hover {height:90px; background-color: #2db98b ; }
@@ -19,7 +19,7 @@
 	#Agent a:hover {height:90px; background-color: #c36fcb; }
 	#Member a:hover {height:90px; background-color: #ff4f33; }
 	#Logout a:hover {height:90px; background-color: #a1b92d; }
-	#Queries a:hover {height:90px; background-color: #2d85b9; }
+	#EntrySystem a:hover {height:90px; background-color: #2d85b9; }
 
 	#nav { font-family: Arial; font-size: 14px; width: 94%; float: left;  list-style: none; }
 	#nav {list-style: none; border:0; margin: 0 0 0 0; }
@@ -53,7 +53,7 @@
 			<ul id="rightnav">
 
 				<li id="Logout"><a href='<?php echo site_url('login/logout')?>'>Logout</a></li>
-				<li id="Queries"><a href='<?php echo site_url('main/querynav')?>'>Queries</a></li>
+				<li id="EntrySystem"><a href='<?php echo site_url('main/querynav')?>'>Entry system</a></li>
 
 			</ul>
 		</ul>

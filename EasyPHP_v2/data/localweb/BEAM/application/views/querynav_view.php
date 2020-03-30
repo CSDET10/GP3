@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Queries</title>
+	<title>Entry system</title>
 	<style>
 	h1 { padding-top: 50px;text-align: center; font-family: Calibri; padding-top: 50px}
 
@@ -40,7 +40,7 @@
     		vertical-align: middle;
     		text-align: center;
     		overflow: visible;
-  	
+
 		}
 
 		#id3 {
@@ -59,7 +59,7 @@
 
 <body>
 
-<h1>Queries</h1>
+<h1>Entry system</h1>
 <div align='center'>
 	<!--<button type="submit" onclick="location.href='<#?php echo site_url('main/query1')?>'">Total customer orders</button> -->
 	<form action=<?php echo site_url('main/query1')?>>
