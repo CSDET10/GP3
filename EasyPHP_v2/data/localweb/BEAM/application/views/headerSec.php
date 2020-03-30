@@ -3,24 +3,38 @@
 <head>
 	<meta charset="utf-8" />
 	<style>
+	#Home  a:link  {height:50px; background-color:#2d93b9; }
+	#Performance  a:link    {height:60px; background-color: #2db98b ; }
+	#Band  a:link    {height:70px; background-color: #61a543 ; }
+	#Stage  a:link    {height:50px; background-color: #f19500;}
+	#Agent  a:link    {height:60px; background-color: #c36fcb; }
+	#Member  a:link    {height:80px; background-color: #ff4f33; }
+	#Logout  a:link    {height:60px; background-color: #a1b92d; }
+	#Queries  a:link   {height:80px; background-color: #2d85b9; }
+
+	#Home  a:hover {height:90px; background-color:#2d93b9; }
+	#Performance a:hover {height:90px; background-color: #2db98b ; }
+	#Band a:hover {height:90px; background-color: #61a543 ; }
+	#Stage a:hover {height:90px; background-color: #f19500;}
+	#Agent a:hover {height:90px; background-color: #c36fcb; }
+	#Member a:hover {height:90px; background-color: #ff4f33; }
+	#Logout a:hover {height:90px; background-color: #a1b92d; }
+	#Queries a:hover {height:90px; background-color: #2d85b9; }
+
 	#nav { font-family: Arial; font-size: 14px; width: 94%; float: left;  list-style: none; }
 	#nav {list-style: none; border:0; margin: 0 0 0 0; }
-	#rightnav { list-style: none;}
 	#nav li { float: left; align:center;}
-	#rightnav li { float: right; }
 	#nav li a { margin: 0 0 0 0; font-size: 30px; display: block; padding: 8px 15px; text-decoration: none; font-family:Impact; font-weight:Bold; box-shadow: 2px 5px 10px #AAAAAA; color:#ffffff}
-	#nav li a:hover { height:90px; color:#ffffff }
-	#nav a:link, a:visited { }
-	#Home  a:link, a:visited {height:50px; background-color:#2d93b9; }
-	#Performance  a:link, a:visited {height:60px; background-color: #2db98b ; }
-	#Band  a:link, a:visited {height:70px; background-color: #61a543 ; }
-	#Stage  a:link, a:visited {height:50px; background-color: #f19500;}
-	#Agent  a:link, a:visited {height:60px; background-color: #c36fcb; }
-	#Member  a:link, a:visited {height:80px; background-color: #ff4f33; }
-	#Logout  a:link, a:visited {height:60px; background-color: #a1b92d; }
-	#Queries  a:link, a:visited {height:80px; background-color: #2d85b9; }
+
+
+	#rightnav { list-style: none;}
+	#rightnav li { float: right; }
+
+
 	#colorBan {background-color: #93A8BA; height:60px; z-index:1; }
-	#bar {z-index:2; }
+	#logoBanner{background-color: #649699;}
+	#bar {z-index:2;  }
+
 	body {margin:0 0 0 0}
 	</style>
 </head>
