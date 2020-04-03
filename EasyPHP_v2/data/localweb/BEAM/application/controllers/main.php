@@ -112,16 +112,12 @@ class Main extends CI_Controller {
 		$crud->set_theme('datatables');
 		$crud->set_table('performance');
 		$crud->set_subject('performance');
-		$crud->columns('ID','Band',  'Stage','DATETIME','time');
+		$crud->columns('ID','Band',  'Stage','DATETIME');
 		$crud->fields('Band', 'Stage', 'DATETIME');
 		$crud->required_fields('ID','Band', 'Stage', 'DATETIME');
 		$crud->field_type('DATETIME','datetime');
 		$crud->set_relation('Band','band','Name');
 		$crud->set_relation('Stage','stage','Name');
-		$crud->callback_column(
-						'time', array($this,'dateConvertTime'));
-		$crud->callback_column(
-           'DATETIME', array($this,'dateConvert'));
 
 		$crud->display_as('ID', 'ID');
 		$crud->display_as('Band', 'Band');
@@ -137,18 +133,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('performance_view.php', $output);
 	}
-	public function dateConvertTime($date, $row)
-		{
-		$timestamp = strtotime($date);
-		$date = date('H:i:s', $timestamp);
-		return $date;
-		}
-public function dateConvert($date, $row)
-	{
-	$timestamp = strtotime($date);
-	$date = date('d/m/Y', $timestamp);
-	return $date;
-	}
+
 
 
 public function member()
