@@ -5,16 +5,22 @@
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<title>Login Page</title>
-		<meta name="author" content="https://github.com/portapipe/Login-GroceryCrud" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<style>
+			body{
+				background-color: #649699;
+			}
 			.modal-footer {   border-top: 0px; }
 		</style>
 	</head>
 	<body>
 	<!--login form-->
-	<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+		<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+			<div id="logoBanner" align="center">
+			<img  src="../assets/images/gf-logo.png" alt="Glastonbury Festival" width="200" height="auto" >
+</div>
+
 	  <div class="modal-dialog">
 	  <div class="modal-content">
 	      <div class="modal-header">
@@ -42,6 +48,7 @@
 	      </div>
 	  </div>
 	  </div>
+
 	</div>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 	</body>

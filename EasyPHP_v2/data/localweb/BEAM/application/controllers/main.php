@@ -14,7 +14,7 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
-		if($this->isLoged()){
+		if($this->isLoged("home")){
 				$this->load->view('header');
 				$this->load->view('home');
 		}
@@ -74,7 +74,7 @@ class Main extends CI_Controller {
 		function band_output($output = null)
 	{
 		//this function links up to corresponding page in the views folder to display content for this table
-		if($this->isLoged()){
+		if($this->isLoged("band")){
 			$this->load->view('band_view.php', $output);
 		}
 	}
@@ -105,7 +105,7 @@ class Main extends CI_Controller {
 
 	function stage_output($output = null)
 	{
-		if($this->isLoged()){
+		if($this->isLoged("stage")){
 			$this->load->view('stage_view.php', $output);
 		}
 	}
@@ -132,7 +132,7 @@ class Main extends CI_Controller {
 
 	function agent_output($output = null)
 	{
-		if($this->isLoged()){
+		if($this->isLoged("agent")){
 			$this->load->view('agent_view.php', $output);
 		}
 	}
@@ -181,7 +181,7 @@ class Main extends CI_Controller {
 	function performance_output($output = null)
 	{
 		//this function links up to corresponding page in the views folder to display content for this table
-		if($this->isLoged()){
+		if($this->isLoged("performance")){
 			$this->load->view('performance_view.php', $output);
 		}
 	}
@@ -248,7 +248,7 @@ public function member()
 	function member_output($output = null)
 	{
 		//this function links up to corresponding page in the views folder to display content for this table
-		if($this->isLoged()){
+		if($this->isLoged("member")){
 			$this->load->view('member_view.php', $output);
 		}
 	}
@@ -277,12 +277,38 @@ public function member()
 		$this->load->view('blank_view');
 	}
 
-	public function isLoged(){
+	public function isLoged($destination){
 		if($this->login_model->isLogged()){
-		return true;
+		if($this->asPermission($destination)){
+			return true;
+		}
 	}
+
+
 		else{
 			redirect("/login");
 		}
+	}
+
+	public function asPermission($destination){
+		$usersPermission = array(array("home","performance","band","stage","agent","member"),array("home","performance","band"),array("home","performance","band","member"),array("home","member"),array("home","performance")); #admin, beam, security officer, security guard, BMT
+		$activePermission = $this->login_model->permission();
+		$activeUser = $usersPermission[$activePermission];
+
+
+		if (in_array($destination, $activeUser)) {
+    return true;
+}else{
+	echo ' <script type="text/javascript">
+            alert("YOU DON\'T HAVE ACCESS TO THIS PAGE");
+            window.location.href = "/BEAM/";
+
+</script>';
+
+}
+
+
+
+
 	}
 }
