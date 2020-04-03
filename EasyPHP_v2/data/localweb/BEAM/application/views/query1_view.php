@@ -46,15 +46,19 @@ tbody tr:last-child td:last-child {
 <?php
 
 
-	$stageNo = $_GET["stageNo"];
+	$stageName = $_GET["stage"];
 	$date = $_GET["date"];
 	$memberID = $_GET["memberID"];
 	$tmpl = array ('table_open' => '<table class="mytable">');
 	$this->table->set_template($tmpl);
 
 	$this->db->query('drop table if exists temp');
-	$this->db->query('create temporary table temp as (select s.stageName, p.date, m.band from performance p join stage s on p.stageNumber = s.stageNumber join member m on p.bandName = m.band where m.memberID = "'.$memberID.'" and p.stageNumber = "'.$stageNo.'" and p.date = "'.$date.'" )');
+	$this->db->query('create temporary table temp as (select s.stageName, p.date, m.band from performance p join stage s on p.stageNumber = s.stageNumber join member m on p.bandName = m.band where m.memberID = "'.$memberID.'" and s.stageName = "'.$stageName.'" and p.date = "'.$date.'" )');
 	$query = $this->db->query('select * from temp;');
+
+
+
+
 
 	if($query->num_rows == 0)
 	{
