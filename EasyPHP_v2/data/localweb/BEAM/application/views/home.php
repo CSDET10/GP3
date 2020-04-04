@@ -4,21 +4,39 @@
 	<meta charset="utf-8" />
 	<style>
 
-		h1 { padding-top: 50px; text-align: center; 	font-family: Calibri; }
+		body {
+			background: rgb(235,235,235);
+		}
+
+		#id1 {
+			background: white;
+			display: inline-block;
+			border-radius: 15px;
+			box-shadow: 1px 1px 4px rgba(0,0,0, 0.2);
+			width:100px;
+			height: 200px;
+			padding: 50px;
+			margin: 40px;
+		}
+
+		h1 { 
+			padding-top: 50px; 
+			text-align: center;
+			font-family: Calibri; }
 		p.p-centre { text-align: center; font-family: Arial; }
-		#cogs { display: block; padding-top: 20px; margin-left: auto; margin-right: auto; }
+		
+		}
 	</style>
 </head>
 <body>
+	<h1></h1>
+	<section>
+		<div id ="id1"></div>
+		<div id ="id1"></div>
+		<div id ="id1"></div>
+		<div id ="id1"></div>
+	</section>
 
-<h1>International Widgets Management System</h1>
-
-<p class="p-centre">This system allows staff at International Widgets to manage stocked items, customers and orders.</p>
-<p class="p-centre">Click one of the navigation links to begin.</p>
-
-<div align="center">
-	<img id="cogs" src="assets/images/cogs.jpg" alt="Cogs and gears" height="260" width="380">
-	<!--Image credits: http://www.wallpaperdecor.com.au/murals/scandinavian-wallpaper-decor/typography-collection/cogs-gears-e21324/ -->
 </div>
 </body>
 </html>
