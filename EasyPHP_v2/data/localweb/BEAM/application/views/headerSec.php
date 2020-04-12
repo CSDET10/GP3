@@ -53,8 +53,7 @@
 			<ul id="rightnav">
 
 				<li id="Logout"><a href='<?php echo site_url('login/logout')?>'>Logout</a></li>
-				<li id="Queries"><a href='<?php echo site_url('main/querynav')?>'>Queries</a></li>
-				<li id="In/Out"><a href='<?php echo site_url('main/querynav1')?>'>In/Out System</a></li>
+				<li id="Queries"><a href='<?php echo site_url('main/querynav')?>'>In/Out System</a></li>
 
 			</ul>
 		</ul>
