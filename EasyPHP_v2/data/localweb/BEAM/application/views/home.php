@@ -77,7 +77,7 @@
 		$this->table->set_template($tmpl);
 
 		$this->db->query('drop table if exists temp');
-		$this->db->query('create temporary table temp as (select stageName as "Stage Name", backstageCapacity as "Capacity" From Stage )');
+		$this->db->query('create temporary table temp as (select stageName as "Stage Name", backstageCapacity - quantityLive as "Space Left" From Stage )');
 		$query = $this->db->query('select * from temp;');
 
 		echo $this->table->generate($query);
@@ -90,6 +90,7 @@
 		<div id ="id1"></div>
 
 </div>
+
 </div>
 </body>
 </html>
