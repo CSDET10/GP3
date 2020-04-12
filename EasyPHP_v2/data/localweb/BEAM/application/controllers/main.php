@@ -258,6 +258,12 @@ public function member()
 		$this->load->view('headerSec');
 		$this->load->view('querynav_view');
 	}
+	
+	public function querynav1()
+	{
+		$this->load->view('headerSec');
+		$this->load->view('querynav_view1');
+	}
 
 	public function query1()
 	{
