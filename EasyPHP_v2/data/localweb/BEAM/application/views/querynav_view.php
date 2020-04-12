@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8" />
-	<title>Authorization System</title>
 	<style>
 	h1 { padding-top: 50px;text-align: center; font-family: Calibri; padding-top: 50px}
 
@@ -67,51 +67,75 @@ input[type=date], select{
 			height: 40px;
 
 		}
-
 	</style>
-
 </head>
 
-
 <body>
-<h1>Authorization System</h1>
+<h1>In/Out System</h1>
+
 <div align='center'>
-	<!--<button type="submit" onclick="location.href='<#?php echo site_url('main/query1')?>'">Total customer orders</button> -->
-	<form action=<?php echo site_url('main/query1')?>>
+	<form action="query1" method="GET">
+		<div id ="id1">
+			<strong>Date:</strong>
+			<select name="date">
+			<option>Date</option>
+			<?php
+			// Drop-down date for In/Out System
+			$result = mysql_query("SELECT DISTINCT date FROM performance");
+			// Drop-down date with correct UK date format
+			//$result = mysql_query("SELECT DATE_FORMAT(date, '%d/%m/%Y') AS date FROM performance GROUP BY date");
+			$columnValues = Array();
 
+			while ($row = mysql_fetch_assoc($result) ) {
+				$columnValues[] = $row['date'];
+			}
 
-
-
-
-			<div id ="id1"> <strong>Date:</strong> <input type="date" name="date" ><br></div>
-			<div id ="id1" >
-				<strong>Stage:</strong>
-				<select name="stage">
-				<option >Stage</option>
+			foreach($columnValues as $value){
+				?>
+				<option value="<?php echo strtolower($value); ?>"><?php echo $value; ?></option>
 				<?php
-				// A sample product array
-				$result = mysql_query("SELECT stageName FROM stage");
+			}
+				?>
+			</select>
+		</div>
 
+		<div id ="id1">
+			<strong>Stage:</strong>
+			<select name="stage">
+			<option>Stage</option>
+				<?php
+				$result = mysql_query("SELECT stageName FROM stage");
 				$columnValues = Array();
 
-				while ( $row = mysql_fetch_assoc($result) ) {
+				while ($row = mysql_fetch_assoc($result) ) {
 					$columnValues[] = $row['stageName'];
 				}
+
 				foreach($columnValues as $value){
 					?>
 					<option value="<?php echo strtolower($value); ?>"><?php echo $value; ?></option>
 					<?php
 				}
-				?>
+					?>
 			</select>
 		</div>
-<div id ="id1"> <strong>Member ID:</strong> <input type="text" name="memberID" placeholder="member ID"><br></div>
 
+		<div id ="id1">
+			<strong>Member ID:</strong>
+			<input type="text" name="memberID" placeholder="member ID"><br>
+		</div>
 
+		<div align='center'>
+			<br><input type="submit" name="in_button" value="Member In">
+		</div>
 
+		<div align='center'>
+			<input type="submit" name="out_button" value="Member Out">
+		</div>
 
-<div align='center'>
-			<br><input value='Submit' type="submit" onclick="location.href='<?php echo site_url('main/query1')?>'"></br>
+		<div align='center'>
+			<input type="submit" name="reset_button" value="Reset Counter"></br>
+		</div>
 	</form>
 </div>
 
