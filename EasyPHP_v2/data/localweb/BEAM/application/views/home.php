@@ -45,10 +45,12 @@
 			width: 90%;
 			margin-left: 10%;
 			margin-right: 10%;
+
 		}
 		#id1 {
-			background: white;
 			display: inline-block;
+			vertical-align: top;
+			background: white;
 			border-radius: 15px;
 			box-shadow: 1px 1px 4px rgba(0,0,0, 0.2);
 			width:20%;
@@ -62,7 +64,20 @@
 			font-family: Calibri; }
 
 
-		}
+		.button {
+			background-color: #337ab7;
+			color: white;
+			padding: 14px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			display: block;
+			margin: 0 auto;
+}
+
+	.button:hover{
+		background-color: #286090;
+	}
 
 
 	</style>
@@ -77,7 +92,7 @@
 		$this->table->set_template($tmpl);
 
 		$this->db->query('drop table if exists temp');
-		$this->db->query('create temporary table temp as (select stageName as "Stage Name", backstageCapacity - quantityLive as "Space Left" From Stage )');
+		$this->db->query('create temporary table temp as (select stageName as "Stage Name", backstageCapacity - quantityLive as "Left" From Stage )');
 		$query = $this->db->query('select * from temp;');
 
 		echo $this->table->generate($query);
@@ -91,14 +106,26 @@
 			$this->table->set_template($tmpl);
 
 			$this->db->query('drop table if exists temp');
-			$this->db->query('create temporary table temp as (select s.stageName as "Stage",COUNT(*) as "Total Performances" from stage s join performance p on s.stageNumber = p.stageNumber GROUP BY s.stageNumber  )');
+			$this->db->query('create temporary table temp as (select s.stageName as "Stage",COUNT(*) as "Total" from stage s join performance p on s.stageNumber = p.stageNumber GROUP BY s.stageNumber  )');
 			$query = $this->db->query('select * from temp;');
 
 			echo $this->table->generate($query);
 	?>
 		</div>
+		<div id ="id1">
+			<h1>Shortcuts</h1>
+			<?php
+			$usersLabel1 = array("Performance","Performance","Member", "Member", "Performance"); #admin, beam, security officer, security guard, BMT
+			$activePermission = $this->login_model->permission();
+			$button1Label = $usersLabel1[$activePermission];
 
-		<div id ="id1"></div>
+			?>
+
+<form action="/BEAM/index.php/main/<?php echo  $button1Label ?>/add">
+    <input class = "button" type="submit" value= "Add <?php echo  $button1Label ?>">
+</form>
+
+		</div>
 		<div id ="id1"></div>
 
 </div>

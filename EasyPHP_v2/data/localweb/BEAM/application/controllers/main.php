@@ -256,32 +256,20 @@ public function member()
 	public function querynav()
 	{
 		$this->load->view('headerSec');
-		$this->load->view('querynav_view');
-	}
-	
-	public function querynav1()
-	{
-		$this->load->view('headerSec');
-		$this->load->view('querynav_view1');
+		if($this->isLoged("inout")){
+			$this->load->view('querynav_view.php');
+		}
 	}
 
-	public function query1()
+
+
+	public function query()
 	{
 		$this->load->view('headerSec');
-		$this->load->view('query1_view');
+		$this->load->view('query_view');
 	}
 
-	public function query2()
-	{
-		$this->load->view('headerSec');
-		$this->load->view('query2_view');
-	}
 
-	public function blank()
-	{
-		$this->load->view('headerSec');
-		$this->load->view('blank_view');
-	}
 
 	public function isLoged($destination){
 		if($this->login_model->isLogged()){
@@ -297,7 +285,7 @@ public function member()
 	}
 
 	public function asPermission($destination){
-		$usersPermission = array(array("home","performance","band","stage","agent","member"),array("home","performance","band"),array("home","performance","band","member"),array("home","member"),array("home","performance")); #admin, beam, security officer, security guard, BMT
+		$usersPermission = array(array("home","performance","band","stage","agent","member","inout"),array("home","performance","band"),array("home","performance","band","member"),array("home","inout"),array("home","performance")); #admin, beam, security officer, security guard, BMT
 		$activePermission = $this->login_model->permission();
 		$activeUser = $usersPermission[$activePermission];
 

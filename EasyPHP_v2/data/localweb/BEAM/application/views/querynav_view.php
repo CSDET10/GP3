@@ -22,7 +22,7 @@
 		}
 
 		input[type=submit] {
-			width: 10%;
+		width: 10%;
 	  background-color: #337ab7;
 	  color: white;
 	  padding: 14px 20px;
@@ -74,7 +74,7 @@ input[type=date], select{
 <h1>In/Out System</h1>
 
 <div align='center'>
-	<form action="query1" method="GET">
+	<form action="query" method="GET">
 		<div id ="id1">
 			<strong>Date:</strong>
 			<select name="date">
