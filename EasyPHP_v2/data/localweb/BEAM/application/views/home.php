@@ -81,11 +81,23 @@
 		$query = $this->db->query('select * from temp;');
 
 		echo $this->table->generate($query);
-
-	#	$variable = $this->db->query('Select stageName From Stage');?>
+?>
 
 		</div>
-		<div id ="id1"></div>
+		<div id ="id1">
+			<?php
+
+			$tmpl = array ('table_open' => '<table class="mytable">');
+			$this->table->set_template($tmpl);
+
+			$this->db->query('drop table if exists temp');
+			$this->db->query('create temporary table temp as (select s.stageName as "Stage",COUNT(*) as "Total Performances" from stage s join performance p on s.stageNumber = p.stageNumber GROUP BY s.stageNumber  )');
+			$query = $this->db->query('select * from temp;');
+
+			echo $this->table->generate($query);
+	?>
+		</div>
+
 		<div id ="id1"></div>
 		<div id ="id1"></div>
 
