@@ -65,6 +65,7 @@
 
 
 		.button {
+
 			background-color: #337ab7;
 			color: white;
 			padding: 14px 20px;
@@ -72,7 +73,7 @@
 			border-radius: 4px;
 			cursor: pointer;
 			display: block;
-			margin: 0 auto;
+			margin: 14px auto 14px auto;
 }
 
 	.button:hover{
@@ -116,13 +117,19 @@
 			<h1>Shortcuts</h1>
 			<?php
 			$usersLabel1 = array("Performance","Performance","Member", "Member", "Performance"); #admin, beam, security officer, security guard, BMT
+			$usersLabel2 = array("Performance","Performance","Member", "Member", "Performance"); #admin, beam, security officer, security guard, BMT
 			$activePermission = $this->login_model->permission();
 			$button1Label = $usersLabel1[$activePermission];
+			$button2Label = $usersLabel1[$activePermission];
 
 			?>
 
 <form action="/BEAM/index.php/main/<?php echo  $button1Label ?>/add">
     <input class = "button" type="submit" value= "Add <?php echo  $button1Label ?>">
+</form>
+
+<form action="/BEAM/index.php/main/<?php echo  $button2Label ?>/add">
+    <input class = "button" type="submit" value= "Add <?php echo  $button2Label ?>">
 </form>
 
 		</div>
