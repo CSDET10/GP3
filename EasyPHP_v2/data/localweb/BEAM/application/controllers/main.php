@@ -297,7 +297,7 @@ public function member()
 	}
 
 	public function asPermission($destination){
-		$usersPermission = array(array("home","performance","band","stage","agent","member"),array("home","performance","band"),array("home","performance","band","member"),array("home","member"),array("home","performance")); #admin, beam, security officer, security guard, BMT
+		$usersPermission = array(array("home","performance","band","stage","agent","member"),array("home","performance","band"),array("home","performance","agent","band","member"),array("home","member")); #admin, beam, security officer, security guard
 		$activePermission = $this->login_model->permission();
 		$activeUser = $usersPermission[$activePermission];
 
