@@ -65,7 +65,7 @@
 
 
 		.button {
-
+			width: 80%;
 			background-color: #337ab7;
 			color: white;
 			padding: 14px 20px;
@@ -116,21 +116,49 @@
 		<div id ="id1">
 			<h1>Shortcuts</h1>
 			<?php
-			$usersLabel1 = array("Performance","Performance","Member", "Member", "Performance"); #admin, beam, security officer, security guard, BMT
-			$usersLabel2 = array("Performance","Performance","Member", "Member", "Performance"); #admin, beam, security officer, security guard, BMT
+			$usersLabel1 = array("Performance","Performance","Performance", "inout"); #admin, beam, security officer, security guard, BMT
+			$usersLabel2 = array("Band","Band","Band", ""); #admin, beam, security officer, security guard, BMT
+			$usersLabel3 = array("Stage","","Agent", ""); #admin, beam, security officer, security guard, BMT
+			$usersLabel4 = array("Agent","","Member", ""); #admin, beam, security officer, security guard, BMT
+			$usersLabel5 = array("Member","","", "" ); #admin, beam, security officer, security guard, BMT
+
 			$activePermission = $this->login_model->permission();
 			$button1Label = $usersLabel1[$activePermission];
-			$button2Label = $usersLabel1[$activePermission];
+			$button2Label = $usersLabel2[$activePermission];
+			$button3Label = $usersLabel3[$activePermission];
+			$button4Label = $usersLabel4[$activePermission];
 
 			?>
+<?php
+if($button1Label != ""){
+	echo '<form action="/BEAM/index.php/main/',$button1Label,'/add"><input class = "button" type="submit" value= "Add ',$button1Label,'"></form>';
+};
 
-<form action="/BEAM/index.php/main/<?php echo  $button1Label ?>/add">
-    <input class = "button" type="submit" value= "Add <?php echo  $button1Label ?>">
-</form>
 
-<form action="/BEAM/index.php/main/<?php echo  $button2Label ?>/add">
-    <input class = "button" type="submit" value= "Add <?php echo  $button2Label ?>">
-</form>
+if($button2Label!=""){
+	echo'
+	<form action="/BEAM/index.php/main/',$button2Label,'/add">
+	    <input class = "button" type="submit" value= "Add ',$button2Label,'">
+	</form>';
+};
+
+if($button3Label!=""){
+		echo'
+	<form action="/BEAM/index.php/main/',$button3Label,'/add">
+	    <input class = "button" type="submit" value= "Add ',$button3Label,'">
+	</form>';
+};
+
+	if($button4Label!=""){
+		echo'
+		<form action="/BEAM/index.php/main/',$button4Label,'/add">
+		    <input class = "button" type="submit" value= "Add ',$button4Label,'">
+		</form>';
+	};
+
+ ?>
+
+
 
 		</div>
 		<div id ="id1"></div>
