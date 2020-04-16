@@ -54,7 +54,7 @@
 			<li id="Member"><a href='<?php echo site_url('main/Member')?>'>MEMBER</a></li>
 			<ul id="rightnav">
 				<li id="Logout"><a href='<?php echo site_url('login/logout')?>'>Logout</a></li>
-				<li id="Queries"><a href='<?php echo site_url('main/querynav')?>'>In/Out System</a></li>
+				<li id="Queries"><a href='<?php echo site_url('main/inout')?>'>In/Out System</a></li>
 			</ul>
 		</ul>
 	</div>
