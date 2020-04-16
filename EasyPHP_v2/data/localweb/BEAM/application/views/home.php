@@ -58,6 +58,17 @@
 			margin-right: 20px;
 
 		}
+		#id2 {
+			display: inline-block;
+			vertical-align: top;
+			background: white;
+			border-radius: 15px;
+			box-shadow: 1px 1px 4px rgba(0,0,0, 0.2);
+			width:23%;
+			height: 350px;
+			margin-right: 20px;
+
+		}
 
 		h1 {
 			text-align: center;
@@ -82,6 +93,7 @@
 
 
 	</style>
+
 </head>
 <body>
 
@@ -113,6 +125,28 @@
 			echo $this->table->generate($query);
 	?>
 		</div>
+		<div id ="id2">
+				<?php
+				$date = date("Y-m-d");
+				$tmpl = array ('table_open' => '<table class="mytable">');
+				$this->table->set_template($tmpl);
+
+				$this->db->query('drop table if exists temp');
+				$this->db->query('create temporary table temp as (select stageNumber as stage, CONCAT( CONVERT(TIME, time),\'h\')  as time, bandName as band from performance where date = "'.$date.'" )');
+
+				$query = $this->db->query('select * from temp;');
+				if($query->num_rows()>0){
+					echo $this->table->generate($query);
+				}else{
+					?>
+					<h1>No performances today</h1>
+					<?php
+				}
+
+		?>
+			</div>
+
+
 		<div id ="id1">
 			<h1>Shortcuts</h1>
 			<?php
@@ -161,10 +195,10 @@ if($button3Label!=""){
 
 
 		</div>
-		<div id ="id1"></div>
+
 
 </div>
 
-</div>
+
 </body>
 </html>
