@@ -154,7 +154,7 @@ class Main extends CI_Controller {
 		//Note no inclusion of invoiceNo as this is auto-incrementing
 		$crud->fields('bandName', 'stageNumber', 'date', 'time');
 		$crud->required_fields('performanceID','bandName', 'stageNumber', 'date','time');
-
+ 		$crud->unset_edit();
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('bandName','band','bandName');
