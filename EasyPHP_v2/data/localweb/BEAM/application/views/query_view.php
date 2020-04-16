@@ -73,7 +73,7 @@
 		{
 			echo ' <script type="text/javascript">
 	            alert("You don\'t have access to this stage.");
-	            window.location.href = "/BEAM/index.php/main/querynav";
+	            window.location.href = "/BEAM/index.php/main/inout";
 				</script>';
 		} else {
 			if($capacity > $CurrentOccupation){
@@ -84,7 +84,7 @@
 			} else {
 				echo ' <script type="text/javascript">
 		            alert("This stage has reached maximum capacity");
-		            window.location.href = "/BEAM/index.php/main/querynav";
+		            window.location.href = "/BEAM/index.php/main/inout";
 					</script>';
 			}
 		}
@@ -105,14 +105,14 @@
 		{
 			echo '<script type="text/javascript">
 	            alert("You are not in this stage.");
-	            window.location.href = "/BEAM/index.php/main/querynav";
+	            window.location.href = "/BEAM/index.php/main/inout";
 				</script>';
 		} else {
 				$stageName = ucfirst($stageName);
 				$this->db->query("UPDATE Stage SET quantityLive = quantityLive - 1 WHERE stageName = '$stageName'");
 				echo '<script type="text/javascript">
 					alert("EXIT ALLOWED");
-		            window.location.href = "/BEAM/index.php/main/querynav";
+		            window.location.href = "/BEAM/index.php/main/inout";
 					</script>';
 		}
 
@@ -124,12 +124,12 @@
 		if($query->num_rows == 0) {
 			echo ' <script type="text/javascript">
 	            alert("All stages are empty.");
-	            window.location.href = "/BEAM/index.php/main/querynav";
+	            window.location.href = "/BEAM/index.php/main/inout";
 				</script>';
 		} else {
 			echo '<script type="text/javascript">
 		            alert("Resetting all entries...");
-		            window.location.href = "/BEAM/index.php/main/querynav";
+		            window.location.href = "/BEAM/index.php/main/inout";
 					</script>';
 			$this->db->query("UPDATE Stage SET quantityLive = 0");
 		}

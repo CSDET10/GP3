@@ -45,13 +45,26 @@
 			width: 90%;
 			margin-left: 10%;
 			margin-right: 10%;
+
 		}
 		#id1 {
-			background: white;
 			display: inline-block;
+			vertical-align: top;
+			background: white;
 			border-radius: 15px;
 			box-shadow: 1px 1px 4px rgba(0,0,0, 0.2);
 			width:20%;
+			height: 350px;
+			margin-right: 20px;
+
+		}
+		#id2 {
+			display: inline-block;
+			vertical-align: top;
+			background: white;
+			border-radius: 15px;
+			box-shadow: 1px 1px 4px rgba(0,0,0, 0.2);
+			width:23%;
 			height: 350px;
 			margin-right: 20px;
 
@@ -62,10 +75,25 @@
 			font-family: Calibri; }
 
 
-		}
+		.button {
+			width: 80%;
+			background-color: #337ab7;
+			color: white;
+			padding: 14px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			display: block;
+			margin: 14px auto 14px auto;
+}
+
+	.button:hover{
+		background-color: #286090;
+	}
 
 
 	</style>
+
 </head>
 <body>
 
@@ -77,20 +105,100 @@
 		$this->table->set_template($tmpl);
 
 		$this->db->query('drop table if exists temp');
-		$this->db->query('create temporary table temp as (select stageName as "Stage Name", backstageCapacity - quantityLive as "Space Left" From Stage )');
+		$this->db->query('create temporary table temp as (select stageName as "Stage Name", backstageCapacity - quantityLive as "Left" From Stage )');
 		$query = $this->db->query('select * from temp;');
 
 		echo $this->table->generate($query);
-
-	#	$variable = $this->db->query('Select stageName From Stage');?>
+?>
 
 		</div>
-		<div id ="id1"></div>
-		<div id ="id1"></div>
-		<div id ="id1"></div>
+		<div id ="id1">
+			<?php
+
+			$tmpl = array ('table_open' => '<table class="mytable">');
+			$this->table->set_template($tmpl);
+
+			$this->db->query('drop table if exists temp');
+			$this->db->query('create temporary table temp as (select s.stageName as "Stage",COUNT(*) as "Total Perf." from stage s join performance p on s.stageNumber = p.stageNumber GROUP BY s.stageNumber  )');
+			$query = $this->db->query('select * from temp;');
+
+			echo $this->table->generate($query);
+	?>
+		</div>
+		<div id ="id2">
+				<?php
+				$date = date("Y-m-d");
+				$tmpl = array ('table_open' => '<table class="mytable">');
+				$this->table->set_template($tmpl);
+
+				$this->db->query('drop table if exists temp');
+				$this->db->query('create temporary table temp as (select stageNumber as stage, CONCAT( CONVERT(TIME, time),\'h\')  as time, bandName as band from performance where date = "'.$date.'" )');
+
+				$query = $this->db->query('select * from temp;');
+				if($query->num_rows()>0){
+					echo $this->table->generate($query);
+				}else{
+					?>
+					<h1>No performances today</h1>
+					<?php
+				}
+
+		?>
+			</div>
+
+
+		<div id ="id1">
+			<h1>Shortcuts</h1>
+			<?php
+			$usersLabel1 = array("Performance","Performance","Performance", "inout"); #admin, beam, security officer, security guard, BMT
+			$usersLabel2 = array("Band","Band","Band", ""); #admin, beam, security officer, security guard, BMT
+			$usersLabel3 = array("Stage","","Agent", ""); #admin, beam, security officer, security guard, BMT
+			$usersLabel4 = array("Agent","","Member", ""); #admin, beam, security officer, security guard, BMT
+			$usersLabel5 = array("Member","","", "" ); #admin, beam, security officer, security guard, BMT
+
+			$activePermission = $this->login_model->permission();
+			$button1Label = $usersLabel1[$activePermission];
+			$button2Label = $usersLabel2[$activePermission];
+			$button3Label = $usersLabel3[$activePermission];
+			$button4Label = $usersLabel4[$activePermission];
+
+			?>
+<?php
+if($button1Label != ""){
+	echo '<form action="/BEAM/index.php/main/',$button1Label,'/add"><input class = "button" type="submit" value= "Add ',$button1Label,'"></form>';
+};
+
+
+if($button2Label!=""){
+	echo'
+	<form action="/BEAM/index.php/main/',$button2Label,'/add">
+	    <input class = "button" type="submit" value= "Add ',$button2Label,'">
+	</form>';
+};
+
+if($button3Label!=""){
+		echo'
+	<form action="/BEAM/index.php/main/',$button3Label,'/add">
+	    <input class = "button" type="submit" value= "Add ',$button3Label,'">
+	</form>';
+};
+
+	if($button4Label!=""){
+		echo'
+		<form action="/BEAM/index.php/main/',$button4Label,'/add">
+		    <input class = "button" type="submit" value= "Add ',$button4Label,'">
+		</form>';
+	};
+
+ ?>
+
+
+
+		</div>
+
 
 </div>
 
-</div>
+
 </body>
 </html>
