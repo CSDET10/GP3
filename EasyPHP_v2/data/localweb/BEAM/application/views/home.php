@@ -105,7 +105,7 @@
 		$this->table->set_template($tmpl);
 
 		$this->db->query('drop table if exists temp');
-		$this->db->query('create temporary table temp as (select stageName as "Stage Name", backstageCapacity - quantityLive as "Left" From Stage )');
+		$this->db->query('create temporary table temp as (select Name as "Stage Name", Capacity - quantityLive as "Left" From Stage )');
 		$query = $this->db->query('select * from temp;');
 
 		echo $this->table->generate($query);
@@ -119,7 +119,7 @@
 			$this->table->set_template($tmpl);
 
 			$this->db->query('drop table if exists temp');
-			$this->db->query('create temporary table temp as (select s.stageName as "Stage",COUNT(*) as "Total Perf." from stage s join performance p on s.stageNumber = p.stageNumber GROUP BY s.stageNumber  )');
+			$this->db->query('create temporary table temp as (select s.Name as "Stage",COUNT(*) as "Total Perf." from stage s join performance p on s.ID = p.Stage GROUP BY s.Name  )');
 			$query = $this->db->query('select * from temp;');
 
 			echo $this->table->generate($query);
@@ -132,7 +132,7 @@
 				$this->table->set_template($tmpl);
 
 				$this->db->query('drop table if exists temp');
-				$this->db->query('create temporary table temp as (select stageNumber as stage, CONCAT( CONVERT(TIME, time),\'h\')  as time, bandName as band from performance where date = "'.$date.'" )');
+				$this->db->query('create temporary table temp as (select ID as stage, CONCAT( CONVERT(TIME, time),\'h\')  as time, Band as band from performance where date = "'.$date.'" )');
 
 				$query = $this->db->query('select * from temp;');
 				if($query->num_rows()>0){

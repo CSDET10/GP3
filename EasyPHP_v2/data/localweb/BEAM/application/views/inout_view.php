@@ -104,11 +104,11 @@ input[type=date], select{
 			<select name="stage">
 			<option>Stage</option>
 				<?php
-				$result = mysql_query("SELECT stageName FROM stage");
+				$result = mysql_query("SELECT Name FROM stage");
 				$columnValues = Array();
 
 				while ($row = mysql_fetch_assoc($result) ) {
-					$columnValues[] = $row['stageName'];
+					$columnValues[] = $row['Name'];
 				}
 
 				foreach($columnValues as $value){

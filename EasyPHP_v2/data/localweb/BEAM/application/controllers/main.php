@@ -30,19 +30,19 @@ class Main extends CI_Controller {
 		$crud->set_subject('Band');
 		$crud->unset_export();
 		$crud->unset_print();
-		$crud->columns('bandName', 'description', 'agent');
+		$crud->columns('Name', 'Description', 'AgentID');
 
-		$crud->fields('bandName', 'description', 'agent');
+		$crud->fields('Name', 'Description', 'AgentID');
 
-		$crud->set_relation('agent','agent','{givenName} {familyName}');
+		$crud->set_relation('AgentID','Agent','{givenName} {familyName}');
 
-		$crud->required_fields('bandName', 'description', 'agent');
+		$crud->required_fields('Name', 'Description', 'AgentID');
 
-		$crud->display_as('bandName', 'Name');
-		$crud->display_as('description', 'Music Style');
-		$crud->display_as('agent', 'Agent');
+		$crud->display_as('Name', 'Name');
+		$crud->display_as('Description', 'Music Style');
+		$crud->display_as('AgentID', 'Agent');
 
-		$crud->field_type('description','dropdown',
+		$crud->field_type('Description','dropdown',
 						array('1' => 'Heavy Rock',
 						'2' => 'Garage',
 						'3' => 'Easy Listening',
@@ -72,16 +72,16 @@ class Main extends CI_Controller {
 
 		$crud->set_table('stage');
 		$crud->set_subject('stage');
-		$crud->columns('stageNumber', 'stageName', 'backstageCapacity');
-		$crud->fields('stageName', 'backstageCapacity');
-		$crud->required_fields('stageName', 'backstageCapacity');
+		$crud->columns('ID', 'Name', 'Capacity');
+		$crud->fields('Name', 'Capacity');
+		$crud->required_fields('Name', 'Capacity');
 		//$crud->set_relation_n_n('orders', 'order_items', 'orders', 'item_id', 'invoice_no', 'invoiceNo');
 		//$crud->display_as('itemDesc', 'Description');
 
 
-		$crud->display_as('stageNumber', 'ID');
-		$crud->display_as('stageName', 'Name');
-		$crud->display_as('backstageCapacity', 'Backstage Capacity');
+		$crud->display_as('ID', 'ID');
+		$crud->display_as('Name', 'Name');
+		$crud->display_as('Capacity', 'Backstage Capacity');
 		$crud->unset_export();
 		$crud->unset_print();
 		$output = $crud->render();
@@ -103,12 +103,12 @@ class Main extends CI_Controller {
 		$crud->set_theme('datatables');
 		$crud->set_table('agent');
 		$crud->set_subject('Agent');
-		$crud->fields('agentID', 'givenName', 'familyName', 'contact');
-		$crud->columns('agentID', 'givenName', 'familyName', 'contact');
-		$crud->required_fields('agentID', 'givenName', 'familyName', 'contact');
-		$crud->display_as('agentID', 'ID');
-		$crud->display_as('givenName', 'First Name');
-		$crud->display_as('familyName', 'Surname');
+		$crud->fields('ID', 'GivenName', 'FamilyName', 'Contact');
+		$crud->columns('ID', 'GivenName', 'FamilyName', 'Contact');
+		$crud->required_fields('ID', 'GivenName', 'FamilyName', 'Contact');
+		$crud->display_as('ID', 'ID');
+		$crud->display_as('GivenName', 'First Name');
+		$crud->display_as('FamilyName', 'Surname');
 		$crud->display_as('contact', 'Contact');
 		$crud->unset_export();
 		$crud->unset_print();
@@ -135,24 +135,24 @@ class Main extends CI_Controller {
 		//give focus on name used for operations e.g. Add Order, Delete Order
 		$crud->set_subject('Performance');
 		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('performanceID','bandName',  'stageNumber','date', 'time');
+		$crud->columns('ID','Band',  'Stage','Date', 'Time');
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('bandName', 'stageNumber', 'date', 'time');
-		$crud->required_fields('performanceID','bandName', 'stageNumber', 'date','time');
+		$crud->fields('Band', 'Stage', 'Date', 'Time');
+		$crud->required_fields('ID','Band', 'Stage', 'date','time');
  		$crud->unset_edit();
 		$crud->unset_export();
 		$crud->unset_print();
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
-		$crud->set_relation('bandName','band','bandName');
-		$crud->set_relation('stageNumber','stage','stageName');
+		$crud->set_relation('Band','band','Name');
+		$crud->set_relation('Stage','stage','Name');
 
-		$crud->display_as('performanceID', 'ID');
-		$crud->display_as('bandName', 'Band');
-		$crud->display_as('date', 'Date');
-		$crud->display_as('stageNumber', 'Stage');
-		$crud->display_as('time', 'Time');
+		$crud->display_as('ID', 'ID');
+		$crud->display_as('Band', 'Band');
+		$crud->display_as('Date', 'Date');
+		$crud->display_as('Stage', 'Stage');
+		$crud->display_as('Time', 'Time');
 
 
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
@@ -188,30 +188,30 @@ public function member()
 		//give focus on name used for operations e.g. Add Order, Delete Order
 		$crud->set_subject('Member');
 		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('memberID','title', 'givenName', 'familyName', 'band', 'jobType', 'status');
+		$crud->columns('ID','Title', 'GivenName', 'FamilyName', 'band', 'JobType', 'Status');
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
-		$crud->fields('title', 'givenName', 'familyName', 'band', 'jobType', 'status');
-		$crud->required_fields('title', 'givenName', 'familyName', 'band', 'jobType', 'status');
+		$crud->fields('Title', 'GivenName', 'FamilyName', 'Band', 'JobType', 'Status');
+		$crud->required_fields('Title', 'GivenName', 'FamilyName', 'Band', 'JobType', 'Status');
 		$crud->unset_export();
 		$crud->unset_print();
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
-		$crud->set_relation('band','band','bandName');
-		$crud->field_type('status','dropdown',
+		$crud->set_relation('band','band','Name');
+		$crud->field_type('Status','dropdown',
             array('1' => 'Active', '2' => 'Cancelled'));
-		$crud->field_type('title','dropdown',
+		$crud->field_type('Title','dropdown',
 				    array('1' => 'Mr', '2' => 'Ms', '3' => 'Dr'));
 
-		$crud->display_as('memberID', 'ID');
-		$crud->display_as('title', 'Title');
-		$crud->display_as('givenName', 'First Name');
-		$crud->display_as('familyName', 'Surname');
-		$crud->display_as('jobType', 'Job');
-		$crud->display_as('status', 'Status');
+		$crud->display_as('ID', 'ID');
+		$crud->display_as('Title', 'Title');
+		$crud->display_as('GivenName', 'First Name');
+		$crud->display_as('FamilyName', 'Surname');
+		$crud->display_as('JobType', 'Job');
+		$crud->display_as('Status', 'Status');
 
 
-		$crud->field_type('jobType','dropdown',
+		$crud->field_type('JobType','dropdown',
 						array('1' => 'Vocals',
 						'2' => 'Voice Coach',
 						'3' => 'Make up',

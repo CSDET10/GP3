@@ -7,6 +7,12 @@
 -- | Member                  |
 -- | Performance             |
 --  =========================
+DROP TABLE Performance;
+DROP TABLE Stage;
+DROP TABLE Member;
+DROP TABLE Band;
+DROP TABLE Agent;
+DROP TABLE Crud_users;
 
 
 -- Agent
@@ -45,15 +51,15 @@ CREATE TABLE Crud_users (
   ID INT NOT NULL AUTO_INCREMENT,
   Username VARCHAR(70) NOT NULL,
   Password VARCHAR(70) NOT NULL,
-  Permissions INT(11) NOT NULL,
-  PRIMARY KEY (ID),
+  Permissions VARCHAR(255) NOT NULL,
+  PRIMARY KEY (ID)
 
   )ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;
 
 -- Member
 CREATE TABLE Member (
   ID INT NOT NULL AUTO_INCREMENT,
-  Title CHAR(2), --char? not int because inside ''
+  Title CHAR(2),
   GivenName VARCHAR(20) NOT NULL,
   FamilyName VARCHAR(30) NOT NULL,
   JobType VARCHAR(20),
@@ -71,8 +77,8 @@ CREATE TABLE Member (
 CREATE TABLE Performance (
   ID INT NOT NULL AUTO_INCREMENT,
   Stage INT NOT NULL,
-  Date DATE NOT NULL, --verificar
-  Time TIME NOT NULL, --verificar
+  Date DATE NOT NULL,
+  Time TIME NOT NULL,
   Band VARCHAR(20) NOT NULL,
   PRIMARY KEY (ID),
   INDEX (Band),
