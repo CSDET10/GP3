@@ -59,14 +59,14 @@
 		$this->table->set_template($tmpl);
 
 		$this->db->query('drop temporary table if exists temp');
-		$this->db->query('create temporary table temp as (select s.stageName, p.date, m.band from performance p join stage s on p.stageNumber = s.stageNumber join member m on p.bandName = m.band where m.memberID = "'.$memberID.'" and s.stageName = "'.$stageName.'" and p.date = "'.$date.'" and m.status = "1" )');
+		$this->db->query('create temporary table temp as (select s.Name, p.Date, m.Band from Performance p join Stage s on p.Stage = s.ID join Member m on p.Band = m.Band where m.ID = "'.$memberID.'" and s.Name = "'.$stageName.'" and p.Date = "'.$date.'" and m.Status = "1" )');
 		$query = $this->db->query('select * from temp;');
-		$capacityQuery = $this->db->query("SELECT * FROM Stage WHERE stageName = '$stageName'");
+		$capacityQuery = $this->db->query("SELECT * FROM Stage WHERE Name = '$stageName'");
 
 		foreach ($capacityQuery->result() as $row)
 		{
 		$CurrentOccupation =  $row->quantityLive;
-		$capacity = $row->backstageCapacity;
+		$capacity = $row->Capacity;
 		}
 
 		if($query->num_rows == 0)
@@ -79,7 +79,7 @@
 			if($capacity > $CurrentOccupation){
 				$stageName = ucfirst($stageName);
 				echo "ENTRY ALLOWED";
-				$this->db->query("UPDATE Stage SET quantityLive = quantityLive + 1 WHERE stageName = '$stageName'");
+				$this->db->query("UPDATE Stage SET quantityLive = quantityLive + 1 WHERE Name = '$stageName'");
 				echo $this->table->generate($query); //do we really need the table?
 			} else {
 				echo ' <script type="text/javascript">
@@ -97,9 +97,9 @@
 		$this->table->set_template($tmpl);
 
 		$this->db->query('drop temporary table if exists temp');
-		$this->db->query('create temporary table temp as (select s.stageName, p.date, m.band from performance p join stage s on p.stageNumber = s.stageNumber join member m on p.bandName = m.band where m.memberID = "'.$memberID.'" and s.stageName = "'.$stageName.'" and p.date = "'.$date.'" )');
+		$this->db->query('create temporary table temp as (select s.Name, p.Date, m.Band from performance p join stage s on p.Stage = s.ID join member m on p.Band = m.Band where m.ID = "'.$memberID.'" and s.Name = "'.$stageName.'" and p.Date = "'.$date.'" )');
 		$query = $this->db->query('select * from temp;');
-		$capacityQuery = $this->db->query("SELECT * FROM Stage WHERE stageName = '$stageName'");
+		$capacityQuery = $this->db->query("SELECT * FROM Stage WHERE Name = '$stageName'");
 
 		if($query->num_rows == 0)
 		{
@@ -109,7 +109,7 @@
 				</script>';
 		} else {
 				$stageName = ucfirst($stageName);
-				$this->db->query("UPDATE Stage SET quantityLive = quantityLive - 1 WHERE stageName = '$stageName'");
+				$this->db->query("UPDATE Stage SET quantityLive = quantityLive - 1 WHERE Name = '$stageName'");
 				echo '<script type="text/javascript">
 					alert("EXIT ALLOWED");
 		            window.location.href = "/BEAM/index.php/main/inout";

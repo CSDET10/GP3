@@ -1,0 +1,15 @@
+2020-04-18 05:46:32 4432 [Note] Event Scheduler: Loaded 0 events
+2020-04-18 05:46:32 4432 [Note] Y:\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe: ready for connections.
+Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-04-18 05:46:39 1cc4 InnoDB: Error: page 405 log sequence number 3458801
+InnoDB: is in the future! Current system log sequence number 3442890.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-18 05:46:39 1cc4 InnoDB: Error: page 53 log sequence number 3458801
+InnoDB: is in the future! Current system log sequence number 3443473.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
