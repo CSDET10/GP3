@@ -9,13 +9,14 @@
 --  =========================
 
 
+-- Agent
 INSERT INTO Agent VALUES ( 111, 'John', 'Ripov', '0203 4567890');
 INSERT INTO Agent VALUES ( 222, 'Mary', 'Dancing', '0765 4320243');
 INSERT INTO Agent VALUES ( 333, 'Anil', 'Rating', '0121 2130321');
 INSERT INTO Agent VALUES ( 444, 'Lim', 'Popo', '0911 2345432');
 INSERT INTO Agent VALUES ( 555, 'Mary', 'Ripov', '0203 4567890');
 
-
+-- Band
 INSERT INTO Band VALUES ( 'Green Dragons', '1', 222);
 INSERT INTO Band VALUES ( 'Wellies', '3', 333);
 INSERT INTO Band VALUES ( 'Lazy Dancers', '2', 111);
@@ -23,7 +24,7 @@ INSERT INTO Band VALUES ( 'The Vultures', '3', 333);
 INSERT INTO Band VALUES ( 'Future Explosion', '1', 444);
 INSERT INTO Band VALUES ( 'Killers', '1', 555);
 
-
+-- Stage
 INSERT INTO Stage VALUES ( 1, 'John Peel', 20, 0);
 INSERT INTO Stage VALUES ( 2, 'The Bowl', 10, 0);
 INSERT INTO Stage VALUES ( 3, 'Main', 30,0);
@@ -31,7 +32,7 @@ INSERT INTO Stage VALUES ( 4, 'The Oasis', 20, 0);
 INSERT INTO Stage VALUES ( 5, 'Jam Session', 3, 0);
 INSERT INTO Stage VALUES ( 6, 'Premium', 50, 0);
 
-
+-- Member
 INSERT INTO Member VALUES ( 1111, '2', 'Helen', 'Miranda', '8', 'Green Dragons', '1');
 INSERT INTO Member VALUES ( 1234, '1', 'Jose', 'Jose Alves', '10', 'Green Dragons', '1');
 INSERT INTO Member VALUES ( 1333, '3', 'Vito', 'Gelato', '2', 'Wellies', '1');
@@ -47,7 +48,7 @@ INSERT INTO Member VALUES ( 5555, '1', 'Tom', 'Tumbling', '4', 'Wellies', '1');
 INSERT INTO Member VALUES ( 6666, '1', 'Fingers', 'Malone', '5', 'Wellies', '1');
 INSERT INTO Member VALUES ( 2345, '1', 'Lai', 'Zee', '6', 'Wellies', '1');
 
-
+-- Pertformance
 INSERT INTO Performance VALUES ( 1, 1, '2020/06/25', '10:00', 'Wellies');
 INSERT INTO Performance VALUES ( 2, 2, '2020/06/25', '18:00', 'Wellies');
 INSERT INTO Performance VALUES ( 3, 1, '2020/06/27', '12:00', 'The Vultures');
