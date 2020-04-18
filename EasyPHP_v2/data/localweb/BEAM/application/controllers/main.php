@@ -197,7 +197,7 @@ public function member()
 		$crud->unset_print();
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
-		$crud->set_relation('band','band','Name');
+		$crud->set_relation('Band','band','Name');
 		$crud->field_type('Status','dropdown',
             array('1' => 'Active', '2' => 'Cancelled'));
 		$crud->field_type('Title','dropdown',

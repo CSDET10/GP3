@@ -132,7 +132,7 @@
 				$this->table->set_template($tmpl);
 
 				$this->db->query('drop table if exists temp');
-				$this->db->query('create temporary table temp as (select ID as stage, CONCAT( CONVERT(TIME, time),\'h\')  as time, Band as band from performance where date = "'.$date.'" )');
+				$this->db->query('create temporary table temp as (select ID as stage, CONCAT( CONVERT(TIME, time),\'h\')  as time, Band as band from performance where Date = "'.$date.'" )');
 
 				$query = $this->db->query('select * from temp;');
 				if($query->num_rows()>0){
