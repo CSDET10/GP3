@@ -26,33 +26,17 @@ class Main extends CI_Controller {
 		$this->load->view('headerSec');
 		$crud = new grocery_CRUD();
 		$crud->set_theme('datatables');
-
-		//table name exact from database
 		$crud->set_table('band');
-
-		//give focus on name used for operations e.g. Add Order, Delete Order
 		$crud->set_subject('Band');
-
-		//the columns function lists attributes you see on frontend view of the table
+		$crud->unset_export();
+		$crud->unset_print();
 		$crud->columns('bandName', 'description', 'agent');
 
-		//the fields function lists attributes to see on add/edit forms.
-		//Note no inclusion of invoiceNo as this is auto-incrementing
 		$crud->fields('bandName', 'description', 'agent');
 
-		//set the foreign keys to appear as drop-down menus
-		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('agent','agent','{givenName} {familyName}');
 
-		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
-		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
-		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
-
-		//form validation (could match database columns set to "not null")
 		$crud->required_fields('bandName', 'description', 'agent');
-
-		//change column heading name for readability ('columm name', 'name to display in frontend column header')
-		//$crud->display_as('custID', 'CustomerID');
 
 		$crud->display_as('bandName', 'Name');
 		$crud->display_as('description', 'Music Style');
@@ -98,7 +82,8 @@ class Main extends CI_Controller {
 		$crud->display_as('stageNumber', 'ID');
 		$crud->display_as('stageName', 'Name');
 		$crud->display_as('backstageCapacity', 'Backstage Capacity');
-
+		$crud->unset_export();
+		$crud->unset_print();
 		$output = $crud->render();
 		$this->stage_output($output);
 	}
@@ -125,7 +110,8 @@ class Main extends CI_Controller {
 		$crud->display_as('givenName', 'First Name');
 		$crud->display_as('familyName', 'Surname');
 		$crud->display_as('contact', 'Contact');
-
+		$crud->unset_export();
+		$crud->unset_print();
 		$output = $crud->render();
 		$this->agent_output($output);
 	}
@@ -155,6 +141,8 @@ class Main extends CI_Controller {
 		$crud->fields('bandName', 'stageNumber', 'date', 'time');
 		$crud->required_fields('performanceID','bandName', 'stageNumber', 'date','time');
  		$crud->unset_edit();
+		$crud->unset_export();
+		$crud->unset_print();
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('bandName','band','bandName');
@@ -165,6 +153,8 @@ class Main extends CI_Controller {
 		$crud->display_as('date', 'Date');
 		$crud->display_as('stageNumber', 'Stage');
 		$crud->display_as('time', 'Time');
+
+
 		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
 		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
 		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
@@ -177,6 +167,8 @@ class Main extends CI_Controller {
 		$output = $crud->render();
 		$this->performance_output($output);
 	}
+
+
 
 	function performance_output($output = null)
 	{
@@ -201,7 +193,8 @@ public function member()
 		//Note no inclusion of invoiceNo as this is auto-incrementing
 		$crud->fields('title', 'givenName', 'familyName', 'band', 'jobType', 'status');
 		$crud->required_fields('title', 'givenName', 'familyName', 'band', 'jobType', 'status');
-
+		$crud->unset_export();
+		$crud->unset_print();
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('band','band','bandName');
@@ -286,7 +279,7 @@ public function member()
 
 	public function asPermission($destination){
 
-		$usersPermission = array(array("home","performance","band","stage","agent","member","inout"),array("home","performance","band"),array("home","performance","agent","band","member"),array("home","inout")); #admin, beam, security officer, security guard
+		$usersPermission = array(array("home","performance","band","stage","agent","member","inout"),array("home","performance","band"),array("home","performance","agent","band","member"),array("home","inout")); #admin, bmt, security officer, security guard
 
 		$activePermission = $this->login_model->permission();
 		$activeUser = $usersPermission[$activePermission];

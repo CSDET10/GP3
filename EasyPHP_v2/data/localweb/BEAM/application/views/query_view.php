@@ -59,7 +59,7 @@
 		$this->table->set_template($tmpl);
 
 		$this->db->query('drop temporary table if exists temp');
-		$this->db->query('create temporary table temp as (select s.stageName, p.date, m.band from performance p join stage s on p.stageNumber = s.stageNumber join member m on p.bandName = m.band where m.memberID = "'.$memberID.'" and s.stageName = "'.$stageName.'" and p.date = "'.$date.'" and m.status = "Active" )');
+		$this->db->query('create temporary table temp as (select s.stageName, p.date, m.band from performance p join stage s on p.stageNumber = s.stageNumber join member m on p.bandName = m.band where m.memberID = "'.$memberID.'" and s.stageName = "'.$stageName.'" and p.date = "'.$date.'" and m.status = "1" )');
 		$query = $this->db->query('select * from temp;');
 		$capacityQuery = $this->db->query("SELECT * FROM Stage WHERE stageName = '$stageName'");
 
