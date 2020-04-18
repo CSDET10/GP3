@@ -24,12 +24,12 @@ INSERT INTO Band VALUES ( 'Future Explosion', '1', 444);
 INSERT INTO Band VALUES ( 'Killers', '1', 555);
 
 
-INSERT INTO Stage VALUES ( 1, 'John Peel', 20);
-INSERT INTO Stage VALUES ( 2, 'The Bowl', 10);
-INSERT INTO Stage VALUES ( 3, 'Main', 30);
-INSERT INTO Stage VALUES ( 4, 'The Oasis', 20);
-INSERT INTO Stage VALUES ( 5, 'Jam Session', 3);
-INSERT INTO Stage VALUES ( 6, 'Premium', 50);
+INSERT INTO Stage VALUES ( 1, 'John Peel', 20, 0);
+INSERT INTO Stage VALUES ( 2, 'The Bowl', 10, 0);
+INSERT INTO Stage VALUES ( 3, 'Main', 30,0);
+INSERT INTO Stage VALUES ( 4, 'The Oasis', 20, 0);
+INSERT INTO Stage VALUES ( 5, 'Jam Session', 3, 0);
+INSERT INTO Stage VALUES ( 6, 'Premium', 50, 0);
 
 
 INSERT INTO Member VALUES ( 1111, '2', 'Helen', 'Miranda', '8', 'Green Dragons', '1');
