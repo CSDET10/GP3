@@ -224,14 +224,6 @@ public function member()
 						'11' => 'Dancer',
 					));
 
-		//many-to-many relationship with link table see grocery crud website: www.grocerycrud.com/examples/set_a_relation_n_n
-		//('give a new name to related column for list in fields here', 'join table', 'other parent table', 'this fk in join table', 'other fk in join table', 'other parent table's viewable column to see in field')
-		//$crud->set_relation_n_n('items', 'order_items', 'items', 'invoice_no', 'item_id', 'itemDesc');
-
-		//form validation (could match database columns set to "not null")
-
-		//change column heading name for readability ('columm name', 'name to display in frontend column header')
-		//$crud->display_as('custID', 'CustomerID');
 
 		$output = $crud->render();
 		$this->member_output($output);

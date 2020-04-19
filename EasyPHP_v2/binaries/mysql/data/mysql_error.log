@@ -16967,3 +16967,2390 @@ InnoDB: for more information.
 2020-04-18 05:46:31 4432 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
 2020-04-18 05:46:31 4432 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
 2020-04-18 05:46:31 4432 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-19 17:21:26 9196 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:21:26 9196 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:21:26 9196 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:21:26 9196 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:21:26 9196 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:21:26 9196 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:21:26 9196 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:21:26 9196 [Note] InnoDB: Setting log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile101 size to 5 MB
+2020-04-19 17:21:27 9196 [Note] InnoDB: Setting log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile1 size to 5 MB
+2020-04-19 17:21:27 9196 [Note] InnoDB: Renaming log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile101 to Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile0
+2020-04-19 17:21:27 9196 [Warning] InnoDB: New log files created, LSN=3438315
+2020-04-19 17:21:27 9196 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:21:27 448 InnoDB: Error: page 7 log sequence number 3464236
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 11 log sequence number 3466620
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 5 log sequence number 3462173
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 6 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 396 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 50 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 313 log sequence number 3442127
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 402 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 314 log sequence number 3442734
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 53 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 405 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 317 log sequence number 3447130
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 524 log sequence number 3447687
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 58 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 459 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 411 log sequence number 3452154
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 63 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 321 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 322 log sequence number 3456644
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 324 log sequence number 3457201
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 195 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 416 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 327 log sequence number 3461600
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 486 log sequence number 3462173
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 199 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 418 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 330 log sequence number 3466627
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 251 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 364 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 512 log sequence number 3652341
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 513 log sequence number 3652521
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 516 log sequence number 3656970
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 518 log sequence number 3665852
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 519 log sequence number 3666002
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 8 log sequence number 3463732
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-04-19 17:21:27 9196 [ERROR] InnoDB: Could not find a valid tablespace file for 'temp/#sql1150_1_8'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-04-19 17:21:27 9196 [ERROR] InnoDB: Tablespace open failed for '"temp"."#sql1150_1_8"', ignored.
+2020-04-19 17:21:27 448 InnoDB: Error: page 10 log sequence number 3464033
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 307 log sequence number 3464106
+InnoDB: is in the future! Current system log sequence number 3438749.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 308 log sequence number 3464226
+InnoDB: is in the future! Current system log sequence number 3438806.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 448 InnoDB: Error: page 9 log sequence number 3463785
+InnoDB: is in the future! Current system log sequence number 3439196.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 9196 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-19 17:21:27 9196 [Note] InnoDB: Waiting for purge to start
+2020-04-19 17:21:27 448 InnoDB: Error: page 0 log sequence number 3630194
+InnoDB: is in the future! Current system log sequence number 3439344.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:21:27 9196 [Note] InnoDB: 5.6.15 started; log sequence number 3438604
+2020-04-19 17:21:27 9196 [Note] Recovering after a crash using mysql-bin
+2020-04-19 17:21:27 9196 [Note] Starting crash recovery...
+2020-04-19 17:21:27 9196 [Note] Crash recovery finished.
+2020-04-19 17:21:27 9196 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-19 17:21:27 9196 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-19 17:21:27 9196 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-19 17:21:28 9196 [Note] Event Scheduler: Loaded 0 events
+2020-04-19 17:21:28 9196 [Note] Y:\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe: ready for connections.
+Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__bookmark 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__column_info 3'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__designer_coords 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__history 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__navigationhiding 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__pdf_pages 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__recent 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__relation 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__table_coords 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__table_info 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__table_uiprefs 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__tracking 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__userconfig 3'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__usergroups 2'
+2020-04-19 17:21:43 9196 [ERROR] Invalid (old?) table or database name 'pma__users 2'
+InnoDB: Error: tablespace id is 599 in the data dictionary
+InnoDB: but in file .\beam\agent.ibd it is 635!
+2020-04-19 17:21:49 1034  InnoDB: Assertion failure in thread 4148 in file fil0fil.cc line 796
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+16:21:49 UTC - mysqld got exception 0x80000003 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+We will try our best to scrape up some info that will hopefully help
+diagnose the problem, but since we have already crashed, 
+something is definitely wrong and this may fail.
+
+key_buffer_size=16777216
+read_buffer_size=262144
+max_used_connections=1
+max_threads=151
+thread_count=1
+connection_count=1
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 133777 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x746d628
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+1117470    eds-mysqld.exe!my_thread_name()
+13514fd    eds-mysqld.exe!my_mb_ctype_mb()
+119af40    eds-mysqld.exe!murmur3_32()
+119f138    eds-mysqld.exe!murmur3_32()
+126f88c    eds-mysqld.exe!murmur3_32()
+12700dd    eds-mysqld.exe!murmur3_32()
+11cd2ee    eds-mysqld.exe!murmur3_32()
+1224bb9    eds-mysqld.exe!murmur3_32()
+120246d    eds-mysqld.exe!murmur3_32()
+1147751    eds-mysqld.exe!murmur3_32()
+114b0c8    eds-mysqld.exe!murmur3_32()
+ecf586    eds-mysqld.exe!?ha_open@handler@@QAEHPAUTABLE@@PBDHH@Z()
+fbaff3    eds-mysqld.exe!?open_table_from_share@@YAHPAVTHD@@PAUTABLE_SHARE@@PBDIIIPAUTABLE@@_N@Z()
+f16ff4    eds-mysqld.exe!?open_table@@YA_NPAVTHD@@PAUTABLE_LIST@@PAVOpen_table_context@@@Z()
+f17687    eds-mysqld.exe!?recover_from_failed_open@Open_table_context@@QAE_NXZ()
+f18746    eds-mysqld.exe!?open_tables@@YA_NPAVTHD@@PAPAUTABLE_LIST@@PAIIPAVPrelocking_strategy@@@Z()
+f18a53    eds-mysqld.exe!?open_normal_and_derived_tables@@YA_NPAVTHD@@PAUTABLE_LIST@@I@Z()
+f1d7e3    eds-mysqld.exe!?schema_tables_add@@YAHPAVTHD@@PAV?$List@Ust_mysql_lex_string@@@@PBD@Z()
+f28ad6    eds-mysqld.exe!?get_all_tables@@YAHPAVTHD@@PAUTABLE_LIST@@PAVItem@@@Z()
+f27155    eds-mysqld.exe!?mysql_schema_table@@YAHPAVTHD@@PAULEX@@PAUTABLE_LIST@@@Z()
+f28dde    eds-mysqld.exe!?get_schema_tables_result@@YA_NPAVJOIN@@W4enum_schema_table_state@@@Z()
+10171a1    eds-mysqld.exe!?prepare_result@JOIN@@QAE_NPAPAV?$List@VItem@@@@@Z()
+1018eb6    eds-mysqld.exe!?explain@JOIN@@QAE_NXZ()
+101e822    eds-mysqld.exe!?mysql_select@@YA_NPAVTHD@@PAUTABLE_LIST@@IAAV?$List@VItem@@@@PAVItem@@PAV?$SQL_I_List@Ust_order@@@@43_KPAVselect_result@@PAVst_select_lex_unit@@PAVst_select_lex@@@Z()
+101e8ff    eds-mysqld.exe!?handle_select@@YA_NPAVTHD@@PAVselect_result@@K@Z()
+ef8834    eds-mysqld.exe!??0st_ha_create_information@@QAE@ABU0@@Z()
+efb5f3    eds-mysqld.exe!?mysql_execute_command@@YAHPAVTHD@@@Z()
+eff17b    eds-mysqld.exe!?mysql_parse@@YAXPAVTHD@@PADIPAVParser_state@@@Z()
+efff17    eds-mysqld.exe!?dispatch_command@@YA_NW4enum_server_command@@PAVTHD@@PADI@Z()
+f00daa    eds-mysqld.exe!?do_command@@YA_NPAVTHD@@@Z()
+f73a59    eds-mysqld.exe!?do_handle_one_connection@@YAXPAVTHD@@@Z()
+f73afd    eds-mysqld.exe!handle_one_connection()
+12c3aeb    eds-mysqld.exe!murmur3_32()
+111d286    eds-mysqld.exe!win_pthread_mutex_trylock()
+13547d0    eds-mysqld.exe!my_mb_ctype_mb()
+135485a    eds-mysqld.exe!my_mb_ctype_mb()
+75036359    KERNEL32.DLL!BaseThreadInitThunk()
+77417c14    ntdll.dll!RtlGetAppContainerNamedObjectPath()
+77417be4    ntdll.dll!RtlGetAppContainerNamedObjectPath()
+
+Trying to get some variables.
+Some pointers may be invalid and cause the dump to abort.
+Query (744a828): SELECT *,
+                    `TABLE_SCHEMA`       AS `Db`,
+                    `TABLE_NAME`         AS `Name`,
+                    `TABLE_TYPE`         AS `TABLE_TYPE`,
+                    `ENGINE`             AS `Engine`,
+                    `ENGINE`             AS `Type`,
+                    `VERSION`            AS `Version`,
+                    `ROW_FORMAT`         AS `Row_format`,
+                    `TABLE_ROWS`         AS `Rows`,
+                    `AVG_ROW_LENGTH`     AS `Avg_row_length`,
+                    `DATA_LENGTH`        AS `Data_length`,
+                    `MAX_DATA_LENGTH`    AS `Max_data_length`,
+                    `INDEX_LENGTH`       AS `Index_length`,
+                    `DATA_FREE`          AS `Data_free`,
+                    `AUTO_INCREMENT`     AS `Auto_increment`,
+                    `CREATE_TIME`        AS `Create_time`,
+                    `UPDATE_TIME`        AS `Update_time`,
+                    `CHECK_TIME`         AS `Check_time`,
+                    `TABLE_COLLATION`    AS Connection ID (thread ID): 2
+Status: NOT_KILLED
+
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
+2020-04-19 17:21:55 7796 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:21:55 7796 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:21:55 7796 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:21:55 7796 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:21:55 7796 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:21:55 7796 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:21:55 7796 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:21:55 7796 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:21:55 7796 [Note] InnoDB: The log sequence numbers 3438315 and 3438315 in ibdata files do not match the log sequence number 3439344 in the ib_logfiles!
+2020-04-19 17:21:55 7796 [Note] InnoDB: Database was not shutdown normally!
+2020-04-19 17:21:55 7796 [Note] InnoDB: Starting crash recovery.
+2020-04-19 17:21:55 7796 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-04-19 17:21:55 7796 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_table_stats uses space ID: 1 at filepath: .\mysql\innodb_table_stats.ibd. Cannot open tablespace mysql/innodb_table_stats 2 which uses space ID: 1 at filepath: .\mysql\innodb_table_stats 2.ibd
+2020-04-19 17:21:55 2340  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_table_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:24:37 6784 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:24:38 6784 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:24:38 6784 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:24:38 6784 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:24:38 6784 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:24:38 6784 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:24:38 6784 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:24:38 6784 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:24:38 6784 [Note] InnoDB: The log sequence numbers 3438315 and 3438315 in ibdata files do not match the log sequence number 3439344 in the ib_logfiles!
+2020-04-19 17:24:38 6784 [Note] InnoDB: Database was not shutdown normally!
+2020-04-19 17:24:38 6784 [Note] InnoDB: Starting crash recovery.
+2020-04-19 17:24:38 6784 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-04-19 17:24:38 6784 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_table_stats uses space ID: 1 at filepath: .\mysql\innodb_table_stats.ibd. Cannot open tablespace mysql/innodb_table_stats 2 which uses space ID: 1 at filepath: .\mysql\innodb_table_stats 2.ibd
+2020-04-19 17:24:38 15f4  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_table_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:24:42 1844 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:24:42 1844 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:24:42 1844 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:24:42 1844 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:24:42 1844 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:24:42 1844 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:24:42 1844 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:24:43 1844 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:24:43 1844 [Note] InnoDB: The log sequence numbers 3438315 and 3438315 in ibdata files do not match the log sequence number 3439344 in the ib_logfiles!
+2020-04-19 17:24:43 1844 [Note] InnoDB: Database was not shutdown normally!
+2020-04-19 17:24:43 1844 [Note] InnoDB: Starting crash recovery.
+2020-04-19 17:24:43 1844 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-04-19 17:24:43 1844 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_table_stats uses space ID: 1 at filepath: .\mysql\innodb_table_stats.ibd. Cannot open tablespace mysql/innodb_table_stats 2 which uses space ID: 1 at filepath: .\mysql\innodb_table_stats 2.ibd
+2020-04-19 17:24:43 2b8  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_table_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:32:48 5300 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:32:49 5300 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:32:49 5300 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:32:49 5300 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:32:49 5300 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:32:49 5300 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:32:49 5300 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:32:49 5300 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:32:49 5300 [Note] InnoDB: The log sequence numbers 3438315 and 3438315 in ibdata files do not match the log sequence number 3439344 in the ib_logfiles!
+2020-04-19 17:32:49 5300 [Note] InnoDB: Database was not shutdown normally!
+2020-04-19 17:32:49 5300 [Note] InnoDB: Starting crash recovery.
+2020-04-19 17:32:49 5300 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-04-19 17:32:49 5300 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_table_stats uses space ID: 1 at filepath: .\mysql\innodb_table_stats.ibd. Cannot open tablespace mysql/innodb_table_stats 2 which uses space ID: 1 at filepath: .\mysql\innodb_table_stats 2.ibd
+2020-04-19 17:32:49 1b34  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_table_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:33:30 6660 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:33:30 6660 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:33:30 6660 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:33:30 6660 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:33:30 6660 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:33:30 6660 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:33:30 6660 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:33:30 6660 [Note] InnoDB: Setting log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile101 size to 5 MB
+2020-04-19 17:33:30 6660 [Note] InnoDB: Setting log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile1 size to 5 MB
+2020-04-19 17:33:30 6660 [Note] InnoDB: Renaming log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile101 to Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile0
+2020-04-19 17:33:30 6660 [Warning] InnoDB: New log files created, LSN=3438315
+2020-04-19 17:33:30 6660 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 7 log sequence number 3464236
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 11 log sequence number 3439344
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 5 log sequence number 3438614
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 6 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 396 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 45 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 397 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 50 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 313 log sequence number 3442127
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 402 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 314 log sequence number 3442734
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 53 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 405 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 317 log sequence number 3447130
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 524 log sequence number 3447687
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 58 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 459 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 411 log sequence number 3452154
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 63 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 321 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 322 log sequence number 3456644
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 324 log sequence number 3457201
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 195 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 416 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 327 log sequence number 3461600
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 486 log sequence number 3462173
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 199 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 418 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 330 log sequence number 3466627
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 251 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 364 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 512 log sequence number 3652341
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 513 log sequence number 3652521
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 516 log sequence number 3656970
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 518 log sequence number 3665852
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 519 log sequence number 3666002
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 8 log sequence number 3439312
+InnoDB: is in the future! Current system log sequence number 3438604.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 6660 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 10 log sequence number 3439327
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 6660 [Note] InnoDB: Waiting for purge to start
+2020-04-19 17:33:31 2208 InnoDB: Error: page 9 log sequence number 3439307
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 2208 InnoDB: Error: page 308 log sequence number 3439333
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 2208 InnoDB: Error: page 307 log sequence number 3439339
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 1644 InnoDB: Error: page 0 log sequence number 3630194
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:33:31 6660 [Note] InnoDB: 5.6.15 started; log sequence number 3438604
+2020-04-19 17:33:31 6660 [Note] Recovering after a crash using mysql-bin
+2020-04-19 17:33:31 6660 [Note] Starting crash recovery...
+2020-04-19 17:33:31 6660 [Note] Crash recovery finished.
+2020-04-19 17:33:31 6660 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-19 17:33:31 6660 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-19 17:33:31 6660 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-19 17:34:40 5696 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:34:40 5696 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:34:40 5696 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:34:40 5696 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:34:40 5696 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:34:40 5696 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:34:40 5696 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:34:41 5696 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:34:41 5696 [Note] InnoDB: The log sequence numbers 3438315 and 3438315 in ibdata files do not match the log sequence number 3438614 in the ib_logfiles!
+2020-04-19 17:34:41 5696 [Note] InnoDB: Database was not shutdown normally!
+2020-04-19 17:34:41 5696 [Note] InnoDB: Starting crash recovery.
+2020-04-19 17:34:41 5696 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-04-19 17:34:41 5696 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_table_stats uses space ID: 1 at filepath: .\mysql\innodb_table_stats.ibd. Cannot open tablespace mysql/innodb_table_stats 2 which uses space ID: 1 at filepath: .\mysql\innodb_table_stats 2.ibd
+2020-04-19 17:34:41 1b2c  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_table_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:37:30 8624 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:37:30 8624 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:37:30 8624 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:37:30 8624 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:37:30 8624 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:37:30 8624 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:37:30 8624 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:37:30 8624 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:37:30 8624 [Note] InnoDB: The log sequence numbers 3438315 and 3438315 in ibdata files do not match the log sequence number 3438614 in the ib_logfiles!
+2020-04-19 17:37:30 8624 [Note] InnoDB: Database was not shutdown normally!
+2020-04-19 17:37:30 8624 [Note] InnoDB: Starting crash recovery.
+2020-04-19 17:37:30 8624 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-04-19 17:37:30 8624 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_table_stats uses space ID: 1 at filepath: .\mysql\innodb_table_stats.ibd. Cannot open tablespace mysql/innodb_table_stats 2 which uses space ID: 1 at filepath: .\mysql\innodb_table_stats 2.ibd
+2020-04-19 17:37:30 20b0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_table_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:37:30 8624 [Note] InnoDB: innodb_force_recovery was set to 1. Continuing crash recovery even though we cannot access the .ibd file of this table.
+2020-04-19 17:37:30 8624 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_master_info 2 uses space ID: 4 at filepath: .\mysql\slave_master_info 2.ibd. Cannot open tablespace mysql/slave_master_info which uses space ID: 4 at filepath: .\mysql\slave_master_info.ibd
+2020-04-19 17:37:30 20b0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\slave_master_info.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:37:30 8624 [Note] InnoDB: innodb_force_recovery was set to 1. Continuing crash recovery even though we cannot access the .ibd file of this table.
+2020-04-19 17:37:30 8624 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_relay_log_info uses space ID: 3 at filepath: .\mysql\slave_relay_log_info.ibd. Cannot open tablespace mysql/slave_relay_log_info 2 which uses space ID: 3 at filepath: .\mysql\slave_relay_log_info 2.ibd
+2020-04-19 17:37:30 20b0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\slave_relay_log_info 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:37:30 8624 [Note] InnoDB: innodb_force_recovery was set to 1. Continuing crash recovery even though we cannot access the .ibd file of this table.
+2020-04-19 17:37:30 8624 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_index_stats uses space ID: 2 at filepath: .\mysql\innodb_index_stats.ibd. Cannot open tablespace mysql/innodb_index_stats 2 which uses space ID: 2 at filepath: .\mysql\innodb_index_stats 2.ibd
+2020-04-19 17:37:30 20b0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_index_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:37:30 8624 [Note] InnoDB: innodb_force_recovery was set to 1. Continuing crash recovery even though we cannot access the .ibd file of this table.
+2020-04-19 17:37:30 8624 [Note] InnoDB: Restoring possible half-written data pages 
+2020-04-19 17:37:30 8624 [Note] InnoDB: from the doublewrite buffer...
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 7 log sequence number 3464236
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 11 log sequence number 3439344
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 6 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 396 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 45 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 397 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 50 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 313 log sequence number 3442127
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 402 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 314 log sequence number 3442734
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 53 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:30 20b0 InnoDB: Error: page 405 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 317 log sequence number 3447130
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 524 log sequence number 3447687
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 58 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 459 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 411 log sequence number 3452154
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 63 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 321 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 322 log sequence number 3456644
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 324 log sequence number 3457201
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 195 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 416 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 327 log sequence number 3461600
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 486 log sequence number 3462173
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 199 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 418 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 330 log sequence number 3466627
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 251 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 364 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 512 log sequence number 3652341
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 513 log sequence number 3652521
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:31 20b0 InnoDB: Error: page 516 log sequence number 3656970
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 20b0 InnoDB: Error: page 518 log sequence number 3665852
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 20b0 InnoDB: Error: page 519 log sequence number 3666002
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+InnoDB: Last MySQL binlog file position 0 1841, file name mysql-bin.000076
+2020-04-19 17:37:32 20b0 InnoDB: Error: page 7 log sequence number 3464236
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 20b0 InnoDB: Error: page 8 log sequence number 3439312
+InnoDB: is in the future! Current system log sequence number 3438614.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 20b0  InnoDB: Error: table 'beam/agent'
+InnoDB: in InnoDB data dictionary has tablespace id 599,
+InnoDB: but a tablespace with that id does not exist. There is
+InnoDB: a tablespace of name beam/agent and id 635, though. Have
+InnoDB: you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-04-19 17:37:32 20b0  InnoDB: Error: table 'mysql/slave_master_info'
+InnoDB: in InnoDB data dictionary has tablespace id 4,
+InnoDB: but the tablespace with that id has name mysql/slave_master_info 2.
+InnoDB: Have you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-04-19 17:37:32 20b0 InnoDB: Error: page 11 log sequence number 3439344
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 8624 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-19 17:37:32 20b0 InnoDB: Error: page 10 log sequence number 3439327
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 8624 [Note] InnoDB: Waiting for purge to start
+2020-04-19 17:37:32 1f60 InnoDB: Error: page 9 log sequence number 3439307
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 1f60 InnoDB: Error: page 308 log sequence number 3439333
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 1f60 InnoDB: Error: page 307 log sequence number 3439339
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 20b0 InnoDB: Error: page 0 log sequence number 3630194
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:32 8624 [Note] InnoDB: 5.6.15 started; log sequence number 3438614
+2020-04-19 17:37:32 8624 [Note] InnoDB: !!! innodb_force_recovery is set to 1 !!!
+2020-04-19 17:37:32 8624 [Note] Recovering after a crash using mysql-bin
+2020-04-19 17:37:32 8624 [Note] Starting crash recovery...
+2020-04-19 17:37:32 8624 [Note] Crash recovery finished.
+2020-04-19 17:37:33 8624 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-19 17:37:33 8624 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-19 17:37:33 8624 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-19 17:37:33 8624 [ERROR] InnoDB: Failed to find tablespace for table '"mysql"."slave_master_info"' in the cache. Attempting to load the tablespace with space id 4.
+2020-04-19 17:37:33 8624 [ERROR] InnoDB: Trying to add tablespace 'mysql/slave_master_info' with id 4 to the tablespace memory cache, but tablespace 'mysql/slave_master_info 2' with id 4 already exists in the cache!
+2020-04-19 17:37:33 20b0 InnoDB: cannot calculate statistics for table "mysql"."slave_master_info" because the .ibd file is missing. For help, please refer to http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html
+2020-04-19 17:37:33 8624 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2020-04-19 17:37:34 8624 [Note] Event Scheduler: Loaded 0 events
+2020-04-19 17:37:34 8624 [Note] Y:\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe: ready for connections.
+Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-04-19 17:37:34 8624 [Note] Y:\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe: Normal shutdown
+
+2020-04-19 17:37:34 8624 [Note] Giving 0 client threads a chance to die gracefully
+2020-04-19 17:37:34 8624 [Note] Event Scheduler: Purging the queue. 0 events
+2020-04-19 17:37:34 8624 [Note] Shutting down slave threads
+2020-04-19 17:37:34 8624 [Note] Forcefully disconnecting 0 remaining clients
+2020-04-19 17:37:34 8624 [Note] Binlog end
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'partition'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_CMP'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'INNODB_TRX'
+2020-04-19 17:37:34 8624 [Note] Shutting down plugin 'InnoDB'
+2020-04-19 17:37:34 8624 [Note] InnoDB: FTS optimize thread exiting.
+2020-04-19 17:37:34 8624 [Note] InnoDB: Starting shutdown...
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 6 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 396 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 45 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 397 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 50 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 402 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 53 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 405 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 58 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 459 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 63 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 321 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 195 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 1f60 InnoDB: Error: page 416 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:35 8624 [Note] InnoDB: Shutdown completed; log sequence number 3438624
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'BLACKHOLE'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'ARCHIVE'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'MyISAM'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'MEMORY'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'CSV'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'sha256_password'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'mysql_old_password'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'mysql_native_password'
+2020-04-19 17:37:35 8624 [Note] Shutting down plugin 'binlog'
+2020-04-19 17:37:35 8624 [Note] Y:\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe: Shutdown complete
+
+2020-04-19 17:37:36 2936 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:37:36 2936 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:37:36 2936 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:37:36 2936 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:37:36 2936 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:37:36 2936 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:37:36 2936 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:37:36 2936 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:37:36 1048 InnoDB: Error: page 7 log sequence number 3464236
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:36 1048 InnoDB: Error: page 11 log sequence number 3439344
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:36 1048 InnoDB: Error: page 6 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:36 1048 InnoDB: Error: page 396 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:36 1048 InnoDB: Error: page 45 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:36 1048 InnoDB: Error: page 397 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 50 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 313 log sequence number 3442127
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 402 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 314 log sequence number 3442734
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 53 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 405 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 317 log sequence number 3447130
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 524 log sequence number 3447687
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 58 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 459 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 411 log sequence number 3452154
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 63 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 321 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 322 log sequence number 3456644
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 324 log sequence number 3457201
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 195 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 416 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 327 log sequence number 3461600
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 486 log sequence number 3462173
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 199 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 418 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 330 log sequence number 3466627
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 251 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 364 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 512 log sequence number 3652341
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 513 log sequence number 3652521
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 516 log sequence number 3656970
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 518 log sequence number 3665852
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 519 log sequence number 3666002
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 8 log sequence number 3439312
+InnoDB: is in the future! Current system log sequence number 3438624.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 2936 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 10 log sequence number 3439327
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 2936 [Note] InnoDB: Waiting for purge to start
+2020-04-19 17:37:37 1a38 InnoDB: Error: page 9 log sequence number 3439307
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1a38 InnoDB: Error: page 308 log sequence number 3439333
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1a38 InnoDB: Error: page 307 log sequence number 3439339
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 1048 InnoDB: Error: page 0 log sequence number 3630194
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:37:37 2936 [Note] InnoDB: 5.6.15 started; log sequence number 3438624
+2020-04-19 17:37:37 2936 [Note] InnoDB: !!! innodb_force_recovery is set to 1 !!!
+2020-04-19 17:37:37 2936 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-19 17:37:37 2936 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-19 17:37:37 2936 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-19 17:38:57 4120 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:38:57 4120 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:38:57 4120 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:38:57 4120 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:38:57 4120 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:38:57 4120 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:38:57 4120 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:38:57 4120 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:38:57 4120 [Note] InnoDB: The log sequence numbers 3438624 and 3438624 in ibdata files do not match the log sequence number 3438634 in the ib_logfiles!
+2020-04-19 17:38:57 4120 [Note] InnoDB: Database was not shutdown normally!
+2020-04-19 17:38:57 4120 [Note] InnoDB: Starting crash recovery.
+2020-04-19 17:38:57 4120 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-04-19 17:38:57 4120 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_table_stats uses space ID: 1 at filepath: .\mysql\innodb_table_stats.ibd. Cannot open tablespace mysql/innodb_table_stats 2 which uses space ID: 1 at filepath: .\mysql\innodb_table_stats 2.ibd
+2020-04-19 17:38:57 1df0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_table_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:38:57 4120 [Note] InnoDB: innodb_force_recovery was set to 1. Continuing crash recovery even though we cannot access the .ibd file of this table.
+2020-04-19 17:38:57 4120 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_master_info 2 uses space ID: 4 at filepath: .\mysql\slave_master_info 2.ibd. Cannot open tablespace mysql/slave_master_info which uses space ID: 4 at filepath: .\mysql\slave_master_info.ibd
+2020-04-19 17:38:57 1df0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\slave_master_info.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:38:57 4120 [Note] InnoDB: innodb_force_recovery was set to 1. Continuing crash recovery even though we cannot access the .ibd file of this table.
+2020-04-19 17:38:57 4120 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_relay_log_info uses space ID: 3 at filepath: .\mysql\slave_relay_log_info.ibd. Cannot open tablespace mysql/slave_relay_log_info 2 which uses space ID: 3 at filepath: .\mysql\slave_relay_log_info 2.ibd
+2020-04-19 17:38:57 1df0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\slave_relay_log_info 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:38:57 4120 [Note] InnoDB: innodb_force_recovery was set to 1. Continuing crash recovery even though we cannot access the .ibd file of this table.
+2020-04-19 17:38:57 4120 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_index_stats uses space ID: 2 at filepath: .\mysql\innodb_index_stats.ibd. Cannot open tablespace mysql/innodb_index_stats 2 which uses space ID: 2 at filepath: .\mysql\innodb_index_stats 2.ibd
+2020-04-19 17:38:57 1df0  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_index_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:38:57 4120 [Note] InnoDB: innodb_force_recovery was set to 1. Continuing crash recovery even though we cannot access the .ibd file of this table.
+2020-04-19 17:38:57 4120 [Note] InnoDB: Restoring possible half-written data pages 
+2020-04-19 17:38:57 4120 [Note] InnoDB: from the doublewrite buffer...
+2020-04-19 17:38:57 1df0 InnoDB: Error: page 7 log sequence number 3464236
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:57 1df0 InnoDB: Error: page 11 log sequence number 3439344
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:57 1df0 InnoDB: Error: page 6 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:57 1df0 InnoDB: Error: page 396 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:57 1df0 InnoDB: Error: page 45 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 397 log sequence number 3439302
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 50 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 313 log sequence number 3442127
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 402 log sequence number 3450528
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 314 log sequence number 3442734
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 53 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 405 log sequence number 3443562
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 317 log sequence number 3447130
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 524 log sequence number 3447687
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 58 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 459 log sequence number 3448531
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 411 log sequence number 3452154
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 63 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 321 log sequence number 3453073
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 322 log sequence number 3456644
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 324 log sequence number 3457201
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 195 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 416 log sequence number 3458032
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 327 log sequence number 3461600
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 486 log sequence number 3462173
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 199 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 418 log sequence number 3463004
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 330 log sequence number 3466627
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 251 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 364 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 512 log sequence number 3652341
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 513 log sequence number 3652521
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 516 log sequence number 3656970
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 518 log sequence number 3665852
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 519 log sequence number 3666002
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+InnoDB: Last MySQL binlog file position 0 1841, file name mysql-bin.000076
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 8 log sequence number 3439312
+InnoDB: is in the future! Current system log sequence number 3438634.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0  InnoDB: Error: table 'beam/agent'
+InnoDB: in InnoDB data dictionary has tablespace id 599,
+InnoDB: but a tablespace with that id does not exist. There is
+InnoDB: a tablespace of name beam/agent and id 635, though. Have
+InnoDB: you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-04-19 17:38:58 1df0  InnoDB: Error: table 'mysql/slave_master_info'
+InnoDB: in InnoDB data dictionary has tablespace id 4,
+InnoDB: but the tablespace with that id has name mysql/slave_master_info 2.
+InnoDB: Have you deleted or moved .ibd files?
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2020-04-19 17:38:58 4120 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 10 log sequence number 3439327
+InnoDB: is in the future! Current system log sequence number 3438644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 4120 [Note] InnoDB: Waiting for purge to start
+2020-04-19 17:38:58 75c InnoDB: Error: page 9 log sequence number 3439307
+InnoDB: is in the future! Current system log sequence number 3438644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 75c InnoDB: Error: page 308 log sequence number 3439333
+InnoDB: is in the future! Current system log sequence number 3438644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 75c InnoDB: Error: page 307 log sequence number 3439339
+InnoDB: is in the future! Current system log sequence number 3438644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 1df0 InnoDB: Error: page 0 log sequence number 3630194
+InnoDB: is in the future! Current system log sequence number 3438644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:38:58 4120 [Note] InnoDB: 5.6.15 started; log sequence number 3438634
+2020-04-19 17:38:58 4120 [Note] InnoDB: !!! innodb_force_recovery is set to 1 !!!
+2020-04-19 17:38:58 4120 [Note] Recovering after a crash using mysql-bin
+2020-04-19 17:38:58 4120 [Note] Starting crash recovery...
+2020-04-19 17:38:58 4120 [Note] Crash recovery finished.
+2020-04-19 17:38:59 4120 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-19 17:38:59 4120 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-19 17:38:59 4120 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-19 17:46:03 8700 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:46:03 8700 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:46:03 8700 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:46:03 8700 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:46:03 8700 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:46:03 8700 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:46:03 8700 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:46:03 8700 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 6 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 396 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 251 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 364 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 512 log sequence number 3652341
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 513 log sequence number 3652521
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 516 log sequence number 3656970
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 518 log sequence number 3665852
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 2020 InnoDB: Error: page 519 log sequence number 3666002
+InnoDB: is in the future! Current system log sequence number 3525326.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 8700 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-19 17:46:03 8700 [Note] InnoDB: Waiting for purge to start
+2020-04-19 17:46:03 2020 InnoDB: Error: page 0 log sequence number 3630194
+InnoDB: is in the future! Current system log sequence number 3525913.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:46:03 8700 [Note] InnoDB: 5.6.15 started; log sequence number 3525326
+2020-04-19 17:46:04 8700 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-19 17:46:04 8700 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-19 17:46:04 8700 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-19 17:46:05 8700 [Note] Event Scheduler: Loaded 0 events
+2020-04-19 17:46:05 8700 [Note] Y:\GP3\EASY~5TW\binaries\mysql\bin\eds-mysqld.exe: ready for connections.
+Version: '5.6.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__bookmark 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__column_info 3'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__designer_coords 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__history 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__navigationhiding 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__pdf_pages 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__recent 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__relation 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__table_coords 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__table_info 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__table_uiprefs 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__tracking 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__userconfig 3'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__usergroups 2'
+2020-04-19 17:46:51 8700 [ERROR] Invalid (old?) table or database name 'pma__users 2'
+2020-04-19 17:52:22 4340 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:52:22 4340 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:52:22 4340 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:52:22 4340 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:52:22 4340 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:52:22 4340 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:52:22 4340 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:52:22 4340 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:52:22 4340 [Note] InnoDB: The log sequence numbers 3525326 and 3525326 in ibdata files do not match the log sequence number 3540266 in the ib_logfiles!
+2020-04-19 17:52:22 4340 [Note] InnoDB: Database was not shutdown normally!
+2020-04-19 17:52:22 4340 [Note] InnoDB: Starting crash recovery.
+2020-04-19 17:52:22 4340 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2020-04-19 17:52:22 4340 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/innodb_table_stats uses space ID: 1 at filepath: .\mysql\innodb_table_stats.ibd. Cannot open tablespace mysql/innodb_table_stats 2 which uses space ID: 1 at filepath: .\mysql\innodb_table_stats 2.ibd
+2020-04-19 17:52:22 230c  InnoDB: Operating system error number 203 in a file operation.
+InnoDB: Some operating system error numbers are described at
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/operating-system-error-codes.html
+InnoDB: Error: could not open single-table tablespace file .\mysql\innodb_table_stats 2.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+2020-04-19 17:52:42 4356 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 17:52:42 4356 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 17:52:42 4356 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 17:52:42 4356 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 17:52:42 4356 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 17:52:42 4356 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 17:52:42 4356 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 17:52:42 4356 [Note] InnoDB: Setting log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile101 size to 5 MB
+2020-04-19 17:52:42 4356 [Note] InnoDB: Setting log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile1 size to 5 MB
+2020-04-19 17:52:42 4356 [Note] InnoDB: Renaming log file Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile101 to Y:\GP3\EasyPHP_v2\binaries\mysql\data\ib_logfile0
+2020-04-19 17:52:42 4356 [Warning] InnoDB: New log files created, LSN=3525326
+2020-04-19 17:52:42 4356 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 17:52:42 39c InnoDB: Error: page 7 log sequence number 3535914
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 11 log sequence number 3538298
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 5 log sequence number 3538981
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 6 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 396 log sequence number 3775551
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 313 log sequence number 3529442
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 53 log sequence number 3530286
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 405 log sequence number 3530286
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 317 log sequence number 3533854
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 58 log sequence number 3534682
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 459 log sequence number 3534682
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 411 log sequence number 3538305
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 62 log sequence number 3525664
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 460 log sequence number 3525664
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 63 log sequence number 3525703
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 321 log sequence number 3525703
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 414 log sequence number 3538658
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 192 log sequence number 3525745
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 462 log sequence number 3525745
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 193 log sequence number 3525787
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 415 log sequence number 3525787
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 327 log sequence number 3538981
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 198 log sequence number 3539262
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 465 log sequence number 3539262
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 200 log sequence number 3539608
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 464 log sequence number 3539608
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 202 log sequence number 3539956
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 560 log sequence number 3539956
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 204 log sequence number 3540266
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 553 log sequence number 3540266
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 251 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 364 log sequence number 3716294
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 266 log sequence number 3525829
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 374 log sequence number 3525829
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 270 log sequence number 3525871
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 376 log sequence number 3525871
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 274 log sequence number 3525913
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 378 log sequence number 3525913
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 512 log sequence number 3652341
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 513 log sequence number 3652521
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 516 log sequence number 3656970
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 518 log sequence number 3665852
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 519 log sequence number 3666002
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 8 log sequence number 3535410
+InnoDB: is in the future! Current system log sequence number 3525644.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2020-04-19 17:52:42 4356 [ERROR] InnoDB: Could not find a valid tablespace file for 'temp/#sql21fc_1_2'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2020-04-19 17:52:42 4356 [ERROR] InnoDB: Tablespace open failed for '"temp"."#sql21fc_1_2"', ignored.
+2020-04-19 17:52:42 39c InnoDB: Error: page 10 log sequence number 3535711
+InnoDB: is in the future! Current system log sequence number 3525654.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 307 log sequence number 3535784
+InnoDB: is in the future! Current system log sequence number 3525789.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 308 log sequence number 3535904
+InnoDB: is in the future! Current system log sequence number 3525846.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 9 log sequence number 3535463
+InnoDB: is in the future! Current system log sequence number 3526236.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 4356 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-19 17:52:42 4356 [Note] InnoDB: Waiting for purge to start
+2020-04-19 17:52:42 e70 InnoDB: Error: page 3 log sequence number 3540167
+InnoDB: is in the future! Current system log sequence number 3526342.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 e70 InnoDB: Error: page 3 log sequence number 3539163
+InnoDB: is in the future! Current system log sequence number 3526342.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 39c InnoDB: Error: page 0 log sequence number 3630194
+InnoDB: is in the future! Current system log sequence number 3526384.
+InnoDB: Your database may be corrupt or you may have copied the InnoDB
+InnoDB: tablespace but not the InnoDB log files. See
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/forcing-innodb-recovery.html
+InnoDB: for more information.
+2020-04-19 17:52:42 4356 [Note] InnoDB: 5.6.15 started; log sequence number 3525644
+2020-04-19 17:52:42 4356 [Note] Recovering after a crash using mysql-bin
+2020-04-19 17:52:42 4356 [Note] Starting crash recovery...
+2020-04-19 17:52:42 4356 [Note] Crash recovery finished.
+2020-04-19 17:52:43 4356 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-19 17:52:43 4356 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-19 17:52:43 4356 [Note] Server socket created on IP: '127.0.0.1'.
+2020-04-19 18:54:49 2700 [Note] Plugin 'FEDERATED' is disabled.
+2020-04-19 18:54:50 2700 [Note] InnoDB: The InnoDB memory heap is disabled
+2020-04-19 18:54:50 2700 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-04-19 18:54:50 2700 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2020-04-19 18:54:50 2700 [Note] InnoDB: Not using CPU crc32 instructions
+2020-04-19 18:54:50 2700 [Note] InnoDB: Initializing buffer pool, size = 20.0M
+2020-04-19 18:54:50 2700 [Note] InnoDB: Completed initialization of buffer pool
+2020-04-19 18:54:50 2700 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-04-19 18:54:51 2700 [Note] InnoDB: 128 rollback segment(s) are active.
+2020-04-19 18:54:51 2700 [Note] InnoDB: Waiting for purge to start
+2020-04-19 18:54:51 2700 [Note] InnoDB: 5.6.15 started; log sequence number 4633813
+2020-04-19 18:54:52 2700 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-04-19 18:54:52 2700 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-04-19 18:54:52 2700 [Note] Server socket created on IP: '127.0.0.1'.
