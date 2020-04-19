@@ -17,12 +17,12 @@ INSERT INTO Agent VALUES ( 444, 'Lim', 'Popo', '0911 2345432');
 INSERT INTO Agent VALUES ( 555, 'Mary', 'Ripov', '0203 4567890');
 
 -- Band
-INSERT INTO Band VALUES ( 11,'Green Dragons', '1', 222);
-INSERT INTO Band VALUES ( 22,'Wellies', '3', 333);
-INSERT INTO Band VALUES ( 33,'Lazy Dancers', '2', 111);
-INSERT INTO Band VALUES ( 44,'The Vultures', '3', 333);
-INSERT INTO Band VALUES ( 55,'Future Explosion', '1', 444);
-INSERT INTO Band VALUES ( 66,'Killers', '1', 555);
+INSERT INTO Band VALUES ( 11, 'Green Dragons', 'Heavy Rock', 222);
+INSERT INTO Band VALUES ( 22, 'Wellies', 'Easy Listening', 333);
+INSERT INTO Band VALUES ( 33, 'Lazy Dancers', 'Garage', 111);
+INSERT INTO Band VALUES ( 44, 'The Vultures', 'Easy Listening', 333);
+INSERT INTO Band VALUES ( 55, 'Future Explosion', 'Heavy Rock', 444);
+INSERT INTO Band VALUES ( 66, 'Killers', 'Heavy Rock', 555);
 
 -- Crud_users
 INSERT INTO Crud_users VALUES ( 1, 'admin', 'admin', 0);
@@ -39,22 +39,20 @@ INSERT INTO Stage VALUES ( 5, 'Jam Session', 3, 0);
 INSERT INTO Stage VALUES ( 6, 'Premium', 50, 0);
 
 -- Member
-
-
-INSERT INTO Member VALUES ( 1111, '2', 'Helen', 'Miranda', '8', 11, '1');
-INSERT INTO Member VALUES ( 1234, '1', 'Jose', 'Jose Alves', '10', 11, '1');
-INSERT INTO Member VALUES ( 1333, '3', 'Vito', 'Gelato', '2', 22, '1');
-INSERT INTO Member VALUES ( 1344, '3', 'Guy', 'Redmond', '3', 66, '1');
-INSERT INTO Member VALUES ( 1444, '2', 'Maria', 'Partou', '1', 22, '1');
-INSERT INTO Member VALUES ( 2111, '2', 'Lindsay', 'White', '11', 55, '2');
-INSERT INTO Member VALUES ( 4545, '2', 'Lee', 'Ping', '8', 33, '1');
-INSERT INTO Member VALUES ( 5665, '2', 'Sing', 'Song', '1', 44, '1');
-INSERT INTO Member VALUES ( 2121, '1', 'David', 'Wikinson', '7', 44, '2');
-INSERT INTO Member VALUES ( 3333, '2', 'Olenka', 'Sama', '9', 66, '1');
-INSERT INTO Member VALUES ( 7271, '1', 'Dan', 'Dreary', '3', 22, '1');
-INSERT INTO Member VALUES ( 5555, '1', 'Tom', 'Tumbling', '4', 22, '1');
-INSERT INTO Member VALUES ( 6666, '1', 'Fingers', 'Malone', '5', 22, '1');
-INSERT INTO Member VALUES ( 2345, '1', 'Lai', 'Zee', '6', 22, '1');
+INSERT INTO Member VALUES ( 1111, 'Ms', 'Helen', 'Miranda', 'Lead Guitar', 11, 'Active');
+INSERT INTO Member VALUES ( 1234, 'Mr', 'Jose', 'Jose Alves', 'Bass Guitar', 11, 'Active');
+INSERT INTO Member VALUES ( 1333, 'Dr', 'Vito', 'Gelato', 'Voice Coach', 22, 'Active');
+INSERT INTO Member VALUES ( 1344, 'Dr', 'Guy', 'Redmond', 'Make-up', 66, 'Active');
+INSERT INTO Member VALUES ( 1444, 'Ms', 'Maria', 'Partou', 'Vocals', 22, 'Active');
+INSERT INTO Member VALUES ( 2111, 'Ms', 'Lindsay', 'White', 'Dancer', 55, 'Cancelled');
+INSERT INTO Member VALUES ( 4545, 'Ms', 'Lee', 'Ping', 'Lead Guitar', 33, 'Active');
+INSERT INTO Member VALUES ( 5665, 'Ms', 'Sing', 'Song', 'Vocals', 44, 'Active');
+INSERT INTO Member VALUES ( 2121, 'Mr', 'David', 'Wikinson', 'Backing', 44, 'Cancelled');
+INSERT INTO Member VALUES ( 3333, 'Ms', 'Olenka', 'Sama', 'Sound Tech', 66, 'Active');
+INSERT INTO Member VALUES ( 7271, 'Mr', 'Dan', 'Dreary', 'Make-up', 22, 'Active');
+INSERT INTO Member VALUES ( 5555, 'Mr', 'Tom', 'Tumbling', 'Drums', 22, 'Active');
+INSERT INTO Member VALUES ( 6666, 'Mr', 'Fingers', 'Malone', 'Guitar', 22, 'Active');
+INSERT INTO Member VALUES ( 2345, 'Mr', 'Lai', 'Zee', 'Roadie', 22, 'Active');
 
 -- Pertformance
 INSERT INTO Performance VALUES ( 1, 1, '2020/06/25', '10:00', 22);
