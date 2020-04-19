@@ -43,13 +43,7 @@ class Main extends CI_Controller {
 		$crud->display_as('AgentID', 'Agent');
 
 		$crud->field_type('Description','dropdown',
-						array('1' => 'Heavy Rock',
-						'2' => 'Garage',
-						'3' => 'Easy Listening',
-						'4' => 'Rock',
-						'5' => 'Punk Rock',
-						'6' => 'Pop',
-						'7' => 'Jazz' ));
+						array('Heavy Rock','Garage','Easy Listening','Rock','Punk Rock','Pop','Jazz' ));
 
 		$output = $crud->render();
 		$this->band_output($output);
@@ -198,9 +192,9 @@ public function member()
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('Band','band','Name');
 		$crud->field_type('Status','dropdown',
-            array('1' => 'Active', '2' => 'Cancelled'));
+            array('Active','Cancelled'));
 		$crud->field_type('Title','dropdown',
-				    array('1' => 'Mr', '2' => 'Ms', '3' => 'Dr'));
+				    array('Mr','Ms','Dr'));
 
 		$crud->display_as('ID', 'ID');
 		$crud->display_as('Title', 'Title');
@@ -211,18 +205,7 @@ public function member()
 
 
 		$crud->field_type('JobType','dropdown',
-						array('1' => 'Vocals',
-						'2' => 'Voice Coach',
-						'3' => 'Make up',
-						'4' => 'Drums',
-						'5' => 'Guitar',
-						'6' => 'Roadie',
-						'7' => 'Backing',
-						'8' => 'Lead Guitar',
-						'9' => 'Sound Tech',
-						'10' => 'Bass Guitar',
-						'11' => 'Dancer',
-					));
+						array('Vocals','Voice Coach','Make up','Drums','Guitar','Roadie','Backing','Lead Guitar','Sound Tech','Bass Guitar','Dancer'));
 
 
 		$output = $crud->render();
