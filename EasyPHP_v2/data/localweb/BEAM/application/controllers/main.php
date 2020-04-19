@@ -188,7 +188,7 @@ public function member()
 		//give focus on name used for operations e.g. Add Order, Delete Order
 		$crud->set_subject('Member');
 		//the columns function lists attributes you see on frontend view of the table
-		$crud->columns('ID','Title', 'GivenName', 'FamilyName', 'band', 'JobType', 'Status');
+		$crud->columns('ID','Title', 'GivenName', 'FamilyName', 'Band', 'JobType', 'Status');
 		//the fields function lists attributes to see on add/edit forms.
 		//Note no inclusion of invoiceNo as this is auto-incrementing
 		$crud->fields('Title', 'GivenName', 'FamilyName', 'Band', 'JobType', 'Status');
