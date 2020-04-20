@@ -43,7 +43,7 @@ class Main extends CI_Controller {
 		$crud->display_as('AgentID', 'Agent');
 
 		$crud->field_type('Description','dropdown',
-						array('Heavy Rock','Garage','Easy Listening','Rock','Punk Rock','Pop','Jazz' ));
+						array('Heavy Rock'=>'Heavy Rock','Garage'=>'Garage','Easy Listening'=>'Easy Listening','Rock'=>'Rock','Punk Rock'=>'Punk Rock','Pop'=>'Pop','Jazz'=>'Jazz' ));
 
 		$output = $crud->render();
 		$this->band_output($output);
@@ -191,10 +191,7 @@ public function member()
 		//set the foreign keys to appear as drop-down menus
 		// ('this fk column','referencing table', 'column in referencing table')
 		$crud->set_relation('Band','band','Name');
-		$crud->field_type('Status','dropdown',
-            array('Active','Cancelled'));
-		$crud->field_type('Title','dropdown',
-				    array('Mr','Ms','Dr'));
+
 
 		$crud->display_as('ID', 'ID');
 		$crud->display_as('Title', 'Title');
@@ -203,9 +200,12 @@ public function member()
 		$crud->display_as('JobType', 'Job');
 		$crud->display_as('Status', 'Status');
 
-
+		$crud->field_type('Status','dropdown',
+						array('Active'=>'Active','Cancelled'=>'Cancelled'));
+		$crud->field_type('Title','dropdown',
+						array('Mr'=>'Mr','Ms'=>'Ms','Dr'=>'Dr'));
 		$crud->field_type('JobType','dropdown',
-						array('Vocals','Voice Coach','Make up','Drums','Guitar','Roadie','Backing','Lead Guitar','Sound Tech','Bass Guitar','Dancer'));
+						array('Vocals'=>'Vocals','Voice Coach'=>'Voice Coach','Make up'=>'Make up','Drums'=>'Drums','Guitar'=>'Guitar','Roadie'=>'Roadie','Backing'=>'Backing','Lead Guitar'=>'Lead Guitar','Sound Tech'=>'Sound Tech','Bass Guitar'=>'Bass Guitar','Dancer'=>'Dancer'));
 
 
 		$output = $crud->render();
